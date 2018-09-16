@@ -1,0 +1,52 @@
+\subsection{The $\Ha/\Hb$ ratio}
+\label{sec:hahb_ratio}
+
+To verify this assumption I also analyzed the plots of this ratio for each LDSS3 spectrum.
+This ratio is also important because it allows to measure the internal extinction of the gas.
+From Fig.\,\ref{fig:hahb_ratio} it is possible to see that almost all points have $\Ha/\Hb<3.1$ and often lower than $2.87$, the typical value in the so called low density limit of the Case B \citep[][see also Sec.\,\ref{sec:emission_line}]{OsterbrockAGN}.
+This is a surprising and not expected result whose origin is puzzling.
+
+The most obvious cause of such results might be some error in the reduction and measurement processes.
+The first weak point of this process I investigated is the flux calibration.
+An error during the creation of the sensitivity curve might influence strongly the measured flux of the emission lines.
+A visual analysis of the spectra revealed that particular features suggesting a problem during this step of the calibration, are not present in any of the data.
+Moreover, the three spectra has been acquired in two different nights and they have been calibrated using two different spectrophotometric standard stars, but the low ratios are observed in all the three spectra.
+So an error in the flux calibration is unlikely.
+
+The second weak point is the Gaussian fit of the lines and the deblending process.
+I compared the results of the Monte Carlo procedure mentioned in Sec.\,\ref{sec:spectral_anal} on single emission lines with manual measurements performed with IRAF \verb!splot! task.
+For a weak line such as $\Hb$ the difference is around $3\%$ and most of it is related to a better measurement of the underlying continuum performed by the automated procedure. 
+Evaluating the reliability of the deblending process is more difficult. 
+However, if the deblending process were the problem, the low ratios should have been observed only in the vicinity of the AGN where the width of the lines makes the process more difficult.
+Moreover, Fig.\,\ref{fig:pap3_deblending} seems to reasonably reproduce the $\Ha$ line and there is no reason to suspect that the fitting is wrong.
+
+Another obvious source of error is the missing subtraction of the stellar continuum.
+In this case, according to \citet{Groves12}, the equivalent width of the Balmer absorption lines underlying the two emission lines considered in this ratio is, in first approximation, the same.
+Therefore, since $\Ha$ flux is larger than $\Hb$ flux, the latter is usually more affected by the underlying stellar continuum and the uncorrected ratio is usually higher than the corrected one.
+This is exactly the opposite of what is happening in this object, meaning that it cannot be the origin of this problem.
+
+Since the problems in the reduction and measurement process have been excluded, the only remaining possibility is that the observed ratios have a physical origin.
+The Balmer decrement mainly depend on the temperature of the emitting gas and only weakly on its density \citep{OsterbrockAGN}.
+In particular the higher are temperature and density, the lower is the $\Ha/\Hb$ ratio.
+The same happens also with variation of the density.
+
+According to the laws of thermal equilibrium, a typical photo-ionized nebula has a temperature of the order of $10000\,\si{K}$, with the hottest nebulae reaching $20000\,\si{K}$ \citep{OsterbrockAGN}.
+In the low density limit, the $\Ha/\Hb$ ratio varies from the usual $2.87$ for $T=10000\,\si{K}$ to $2.76$ for $T=20000\,\si{K}$.
+In the NLR of an AGN the theoretical $\Ha/\Hb$ ratio is usually higher, because of the influence of the collisional excitation of hydrogen atoms.
+This means that, to reach $\Ha/\Hb\sim 2$, as observed in this case, much higher temperatures are needed.
+Shocks are able to heat the gas up to very high temperatures:
+\begin{equation}
+    \label{eq:T_shock}
+    T\sim 1.5\times 10^5 \left(\frac{V_s}{100\,\si{\kms}}\right)^2\,\si{K},
+\end{equation}
+where $V_s$ is the shock velocity.
+So, they might be responsible for the low $\Ha/\Hb$ ratio.
+To investigate this possibility, I measured temperature of the regions where the [\ion{O}{III}]$\lambda4363$ line was present i.e. the nucleus and the adjacent regions.
+The average temperature is of the order of $24000\,\si{K}$, with the higher temperature reaching $30000\,\si{K}$ in the nuclear spectra .
+An exception is June spectrum at PA $=\ang{131}$ that shows a temperature of $20000\,\si{K}$ in the nucleus, confirming again that it is probably misaligned with respect to the AGN.
+
+Even though the average temperature is slightly higher with respect to the typical value reported by \citet{OsterbrockAGN} for the NLR of AGN, it is in agreement with the results of \citet{Vaona12} for the [\ion{O}{III}] temperature in Seyfert 1 galaxies.
+Therefore, it is possible that shocks are actually present in the gas and that they are contributing to its heating, but they are not the dominant ionizing source.
+This is in agreement with the diagnostic diagrams, that show no trace of shock-ionization of the gas.
+
+\textbf{Boh? questa cosa e' difficile da capire.}

@@ -1,0 +1,280 @@
+
+%==================================================================================================
+% BASE PACKAGES
+%==================================================================================================
+\usepackage[utf8]{inputenc}                         %Allows input of tex files encoded in UTF8
+\usepackage[T1]{fontenc}                            %Set font encoding for output PDF
+\usepackage[italian, english]{babel}                  %Allows langauge switching (English is default)
+\usepackage{graphicx}                               %Support for including graphics
+%\usepackage{xcolor}                                 %Support for using colours
+\usepackage[table]{xcolor}
+\usepackage[hang,normalsize,bf]{caption}            %Make pretty captions
+\usepackage{varioref}                               %Enhances references (\vref {label})
+\usepackage{fancyhdr}                               %Pretty headers/footers
+\usepackage{amsthm}
+\usepackage{amssymb}
+%\usepackage{hyperref}                               %References package
+\usepackage{enumitem}
+\usepackage{amsmath,amssymb,latexsym}               %AMS and other symbols
+\usepackage{epic,eepic,epsfig,graphics,psfrag}      %Figure/picture packages
+
+
+
+%=================================================
+
+%
+%==================================================================================================
+% PAGE GEOMETRY
+%==================================================================================================
+%\addtolength{\parskip}{\baselineskip}
+%\setlength{\parindent}{0pt}
+%\pagestyle{myheadings}%che cavolo fa sto comando se dopo c'è fancyplain???
+%\setlength{\paperwidth}{176mm}  %b5
+%\setlength{\paperheight}{250mm} %b5
+%\setlength{\textheight}{185mm} % 540pt = 7.5inch = 190.5mm
+%\setlength{\topmargin}{-5.4mm}
+%\setlength{\headheight}{8mm}
+%\setlength{\headsep}{7mm}
+%\setlength{\footskip}{10.0mm}
+%\setlength{\textwidth}{121.36mm}  % 129.36 mm  % width and margins must add to %%176 mm:
+%\setlength{\oddsidemargin}{1.24mm} % 1 inch + 1.24 mm = 26.64 mm inside
+%\setlength{\evensidemargin}{-5.4mm} % 1 inch - 5.4 mm = 20 mm outside
+
+%==================================================================================================
+% GENERATE DERIVED THESIS PROPERTIES
+%==================================================================================================
+%\newcommand{\derivethesisprops}{
+%   \def\ttitle{{\sf\textbf{\thesistitle}}}
+%   \def\thesisdef{IMM-\thesisdegree-\thesisyear-\thesisnumber}
+%      \hypersetup{pdftitle={\thesistitle},
+%         pdfauthor={\thesisauthor},
+%         pdfsubject={\thesisdef},
+%         pdfkeywords={\thesiskeywords},
+%         breaklinks,
+%         bookmarksopen,
+%         bookmarksnumbered,
+%         plainpages=false
+%     }
+%}
+%
+%==================================================================================================
+% GENERATE PREFRONTMATTER
+%==================================================================================================
+\newcommand{\prefrontmatter}{
+   \begin{titlepage} %------------------------------ TITLE PAGE
+\begin{center}
+%\vbox to0pt{\vbox to\textheight{\vfill \includegraphics[width=11.5cm]{images/unipd-light} \vfill}\vss}
+
+\hspace{0.5cm}
+\begin{minipage}{1\textwidth}
+\centering
+  \includegraphics[height=3cm]{images/unipd-bn}
+\end{minipage}
+
+\vspace{0.05\textwidth}
+\begin{minipage}{1\textwidth}
+	\centering
+	 \scshape{\Large{\bfseries{Università degli Studi di Padova}}} \\
+	  \scshape{\Large{Dipartimento di Fisica e Astronomia "Galileo Galilei"}} \\
+	     \line(1, 0){360}
+	  \vspace{0.05\textwidth}
+	   \emph{\Large{Corso~di~Dottorato~in~Astronomia}} \\
+	  
+
+%  \begin{table}[H]
+%  	\centering
+%  \begin{tabular}{c}
+%  \scshape{\Large{\bfseries{Università degli Studi di Padova}}} \\
+%
+%  \scshape{\Large{Dipartimento di ingegneria dell'informazione}} \\
+%  \\
+%  \emph{\Large{Corso~di~Laurea~in~Ingegneria~dell'Automazione}} \\
+%    \hline \\
+%  \end{tabular}
+%  \end{table}
+\end{minipage}
+	 
+\vspace{2.7cm}
+
+%\Large{\bfseries{Bearing rigidity theory \\ for formation control of UAVs}} \\
+\linespread{1.6}  \scshape{\LARGE\bfseries{{The physics of the exteneded narrow-line region in active galactic nuclei through optical spectroscopy and radio imaging}}}\\
+\linespread{1}
+\vspace{0.2cm}
+\end{center}
+
+%\vfill
+%\begin{normalsize}
+\vspace{3cm}
+	\hspace{0.01\textwidth}
+\begin{minipage}{.37\textwidth}	
+	\begin{flushleft}
+  		%\begin{center}
+  		\large
+  		 \textit{Dottorando} \\ \vspace{0.2cm} \large{\textbf{Enrico Congiu}} \\ 
+  		%\end{center} 
+  	\end{flushleft}
+\end{minipage}
+\begin{minipage}{.5\textwidth}
+	\begin{flushright}
+ 		%\begin{center}
+ 		\large
+  		 \textit{Coordinatore}\\ \vspace{0.2cm}\large{\textbf{Prof. Giampaolo Piotto}} \\
+  			\vspace{0.2\textwidth}
+  				\textit{Supervisore }\\
+  				\vspace{0.2cm}\large{\textbf{Dr. Stefano Ciroi}}
+		%\end{center}  
+	\end{flushright}
+\end{minipage}
+
+%  \vspace{5pt}
+%  \hspace{220pt} 
+
+%\end{normalsize}
+
+\vfill
+\begin{center}
+\hspace{-0.2cm}
+\line(1, 0){360}
+
+\textsc{Anno Accademico 2017/2018}
+\end{center}
+\end{titlepage}
+   \newpage                                            %Back of front page
+   \thispagestyle{empty}
+   \vspace*{11cm}
+%   {\sf Technical University of Denmark}\\
+%   {\sf Department of Applied Mathematics and Computer Science}\\
+%   {\sf Richard Petersens Plads, building 324,}\\ 
+%   {\sf 2800 Kongens Lyngby, Denmark}\\
+%   {\sf Phone +45 4525 3031}\\
+%   {\sf compute@compute.dtu.dk}\\
+%   {\sf www.compute.dtu.dk}
+   \vspace*{\fill}
+   \newpage  
+   \thispagestyle{empty}
+ \vspace*{\fill} 
+%\begin{quote} 
+%\begin{flushright}
+%{\Large "Don't Panic." \par}
+%Douglas Adams, \textit{The Hitchhiker's Guide to the Galaxy }
+%\end{flushright}
+%\end{quote}
+%\vspace*{\fill}   
+%\newpage
+%\thispagestyle{empty}
+%\vspace*{\fill}   
+%\vspace*{\fill}   
+%   \vspace*{2.5cm}
+%   \def\empty{}
+%   {\sf IMM-\thesisdegree-\thesisyear-\thesisnumber}
+}
+%
+%==================================================================================================
+% ENVIROMENTS SETUP
+%==================================================================================================
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{assumption}{Assumption}[section]
+%++++++++++++++++
+%\newtheorem{TEO}{Theorem}[section]
+%\newtheorem{proposition}[TEO]{Proposition}
+%\newtheorem{corollary}[TEO]{Corollary}
+%\newtheorem{lemma}[TEO]{Lemma}
+%\newtheorem{definition}[TEO]{Definition}
+
+%+++++++++++++++++
+%\newtheorem{corollary}[lemma]{Corollary}{\theorembodyfont{\rmfamily}}
+%\newtheorem{definition}[lemma]{Definition}{\theoremheaderfont{\scshape\bfseries}}
+%\newenvironment{proof}{{\scshape Proof.}}{}
+%\newcommand{\qed}{\hfill $\square$ \vspace{5mm}}
+%\newtheorem{example}{Example}[chapter]
+%
+%==================================================================================================
+% CHAPTER AND APPENDIX STYLING SETUP
+%==================================================================================================
+
+%\usepackage{titlesec, blindtext}
+%\definecolor{gray75}{gray}{0.75}
+%\newcommand{\hsp}{\hspace{20pt}}
+%\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Large\bfseries\scshape}
+
+
+%==================================================================================================
+% HEADINGS SETUP
+%%==================================================================================================
+\pagestyle{fancyplain}
+\setlength{\headheight}{14mm}%senno latex rognava
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+\lhead[\fancyplain{}{\sffamily\bfseries\thepage}]%
+      {\fancyplain{}{\sffamily\bfseries\rightmark}}
+\rhead[\fancyplain{}{\sffamily\bfseries\leftmark}]%
+      {\fancyplain{}{\sffamily\bfseries\thepage}}
+\cfoot{}
+
+%
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhead[LE,RO]{ \thepage}
+%%\fancyhead[RE,LO]{\textcolor{gray!75}{\rightmark}}
+%\fancyhead[RE,LO]{\normalfont \rightmark}
+%\fancyfoot[CE,CO]{}
+%\fancyfoot[LE,RO]{}
+% 
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0pt}
+
+
+
+%
+%\renewcommand{\chaptername}{C h a p t e r }
+%\renewcommand{\appendixname}{A p p e n d i x }
+%
+
+%%
+\newcommand{\chapnumfont}{%     % define font for chapter number
+  \usefont{T1}{pnc}{b}{n}%      % choose New Chancery, bold, normal shape
+  \fontsize{100}{100}%          % font size 100pt, baselineskip 100pt
+  \selectfont%                  % activate font
+}
+\colorlet{chapnumcol}{gray!75} 
+%%
+
+
+\def\@makechapterhead#1{%
+  \vspace*{20\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+ 	 \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+	%\textcolor{gray!75}{\usefont{T1}{lmss}{b}{n}\fontsize{80pt}{95pt}\selectfont\thechapter} 
+	\usefont{T1}{lmss}{b}{n}\fontsize{80pt}{95pt}\selectfont\thechapter
+       \par\nobreak
+       \vskip 15\p@
+      \fi
+    \fi
+    \interlinepenalty\@M
+\sffamily \huge \bfseries \uppercase{#1}
+% \flushleft\parbox{\textwidth}{\raggedleft \sffamily\Large \bfseries  \uppercase{#1}}
+     \par\nobreak
+     \textcolor{black}{\hrule height 0.4pt}
+    % \textcolor{gray!75}{\hrule height 0.4pt}
+    \vskip 40\p@
+  }}
+%
+\def\@makeschapterhead#1{%
+  \vspace*{20\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \interlinepenalty\@M
+     \sffamily\huge\bfseries  \uppercase{#1}
+     \par\nobreak
+     \vskip 15pt
+     \hrule height 0.4pt
+    \vskip 40\p@
+  }}
+ % % EOF % % %

@@ -1,0 +1,165 @@
+\begin{filecontents*}{\jobname.xmpdata}
+\Title{Physics and Kinematics of the Extended Narrow Line Region
+of Three AGN}
+\Author{Enrico Congiu}
+\Publisher{Enrico Congiu}
+\Keywords{Tesi di dottorato\sep
+classe pdfLaTeX}
+\end{filecontents*}
+
+\documentclass[a4paper, 12pt, titlepage]{book}
+\usepackage[a-1b]{pdfx}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\DeclareUnicodeCharacter{0301}{/}
+\usepackage[english]{babel}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{geometry}
+\geometry{a4paper,top=3cm,bottom=3cm,left=2.5cm,
+right=2.5cm,heightrounded,bindingoffset=5mm}
+\usepackage{subfiles}
+\usepackage{tabularx}
+\usepackage{subfig}
+\usepackage{textcomp}
+\usepackage{microtype}
+\usepackage{epstopdf}
+\usepackage{siunitx}
+\DeclareSIUnit\smass{M\ensuremath{_\odot}}
+\DeclareSIUnit\zmet{Z\ensuremath{_\odot}}
+\DeclareSIUnit\ergs{\erg\per\second}
+\DeclareSIUnit\kms{km~s^{-1}}
+\usepackage{booktabs}
+\usepackage{aas_macros}
+\usepackage{graphicx}
+\graphicspath{{PhD_thesis/images/}{PhD_thesis/images/paper1}}
+\usepackage{mathtools}
+\usepackage{frontespizio}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\usepackage{caption}
+\captionsetup{tableposition=top,figureposition=bottom,font=small,format=hang,labelfont={sf,bf}}
+\usepackage[autostyle,italian=guillemets]{csquotes}
+\usepackage{natbib}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\newcommand{\ion}[2]{\uppercase{#1}\,\uppercase{#2}}
+\makeatletter
+\def\blfootnote{\xdef\@thefnmark{}\@footnotetext}
+\makeatother
+\maxdeadcycles=200
+\newcommand{\Ha}{\rm H\alpha }
+\newcommand{\Hb}{\rm H\beta }
+\newcommand{\kms}{km\,s^{-1}}
+\def\xr#1{\parindent=0.0cm\han indent=1cm\han after=1\indent#1\par}
+\def\la{\raise.5ex\hbox{$<$}\kern-.8em\lower 1mm\hbox{$\sim$}}
+\def\ma{\raise.5ex\hbox{$>$}\kern-.8em\lower 1mm\hbox{$\sim$}}
+\def\ea{\it et al. \rm}
+\def\am{$^{\prime}$\ }
+\def\as{$^{\prime\prime}$\ }
+\def\msol{M$_{\odot}$ }
+\def\Lsol{L$_{\odot}$ }
+%\def\kms{$\rm km\, s^{-1}$}
+\def\cm3{$\rm cm^{-3}$}
+\def\Ts{$\rm T_{*}$~}
+\def\Vs{$\rm V_{s}$~}
+\def\n0{$\rm n_{0}$}
+\def\B0{$\rm B_{0}$}
+\def\ne{$\rm n_{e}$~}
+\def\Ne{$\rm N_{e}$}
+\def\Te{$\rm T_{e}$}
+\def\Tgr{$\rm T_{gr}$}
+\def\Td{$\rm T_{d}$}
+\def\Tgas{$\rm T_{gas}$}
+\def\Ec{$\rm E_{c}$}
+\def\Fn{$\rm F_{n}$}
+\def\Fh{$\rm F_{h}$~}
+\def\Fnu{$F_{\nu}$~}
+\def\erg{$\rm erg\, cm^{-2}\, s^{-1}$}
+\def\mum{$\mu$m~}
+\def\LIR{L$_{IR}$~}
+\def\L12{L$_{12\mu m}$~}
+\def\F12{F$_{12\mu m}$~}
+\def\agr{a$_{gr}$}
+%\def\Hb{H${\beta}$~}
+%\def\Ha{H${\alpha}$~}
+\def\Hg{H${\gamma}$~}
+\def\Haa{H${\alpha}_{calc}$~}
+\def\Ly{Ly$\alpha$~}
+\def\La{L$_{H\alpha}$~}
+\def\Moy{M$_{\odot}$ yr$^{-1}$}
+\def\Tef{T$_{eff}$}
+
+\begin{document}
+
+
+\begin{frontespizio}
+\Logo[3.0cm]{images/logo_unipd.pdf}
+\Universita{Padova}
+\Dipartimento{Fisica e Astronomia Galileo Galilei}
+\Scuola{Scuola di dottorato di ricerca in Astronomia, ciclo XXXI}
+\Titoletto{Tesi di Dottorato}
+\Titolo{The physics of the exteneded narrow-line region in active galactic nuclei through optical spectroscopy and radio imaging}
+\NCandidato{Dottorando}
+\Candidato{Enrico Congiu}
+\NRelatore{Direttore della scuola}{Relatori}
+\Relatore{Chiar.mo Prof. Giampaolo Piotto}
+\NCorrelatore{Supervisore}{Supervisori}
+\Correlatore{Dott. Stefano Ciroi}
+\Annoaccademico{2017/2018}
+\Rientro{1.5cm}
+\Punteggiatura{}
+\end{frontespizio}
+
+
+\frontmatter
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\mainmatter 
+\chapter*{Abstract}
+
+\subfile{tex/abstract}
+
+\chapter{Extended narrow-line regions in AGN}
+\label{cap:intro}
+
+\subfile{tex/chapter1}
+
+\chapter{Emission processes in AGN}
+\label{cap:emission}
+
+\subfile{tex/chapter2}
+
+\chapter[High-res. spectroscopy of ENLRs]{High-resolution spectroscopy of the extended narrow-line region of \\IC 5063 and NGC 7212}
+\label{cap:paper1}
+
+\subfile{tex/chapter3}
+
+\chapter[KSE in the NLS1 Mrk 783]{Kiloparsec-scale emission in the narrow-line Seyfert 1 galaxy Mrk 783}
+\label{cap:paper2}
+
+\subfile{tex/chapter4}
+
+\chapter{Optical analysis of Mrk 783}
+\label{cap:paper3}
+
+\subfile{tex/chapter5}
+
+\chapter{Conclusions}
+\label{cap:conclusions}
+
+\subfile{tex/conclusions}
+
+
+
+
+\bibliographystyle{mnras}
+\bibliography{bibliografia_def}
+
+
+
+\end{document}
