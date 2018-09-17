@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: mnras.bst
+Reallocated field_info (elt_size=4) to 10940 items from 5000.
+Database file #1: bibliografia_def.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in Allen76
+Warning--empty publisher in Beckmann12
+Warning--empty publisher in Dopita03
+Warning--empty note in LaMuraSpec
+Warning--empty publisher in OsterbrockAGN89
+Warning--empty publisher in OsterbrockAGN
+Warning--empty publisher in Robson
+Warning--empty publisher in Rybicki86
+Warning--empty publisher in Deyoung02
+You've used 220 entries,
+            2881 wiz_defined-function locations,
+            2572 strings with 72249 characters,
+and the built_in function-call counts, 105849 in all, are:
+= -- 8350
+> -- 8107
+< -- 531
++ -- 3567
+- -- 1251
+* -- 13522
+:= -- 16871
+add.period$ -- 0
+call.type$ -- 220
+change.case$ -- 440
+chr.to.int$ -- 213
+cite$ -- 229
+duplicate$ -- 4998
+empty$ -- 5021
+format.name$ -- 1913
+if$ -- 17973
+int.to.chr$ -- 8
+int.to.str$ -- 0
+missing$ -- 227
+newline$ -- 674
+num.names$ -- 1532
+pop$ -- 1162
+preamble$ -- 1
+purify$ -- 880
+quote$ -- 0
+skip$ -- 2888
+stack$ -- 0
+substring$ -- 5735
+swap$ -- 2817
+text.length$ -- 886
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1953
+warning$ -- 9
+while$ -- 1659
+width$ -- 0
+write$ -- 2212
+(There were 9 warnings)
