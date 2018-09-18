@@ -1,12 +1,3 @@
-\begin{filecontents*}{\jobname.xmpdata}
-\Title{Physics and Kinematics of the Extended Narrow Line Region
-of Three AGN}
-\Author{Enrico Congiu}
-\Publisher{Enrico Congiu}
-\Keywords{Tesi di dottorato\sep
-classe pdfLaTeX}
-\end{filecontents*}
-
 \documentclass[a4paper, 12pt, titlepage]{book}
 \usepackage[a-1b]{pdfx}
 \usepackage{lmodern}
@@ -16,6 +7,7 @@ classe pdfLaTeX}
 \usepackage[english]{babel}
 \usepackage{indentfirst}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{geometry}
 \geometry{a4paper,top=3cm,bottom=3cm,left=2.5cm,
@@ -24,10 +16,11 @@ right=2.5cm,heightrounded,bindingoffset=5mm}
 \usepackage{tabularx}
 \usepackage{subfig}
 \usepackage{textcomp}
+\usepackage{epigraph} %sottotitoli sotto capitolo
 \usepackage{microtype}
-\usepackage{epstopdf}
+\usepackage[flushleft]{threeparttable} %note sotto tabelle
 \usepackage{siunitx}
-\DeclareSIUnit\smass{M\ensuremath{_\odot}}
+\DeclareSIUnit\msun{M\ensuremath{_\odot}}
 \DeclareSIUnit\zmet{Z\ensuremath{_\odot}}
 \DeclareSIUnit\ergs{\erg\per\second}
 \DeclareSIUnit\kms{km~s^{-1}}
@@ -52,6 +45,7 @@ right=2.5cm,heightrounded,bindingoffset=5mm}
 \newcommand{\Ha}{\rm H\alpha }
 \newcommand{\Hb}{\rm H\beta }
 \newcommand{\kms}{km\,s^{-1}}
+\newcommand{\ergs}{erg s^{-1}}
 \def\xr#1{\parindent=0.0cm\han indent=1cm\han after=1\indent#1\par}
 \def\la{\raise.5ex\hbox{$<$}\kern-.8em\lower 1mm\hbox{$\sim$}}
 \def\ma{\raise.5ex\hbox{$>$}\kern-.8em\lower 1mm\hbox{$\sim$}}
@@ -91,7 +85,9 @@ right=2.5cm,heightrounded,bindingoffset=5mm}
 \def\Moy{M$_{\odot}$ yr$^{-1}$}
 \def\Tef{T$_{eff}$}
 
+\def\biblio{\bibliographystyle{mnras}\bibliography{bibliografia_def}} %to have bibliography in the chapter
 \begin{document}
+\def\biblio{} %undefining the previous command
 
 
 \begin{frontespizio}
@@ -116,43 +112,21 @@ right=2.5cm,heightrounded,bindingoffset=5mm}
 \frontmatter
 
 \tableofcontents
-\listoftables
-\listoffigures
 
-\mainmatter 
-\chapter*{Abstract}
+
+\mainmatter
 
 \subfile{tex/abstract}
-
-\chapter{Extended narrow-line regions in AGN}
-\label{cap:intro}
-
-\subfile{tex/chapter1}
-
-\chapter{Emission processes in AGN}
-\label{cap:emission}
-
-\subfile{tex/chapter2}
-
-\chapter[High-res. spectroscopy of ENLRs]{High-resolution spectroscopy of the extended narrow-line region of \\IC 5063 and NGC 7212}
-\label{cap:paper1}
-
-\subfile{tex/chapter3}
-
-\chapter[KSE in the NLS1 Mrk 783]{Kiloparsec-scale emission in the narrow-line Seyfert 1 galaxy Mrk 783}
-\label{cap:paper2}
-
-\subfile{tex/chapter4}
-
-\chapter{Optical analysis of Mrk 783}
-\label{cap:paper3}
-
-\subfile{tex/chapter5}
-
-\chapter{Conclusions}
-\label{cap:conclusions}
-
+\subfile{tex/introduction}
+\subfile{tex/chapter1} %Extended narrow-line regions in AGN
+\subfile{tex/chapter2} %Emission processes in AGN
+\subfile{tex/chapter3} %High-res. spectroscopy of ENLRs
+\subfile{tex/chapter4} %KSE in the NLS1 Mrk 783
+\subfile{tex/chapter5} %Optical analysis of Mrk 783
 \subfile{tex/conclusions}
+
+\appendix
+\subfile{tex/appendix1}  %figure paper 1    
 
 
 

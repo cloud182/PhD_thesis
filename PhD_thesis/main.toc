@@ -30,19 +30,19 @@
 \contentsline {subsection}{\numberline {3.3.1}Subtraction of the stellar continuum}{42}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Deblending}{43}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Data Analysis and Results}{47}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Diagnostic Diagrams}{48}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Diagnostic Diagrams}{49}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Ionization parameter and extinction}{52}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Temperature and densities}{55}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Line profiles}{55}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.4}Line profiles}{56}{subsection.3.4.4}
 \contentsline {subsubsection}{\numberline {3.4.4.1}IC\tmspace +\thinmuskip {.1667em}5063}{57}{subsubsection.3.4.4.1}
 \contentsline {subsubsection}{\numberline {3.4.4.2}NGC\tmspace +\thinmuskip {.1667em}7212}{58}{subsubsection.3.4.4.2}
 \contentsline {subsection}{\numberline {3.4.5}Detailed modelling of the observed spectra}{58}{subsection.3.4.5}
-\contentsline {subsubsection}{\numberline {3.4.5.1}Input parameters}{59}{subsubsection.3.4.5.1}
-\contentsline {subsubsection}{\numberline {3.4.5.2}Calculation process}{61}{subsubsection.3.4.5.2}
+\contentsline {subsubsection}{\numberline {3.4.5.1}Input parameters}{58}{subsubsection.3.4.5.1}
+\contentsline {subsubsection}{\numberline {3.4.5.2}Calculation process}{62}{subsubsection.3.4.5.2}
 \contentsline {subsubsection}{\numberline {3.4.5.3}Grids of models}{63}{subsubsection.3.4.5.3}
 \contentsline {subsubsection}{\numberline {3.4.5.4}Choice of NGC\tmspace +\thinmuskip {.1667em}7212 and IC\tmspace +\thinmuskip {.1667em}5063 parameters}{64}{subsubsection.3.4.5.4}
-\contentsline {subsection}{\numberline {3.4.6}The spectral energy distribution of the continuum}{67}{subsection.3.4.6}
-\contentsline {section}{\numberline {3.5}Concluding remarks}{68}{section.3.5}
+\contentsline {subsection}{\numberline {3.4.6}The spectral energy distribution of the continuum}{66}{subsection.3.4.6}
+\contentsline {section}{\numberline {3.5}Concluding remarks}{69}{section.3.5}
 \contentsline {chapter}{\numberline {4}Extended radio emission in Mrk 783}{71}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{71}{section.4.1}
 \contentsline {section}{\numberline {4.2}Mrk 783}{72}{section.4.2}

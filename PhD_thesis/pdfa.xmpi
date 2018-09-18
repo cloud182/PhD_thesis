@@ -22,6 +22,10 @@
                    </rdf:li> 
                  </rdf:Seq> 
                </pdfaSchema:property> 
+               <pdfaSchema:valueType> <!-- added by Josef Spillner for validation --> 
+                 <rdf:Seq> 
+                 </rdf:Seq> 
+               </pdfaSchema:valueType> 
             </rdf:li> 
             <rdf:li rdf:parseType="Resource"> 
               <pdfaSchema:schema>PRISM metadata</pdfaSchema:schema> 
@@ -47,6 +51,10 @@
   
   
               </rdf:Seq></pdfaSchema:property> 
+              <pdfaSchema:valueType> <!-- added by Josef Spillner for validation --> 
+                <rdf:Seq> 
+                </rdf:Seq> 
+              </pdfaSchema:valueType> 
             </rdf:li> 
           </rdf:Bag> 
         </pdfaExtension:schemas> 
@@ -57,13 +65,18 @@
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> 
          <dc:format>application/pdf</dc:format> 
-         <dc:title><rdf:Alt><rdf:li xml:lang="x-default">The physics of the extended narrow-line region in active galactic nuclei</rdf:li></rdf:Alt></dc:title>
+         <dc:title><rdf:Alt><rdf:li xml:lang="x-default">The physics of the extended narrow-line region in active galactic nuclei </rdf:li></rdf:Alt></dc:title>
          <dc:creator><rdf:Seq><rdf:li>Enrico Congiu</rdf:li></rdf:Seq></dc:creator>
          <dc:publisher><rdf:Bag><rdf:li></rdf:li></rdf:Bag></dc:publisher>
          
          
-         <dc:description><rdf:Alt><rdf:li xml:lang="x-default">This is where you put the abstract.</rdf:li></rdf:Alt></dc:description>
          
+         <dc:subject><rdf:Bag><rdf:li>AGN</rdf:li>
+     <rdf:li>ionized gas</rdf:li>
+     <rdf:li>IC 5063</rdf:li>
+     <rdf:li>NGC 7212</rdf:li>
+     <rdf:li>Mrk 783</rdf:li>
+     <rdf:li></rdf:li></rdf:Bag></dc:subject>
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:prism="http://prismstandard.org/namespaces/basic/2.2/"> 
          
@@ -88,9 +101,9 @@
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
          <xmp:CreatorTool>LaTeX with hyperref package</xmp:CreatorTool> 
-         <xmp:ModifyDate>2018-09-17T19:06:35+02:00</xmp:ModifyDate> 
-         <xmp:CreateDate>2018-09-17T19:06:35+02:00</xmp:CreateDate> 
-         <xmp:MetadataDate>2018-09-17T19:06:35+02:00</xmp:MetadataDate> 
+         <xmp:ModifyDate>2018-09-18T14:18:49+02:00</xmp:ModifyDate> 
+         <xmp:CreateDate>2018-09-18T14:18:49+02:00</xmp:CreateDate> 
+         <xmp:MetadataDate>2018-09-18T14:18:49+02:00</xmp:MetadataDate> 
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/"> 
          
@@ -98,7 +111,7 @@
       </rdf:Description> 
       <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
          <xmpMM:DocumentID>uuid:DF005B57-2A06-8753-7167-92D8CE935460</xmpMM:DocumentID> 
-         <xmpMM:InstanceID>uuid:D2D9642A-3166-D946-62D5-6CDA5DA8B33C</xmpMM:InstanceID> 
+         <xmpMM:InstanceID>uuid:4ED99107-CA6F-F583-FEC8-7E2AFB3A60CE</xmpMM:InstanceID> 
       </rdf:Description> 
    </rdf:RDF> 
 </x:xmpmeta> 

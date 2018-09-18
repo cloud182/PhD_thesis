@@ -6,7 +6,7 @@
 %%
 %% pdfx.dtx  (with options: `package')
 %% 
-%%  Copyright (c) 2017, CV Radhakrishnan <cvr@river-valley.org>,
+%%  Copyright (c) 2015, CV Radhakrishnan <cvr@river-valley.org>,
 %%    Han The Thanh <thanh@river-valley.org>,
 %%    Ross Moore <ross.moore@mq.edu.au>,
 %%    Peter Selinger <selinger@mathstat.dal.ca>
@@ -31,7 +31,7 @@
 }{}%
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{pdfx}
-  [2017/05/18 v1.5.84 PDF/X and PDF/A support (CVR/HTH/RRM/PS)]
+  [2016/05/03 v1.5.8 PDF/X and PDF/A support (CVR/HTH/RRM/PS)]
 
 \newif\ifpdfx@noBOM \pdfx@noBOMfalse   % use a BOM in the XMP packet
 \newif\ifpdfx@x \pdfx@xfalse   % PDF/X mode
@@ -164,7 +164,6 @@
   \global\pdfminorversion=6 }
 
 %% options to alter PDF minor version, in case needed in special circumstances
-\DeclareOption{pdf12}{\global\pdfminorversion=2 }
 \DeclareOption{pdf13}{\global\pdfminorversion=3 }
 \DeclareOption{pdf14}{\global\pdfminorversion=4 }
 \DeclareOption{pdf15}{\global\pdfminorversion=5 }
@@ -228,13 +227,9 @@
  \global\vnmxmptrue
  \global\latEXTxmptrue
  \global\latLATxmptrue
- \global\vnmxmptrue
  \global\ipaxmptrue
  \global\mathxmptrue
- \global\let\pdfx@useactivespacestrue\pdfx@useactivespacesfalse
 }
-
-\newif\ifpdfx@useactivespaces
 
 \ExecuteOptions{noBOM,a-1b}
 \ProcessOptions
@@ -255,6 +250,7 @@
  \ifarmSCIxmp\pdfx@nopdfinfotrue
 \fi\fi\fi\fi\fi
 
+\newif\ifpdfx@useactivespaces
 \iflatLATxmp\pdfx@useactivespacestrue\fi
 \ifgrkLGRxmp\pdfx@useactivespacestrue\fi
 \ifcyrKOIxmp\pdfx@useactivespacestrue\fi
@@ -386,14 +382,14 @@
  \fi
 \fi
 
-\ifluatex\else\ifxetex\else
+\ifluatex\else
  \@ifpackageloaded{inputenc}{%
  }{%
   \RequirePackage{inputenc}
  % allow this to be loaded again cleanly
  \expandafter\let\csname ver@inputenc.sty\endcsname\relax
  }
-\fi\fi
+\fi
 
 %% pseudo-declare the L8U encoding
 \expandafter\let\csname L8U-cmd\expandafter\endcsname\csname OT1-cmd\endcsname
@@ -549,8 +545,9 @@
  \liixu@enableIeC
  \liixu@enablenumberline
  \def\empty{}% used in LICR patterns
- \LIIXUscriptcommands
- \LIIXUtipacommands
+ \let\sp\textsuperstring
+ \let\sb\textsubstring
+ \let\textsuperscript\dotextsuperscript
  \LIIXUmapTeXnames
 %%  from Hyperref's  psdextra.def
  \csname psdmapshortnames\endcsname
@@ -669,12 +666,12 @@
    \PackageWarning{pdfx}{%
     CreationDate is not properly supported;^^J
     PDF validation may fail. To avoid this problem use:^^J
-     xelatex -shell-escape <filename>^^J}
+     xelatex -shell-escape -output-driver="xdvipdfmx -z 0" <filename>^^J}
   \else
    \PackageError{pdfx}{%
     CreationDate is not properly supported;^^J
     PDF validation may fail.}{To avoid this problem use:^^J
-     xelatex -shell-escape <filename> }
+     xelatex -shell-escape -output-driver="xdvipdfmx -z 0" <filename> }
   \fi
  \fi
 \fi
@@ -737,85 +734,80 @@
 %% the "pdftex" option seems to work fine with LuaTeX
 
 %% Hyperref options for PDF/X
-\edef\pdfx@pdfX@opts@pdftex{%
+\def\pdfx@pdfX@opts@pdftex{%
   draft,pdftex,pdfpagemode=UseNone,bookmarks=false,%
     pdfversion=1.\thepdfminorversion,pdfstartview=}
-\edef\pdfx@pdfX@opts@xetex{%
+\def\pdfx@pdfX@opts@xetex{%
   draft,xetex,pdfpagemode=UseNone,bookmarks=false,%
   pdfversion=1.\thepdfminorversion,pdfstartview=}
-\edef\pdfx@pdfX@opts@luatex{%
-  draft,luatex,pdfpagemode=UseNone,bookmarks=false,%
+\def\pdfx@pdfX@opts@luatex{%
+  draft,pdftex,pdfpagemode=UseNone,bookmarks=false,%
   pdfversion=1.\thepdfminorversion,pdfstartview=}
 
 %% Hyperref options for PDF/A and PDF/E
-\edef\pdfx@pdfAE@opts@pdftex{pdftex,pdfa,pdfversion=1.\thepdfminorversion}%
-\edef\pdfx@pdfAE@opts@xetex{xetex,pdfa,pdfversion=1.\thepdfminorversion}%
-\edef\pdfx@pdfAE@opts@luatex{luatex,pdfa,pdfversion=1.\thepdfminorversion}%
+\def\pdfx@pdfAE@opts@pdftex{pdftex,pdfa,pdfversion=1.\thepdfminorversion}%
+\def\pdfx@pdfAE@opts@xetex{xetex,pdfa,pdfversion=1.\thepdfminorversion}%
+\def\pdfx@pdfAE@opts@luatex{pdftex,pdfa,pdfversion=1.\thepdfminorversion}%
 
 \ifpdfx@x
  \@ifpackageloaded{hyperref}{%
   \ifxetex
-   \expandafter\hypersetup\expandafter{\pdfx@pdfX@opts@xetex}
+   \hypersetup{\pdfx@pdfX@opts@xetex}
   \else\ifluatex
-   \expandafter\hypersetup\expandafter{\pdfx@pdfX@opts@luatex}
+   \hypersetup{\pdfx@pdfX@opts@luatex}
   \else
-   \expandafter\hypersetup\expandafter{\pdfx@pdfX@opts@pdftex}
+   \hypersetup{\pdfx@pdfX@opts@pdftex}
   \fi\fi
  }{%
   \ifxetex
-   \expandafter\RequirePackage\expandafter[\pdfx@pdfX@opts@xetex]{hyperref}
+   \RequirePackage[\pdfx@pdfX@opts@xetex]{hyperref}
   \else\ifluatex
-   \expandafter\RequirePackage\expandafter[\pdfx@pdfX@opts@luatex]{hyperref}
+   \RequirePackage[\pdfx@pdfX@opts@luatex]{hyperref}
   \else
-   \expandafter\RequirePackage\expandafter[\pdfx@pdfX@opts@pdftex]{hyperref}
+   \RequirePackage[\pdfx@pdfX@opts@pdftex]{hyperref}
   \fi\fi
  }%
 \else
  \ifpdfx@e
   \@ifpackageloaded{hyperref}{%
    \ifxetex
-    \expandafter\hypersetup\expandafter{\pdfx@pdfAE@opts@xetex}
+    \hypersetup{\pdfx@pdfAE@opts@xetex}
    \else\ifluatex
-    \expandafter\hypersetup\expandafter{\pdfx@pdfAE@opts@luatex}
+    \hypersetup{\pdfx@pdfAE@opts@luatex}
    \else
-    \expandafter\hypersetup\expandafter{\pdfx@pdfAE@opts@pdftex}
+    \hypersetup{\pdfx@pdfAE@opts@pdftex}
    \fi\fi
   }{%
    \ifxetex
-    \expandafter\RequirePackage\expandafter[\pdfx@pdfAE@opts@xetex]{hyperref}
+    \RequirePackage[\pdfx@pdfAE@opts@xetex]{hyperref}
    \else\ifluatex
-    \expandafter\RequirePackage\expandafter[\pdfx@pdfAE@opts@luatex]{hyperref}
+    \RequirePackage[\pdfx@pdfAE@opts@luatex]{hyperref}
    \else
-    \expandafter\RequirePackage\expandafter[\pdfx@pdfAE@opts@pdftex]{hyperref}
+    \RequirePackage[\pdfx@pdfAE@opts@pdftex]{hyperref}
    \fi\fi
   }%
  \else % generating PDF/A or ...
   \@ifpackageloaded{hyperref}{%
    \ifxetex
-    \expandafter\hypersetup\expandafter{\pdfx@pdfAE@opts@xetex}%
+    \hypersetup{\pdfx@pdfAE@opts@xetex}%
    \else\ifluatex
-    \expandafter\hypersetup\expandafter{\pdfx@pdfAE@opts@luatex}%
+    \hypersetup{\pdfx@pdfAE@opts@luatex}%
    \else
-    \expandafter\hypersetup\expandafter{\pdfx@pdfAE@opts@pdftex}%
+    \hypersetup{\pdfx@pdfAE@opts@pdftex}%
    \fi\fi
   }{%
    \ifxetex
-    \expandafter\RequirePackage\expandafter[\pdfx@pdfAE@opts@xetex]{hyperref}
+    \RequirePackage[\pdfx@pdfAE@opts@xetex]{hyperref}
    \else\ifluatex
-    \expandafter\RequirePackage\expandafter[\pdfx@pdfAE@opts@luatex]{hyperref}
+    \RequirePackage[\pdfx@pdfAE@opts@luatex]{hyperref}
    \else
-    \expandafter\RequirePackage\expandafter[\pdfx@pdfAE@opts@pdftex]{hyperref}
+    \RequirePackage[\pdfx@pdfAE@opts@pdftex]{hyperref}
    \fi\fi
  }%
 \fi\fi
 \hypersetup{pdfencoding=auto}%  unicode
 \expandafter\ifx\csname KV@Hyp@psdextra\endcsname\relax\else
  \hypersetup{psdextra}
-\fi
-
-%% hyperref doesn't set the minor version for XeTeX
-\ifxetex
- \special{pdf:minorversion \thepdfminorversion}
 \fi
 
 \ifx\xmp@CreatorTool\@empty
@@ -1388,9 +1380,9 @@
   \global\let#1\empty
  \else
   \begingroup
-   \ifluatex\else\ifxetex\else
+   \ifluatex\else
     \inputencoding{utf8}%
-   \fi\fi
+   \fi
    \hypersetup{pdfencoding=auto}%
    \pdfstringdef#1{#2}%
   \endgroup
@@ -1403,7 +1395,7 @@
 %% so save these for later reversion.
 %%
 \newif\ifpdf@activechars
-{\ifnum\catcode`^^c0 = 13\relax \aftergroup\pdf@activecharstrue\fi}%
+\ifcat\noexpand^^c0\noexpand~\pdf@activecharstrue\fi
 %%
 %% normally not used with XeTeX
 %%
@@ -1730,29 +1722,6 @@
 }
 \ifxetex
  \let\includexmp\pdfx@xmpincl@xetex
-\fi
-
-%% macro provided by Leonardo E. Segovia on 2007-05-15
-%% <leonardo.segovia@cs.uns.edu.ar>
-\def\pdfx@xmpincl@luatex#1{%
- \IfFileExists{#1.xmp}{%
-   \mcs@xmpincl@patchFile{#1}%
-   \begingroup
-   \pdfcompresslevel=0
-   \immediate\pdfobj uncompressed stream attr {/Type /Metadata /Subtype /XML}
-   file{#1.xmpi}%
-   \pdfcatalog{/Metadata \the\pdflastobj\space 0 R}%
-   \endgroup
- }{%
-  \newcommand{\mcs@xmpincl@filename}{#1.xmp}%
-   \PackageError{xmpincl}%
-   {The file \mcs@xmpincl@filename\space was not found}%
-   {The file \mcs@xmpincl@filename\space The metadata file
-     wasn't found.\MessageBreak Oops.}%
- }
-}
-\ifluatex
- \let\includexmp\pdfx@xmpincl@luatex
 \fi
 
 %%----------------------------------------------------------------------
