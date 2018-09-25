@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.29)  18 SEP 2018 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.29)  25 SEP 2018 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2471,7 +2471,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./main-frn.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<main-frn.pdf, id=270, 597.50829pt x 845.0471pt>
+<main-frn.pdf, id=278, 597.50829pt x 845.0471pt>
 File: main-frn.pdf Graphic file (type pdf)
  <use main-frn.pdf>
 Package pdftex.def Info: main-frn.pdf used on input line 124.
@@ -2495,25 +2495,17 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
- [2] (./tex/abstract.tex) (./tex/introduction.texpdfTeX warning (ext4): destina
-tion with the same identifier (name{page.1}) has been already used, duplicate i
-gnored
-<to be read again> 
-                   \relax 
-l.4 \chapter
-            *{Introduction} [1
+ [2] (./tex/abstract.tex [3
+
+] [4
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4 \chapter
-            *{Introduction} [2
+]) (./tex/introduction.tex [5] [6
 
-]) (./tex/chapter1.tex [3] [4
+]) [7]
+[8
 
-]
+] (./tex/chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 4.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -2532,14 +2524,26 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <80> not available
 (Font)              size <35.83> substituted on input line 4.
 
-[5] <images/AGNmodel.png, id=458, 869.2475pt x 749.80125pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 
+      [1
+
+] <images/AGNmodel.png, id=476, 869.2475pt x 749.80125pt>
 File: images/AGNmodel.png Graphic file (type png)
 
 <use images/AGNmodel.png>
 Package pdftex.def Info: images/AGNmodel.png used on input line 50.
 (pdftex.def)             Requested size: 277.19879pt x 239.10611pt.
- [6] [7 <./images/AGNmodel.png>]
-<./images/opo9407c.jpg, id=507, 1284.8pt x 1281.78876pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 
+      [2] [3 <./images/AGNmodel.png>]
+<./images/opo9407c.jpg, id=525, 1284.8pt x 1281.78876pt>
 File: ./images/opo9407c.jpg Graphic file (type jpg)
 
 <use ./images/opo9407c.jpg>
@@ -2549,40 +2553,47 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 97.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [8] [9 <./images/opo9407c.jpg>] <images/model_diskcone.png, id=559, 422.57875
-pt x 315.1775pt>
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./images/opo9407c.jpg>] [5]
+<images/model_diskcone.png, id=580, 422.57875pt x 315.1775pt>
 File: images/model_diskcone.png Graphic file (type png)
 
 <use images/model_diskcone.png>
-Package pdftex.def Info: images/model_diskcone.png used on input line 137.
+Package pdftex.def Info: images/model_diskcone.png used on input line 136.
 (pdftex.def)             Requested size: 277.19879pt x 206.75296pt.
- [10 <./images/model_diskcone.png>] [11]
-<images/3c175.png, id=702, 1279.78125pt x 839.135pt>
+
+Underfull \vbox (badness 1442) has occurred while \output is active []
+
+ [6 <./images/model_diskcone.png>] [7]
+<images/3c175.png, id=726, 1279.78125pt x 839.135pt>
 File: images/3c175.png Graphic file (type png)
  <use images/3c175.png>
-Package pdftex.def Info: images/3c175.png used on input line 206.
+Package pdftex.def Info: images/3c175.png used on input line 205.
 (pdftex.def)             Requested size: 277.19879pt x 181.75494pt.
 
-<images/NGC2110.png, id=703, 329.23pt x 304.13625pt>
+<images/NGC2110.png, id=727, 324.21124pt x 308.15125pt>
 File: images/NGC2110.png Graphic file (type png)
- <use images/NGC2110.png>
-Package pdftex.def Info: images/NGC2110.png used on input line 207.
-(pdftex.def)             Requested size: 277.19879pt x 256.07599pt.
 
-[12] <images/Mrk6_kharb.jpg, id=776, 437.635pt x 494.84875pt>
+<use images/NGC2110.png>
+Package pdftex.def Info: images/NGC2110.png used on input line 206.
+(pdftex.def)             Requested size: 277.19879pt x 263.48615pt.
+ [8] [9 <./images/3c175.png> <./images/NGC2110.png>]
+<images/Mrk6_kharb.jpg, id=814, 437.635pt x 494.84875pt>
 File: images/Mrk6_kharb.jpg Graphic file (type jpg)
 
 <use images/Mrk6_kharb.jpg>
-Package pdftex.def Info: images/Mrk6_kharb.jpg used on input line 238.
+Package pdftex.def Info: images/Mrk6_kharb.jpg used on input line 237.
 (pdftex.def)             Requested size: 277.19879pt x 313.44019pt.
- [13] [14 <./images/3c175.png> <./images/NGC2110.png>] [15 <./images/Mrk6_kharb
-.jpg>]
-<images/Jet-ism.pdf, id=848, 421.575pt x 286.06876pt>
+ [10 <./images/Mrk6_kharb.jpg>]
+<images/Jet-ism.pdf, id=864, 421.575pt x 286.06876pt>
 File: images/Jet-ism.pdf Graphic file (type pdf)
  <use images/Jet-ism.pdf>
-Package pdftex.def Info: images/Jet-ism.pdf used on input line 256.
+Package pdftex.def Info: images/Jet-ism.pdf used on input line 255.
 (pdftex.def)             Requested size: 277.19879pt x 188.10318pt.
-) (./tex/chapter2.tex [16 <./images/Jet-ism.pdf>]
+
+[11 <./images/Jet-ism.pdf>]) (./tex/chapter2.tex [12]
 Chapter 2.
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' in size <80> not available
@@ -2591,23 +2602,23 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' in size <80> not available
 
 Package hyperref Warning: Ignoring empty anchor on input line 14.
 
-[17
+[13
 
-] [18] <images/synchrotron.png, id=892, 1011.78pt x 713.66624pt>
+] [14] <images/synchrotron.png, id=913, 1011.78pt x 713.66624pt>
 File: images/synchrotron.png Graphic file (type png)
 
 <use images/synchrotron.png>
 Package pdftex.def Info: images/synchrotron.png used on input line 102.
 (pdftex.def)             Requested size: 316.80121pt x 223.45573pt.
 
-<images/sync_spectrum.png, id=899, 836.12375pt x 633.36626pt>
+<images/sync_spectrum.png, id=920, 836.12375pt x 633.36626pt>
 File: images/sync_spectrum.png Graphic file (type png)
 
 <use images/sync_spectrum.png>
 Package pdftex.def Info: images/sync_spectrum.png used on input line 122.
 (pdftex.def)             Requested size: 316.80121pt x 239.98584pt.
- [19] [20 <./images/synchrotron.png> <./images/sync_spectrum.png>]
-Overfull \hbox (10.82613pt too wide) in paragraph at lines 158--160
+ [15] [16 <./images/synchrotron.png> <./images/sync_spectrum.png>]
+Overfull \hbox (10.82613pt too wide) in paragraph at lines 159--161
 \T1/cmr/m/n/10.95 where $\OML/cmm/m/it/10.95 ^^W[]$ \T1/cmr/m/n/10.95 and $\OML
 /cmm/m/it/10.95 ^^W[]$ \T1/cmr/m/n/10.95 are the crit-i-cal fre-quen-cies at en
 -er-gies $\OML/cmm/m/it/10.95 E[]$ \T1/cmr/m/n/10.95 and $\OML/cmm/m/it/10.95 E
@@ -2615,99 +2626,97 @@ Overfull \hbox (10.82613pt too wide) in paragraph at lines 158--160
  []
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 178.
+Package hyperref Warning: Ignoring empty anchor on input line 179.
 
-[21] <images/BB.jpg, id=941, 867.24pt x 433.62pt>
+[17] <images/BB.jpg, id=962, 867.24pt x 433.62pt>
 File: images/BB.jpg Graphic file (type jpg)
  <use images/BB.jpg>
-Package pdftex.def Info: images/BB.jpg used on input line 192.
+Package pdftex.def Info: images/BB.jpg used on input line 193.
 (pdftex.def)             Requested size: 316.80121pt x 158.399pt.
- [22 <./images/BB.jpg>] <images/free_free.pdf, id=955, 213.79875pt x 242.9075pt
->
+ [18 <./images/BB.jpg>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/free_free.pdf): PDF
+ inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/free_free.pdf, id=976, 214.12482pt x 243.15706pt>
 File: images/free_free.pdf Graphic file (type pdf)
 
 <use images/free_free.pdf>
-Package pdftex.def Info: images/free_free.pdf used on input line 261.
-(pdftex.def)             Requested size: 237.60242pt x 269.95296pt.
- [23] [24 <./images/free_free.pdf>]
+Package pdftex.def Info: images/free_free.pdf used on input line 262.
+(pdftex.def)             Requested size: 237.60242pt x 269.8333pt.
+ [19] [20 <./images/free_free.pdf>] [21]
 
-Package hyperref Warning: Ignoring empty anchor on input line 330.
+Package hyperref Warning: Ignoring empty anchor on input line 331.
 
-[25]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 338.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 339.
 
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 338.
- [26]
-[27] [28] [29] [30] <images/o3_scheme.png, id=1061, 619.31375pt x 382.42876pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 339.
+ [22
+
+] [23]
+[24] [25] [26] <images/o3_scheme.png, id=1098, 619.31375pt x 382.42876pt>
 File: images/o3_scheme.png Graphic file (type png)
 
 <use images/o3_scheme.png>
-Package pdftex.def Info: images/o3_scheme.png used on input line 545.
+Package pdftex.def Info: images/o3_scheme.png used on input line 546.
 (pdftex.def)             Requested size: 316.80121pt x 195.63129pt.
- [31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <./images/o3_scheme.png>] <images/s2_scheme.png, id=1086, 620.3175pt x 384
-.43625pt>
+ [27] [28 <./images/o3_scheme.png>]
+<images/s2_scheme.png, id=1125, 620.3175pt x 384.43625pt>
 File: images/s2_scheme.png Graphic file (type png)
 
 <use images/s2_scheme.png>
-Package pdftex.def Info: images/s2_scheme.png used on input line 593.
+Package pdftex.def Info: images/s2_scheme.png used on input line 594.
 (pdftex.def)             Requested size: 316.80121pt x 196.33559pt.
-
-Underfull \vbox (badness 1742) has occurred while \output is active []
-
- [33 <./images/s2_scheme.png>]pdfTeX warning (ext4): destination with the same 
+ [29 <./images/s2_scheme.png>]pdfTeX warning (ext4): destination with the same 
 identifier (name{Hfootnote.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.625 ...tet{Dopita03} and \citet{OsterbrockAGN}.}
-                                                   [34] [35])
-(./tex/chapter3.tex [36]
+l.626 ...tet{Dopita03} and \citet{OsterbrockAGN}.}
+                                                   [30] [31])
+(./tex/chapter3.tex [32]
 Chapter 3.
-[37
+[33
 
-] <images/paper1/ic5063slit.jpg, id=1219, 570.2103pt x 570.2103pt>
+] <images/paper1/ic5063slit.jpg, id=1258, 570.2103pt x 570.2103pt>
 File: images/paper1/ic5063slit.jpg Graphic file (type jpg)
 
 <use images/paper1/ic5063slit.jpg>
 Package pdftex.def Info: images/paper1/ic5063slit.jpg used on input line 43.
 (pdftex.def)             Requested size: 118.80121pt x 118.79932pt.
 
-<images/paper1/IC5063_o32.jpg, id=1220, 602.0091pt x 602.0091pt>
+<images/paper1/IC5063_o32.jpg, id=1259, 602.0091pt x 602.0091pt>
 File: images/paper1/IC5063_o32.jpg Graphic file (type jpg)
 
 <use images/paper1/IC5063_o32.jpg>
 Package pdftex.def Info: images/paper1/IC5063_o32.jpg used on input line 45.
 (pdftex.def)             Requested size: 118.80121pt x 118.80133pt.
 
-<images/paper1/IC5063_reg.jpg, id=1221, 488.5452pt x 421.3341pt>
+<images/paper1/IC5063_reg.jpg, id=1260, 488.5452pt x 421.3341pt>
 File: images/paper1/IC5063_reg.jpg Graphic file (type jpg)
 
 <use images/paper1/IC5063_reg.jpg>
 Package pdftex.def Info: images/paper1/IC5063_reg.jpg used on input line 47.
 (pdftex.def)             Requested size: 118.80121pt x 102.45305pt.
- [38]
+ [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./images/paper1/ic5063slit.jpg> <./images/paper1/IC5063_o32.jpg> <./image
+ [35 <./images/paper1/ic5063slit.jpg> <./images/paper1/IC5063_o32.jpg> <./image
 s/paper1/IC5063_reg.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.81503pt
 (hyperref)                removed on input line 116.
 
-[40]
+[36]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.81503pt
 (hyperref)                removed on input line 138.
 
-<images/paper1/ngc7212slit.jpg, id=1320, 570.2103pt x 570.2103pt>
+<images/paper1/ngc7212slit.jpg, id=1358, 570.2103pt x 570.2103pt>
 File: images/paper1/ngc7212slit.jpg Graphic file (type jpg)
 
 <use images/paper1/ngc7212slit.jpg>
@@ -2718,7 +2727,7 @@ Package pdftex.def Info: images/paper1/ngc7212slit.jpg used on input line 143.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_o3_2
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/NGC7212_o3_2.pdf, id=1321, 752.8125pt x 752.8125pt>
+<images/paper1/NGC7212_o3_2.pdf, id=1359, 752.8125pt x 752.8125pt>
 File: images/paper1/NGC7212_o3_2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_o3_2.pdf>
@@ -2730,23 +2739,23 @@ Package pdftex.def Info: images/paper1/NGC7212_o3_2.pdf used on input line 145.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_reg.
 pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<images/paper1/NGC7212_reg.pdf, id=1322, 841.1425pt x 727.71875pt>
+<images/paper1/NGC7212_reg.pdf, id=1360, 841.1425pt x 727.71875pt>
 File: images/paper1/NGC7212_reg.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_reg.pdf>
 Package pdftex.def Info: images/paper1/NGC7212_reg.pdf used on input line 147.
 (pdftex.def)             Requested size: 118.80121pt x 102.77936pt.
- [41 <./images/paper1/ngc7212slit.jpg> <./images/paper1/NGC7212_o3_2.pdf> <./im
+ [37 <./images/paper1/ngc7212slit.jpg> <./images/paper1/NGC7212_o3_2.pdf> <./im
 ages/paper1/NGC7212_reg.pdf>]
 Overfull \hbox (7.66779pt too wide) in paragraph at lines 191--208
  [][] 
  []
 
-[42]
+[38]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/ha2.pdf): PD
 F inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/ha2.pdf, id=1376, 723.70375pt x 1446.40375pt>
+<images/paper1/ha2.pdf, id=1414, 723.70375pt x 1446.40375pt>
 File: images/paper1/ha2.pdf Graphic file (type pdf)
 
 <use images/paper1/ha2.pdf>
@@ -2756,7 +2765,7 @@ Package pdftex.def Info: images/paper1/ha2.pdf used on input line 247.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/s2.pdf): PDF
  inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/s2.pdf, id=1377, 578.16pt x 433.62pt>
+<images/paper1/s2.pdf, id=1415, 578.16pt x 433.62pt>
 File: images/paper1/s2.pdf Graphic file (type pdf)
 
 <use images/paper1/s2.pdf>
@@ -2766,19 +2775,19 @@ Package pdftex.def Info: images/paper1/s2.pdf used on input line 254.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/o2.pdf): PDF
  inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/o2.pdf, id=1378, 578.16pt x 433.62pt>
+<images/paper1/o2.pdf, id=1416, 578.16pt x 433.62pt>
 File: images/paper1/o2.pdf Graphic file (type pdf)
 
 <use images/paper1/o2.pdf>
 Package pdftex.def Info: images/paper1/o2.pdf used on input line 256.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
- [43] [44 <./images/paper1/ha2.pdf>] [45 <./images/paper1/s2.pdf> <./images/pap
-er1/o2.pdf>] [46]
+ [39] [40 <./images/paper1/ha2.pdf>] [41 <./images/paper1/s2.pdf> <./images/pap
+er1/o2.pdf>] [42]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_bins.
 pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<images/paper1/IC5063_bins.pdf, id=1426, 578.16pt x 433.62pt>
+<images/paper1/IC5063_bins.pdf, id=1464, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_bins.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_bins.pdf>
@@ -2788,18 +2797,18 @@ Package pdftex.def Info: images/paper1/IC5063_bins.pdf used on input line 301.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/errors.pdf):
  PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/errors.pdf, id=1427, 578.16pt x 433.62pt>
+<images/paper1/errors.pdf, id=1465, 578.16pt x 433.62pt>
 File: images/paper1/errors.pdf Graphic file (type pdf)
 
 <use images/paper1/errors.pdf>
 Package pdftex.def Info: images/paper1/errors.pdf used on input line 302.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
- [47 <./images/paper1/IC5063_bins.pdf> <./images/paper1/errors.pdf>] [48]
+ [43 <./images/paper1/IC5063_bins.pdf> <./images/paper1/errors.pdf>] [44]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_n0_di
 ag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
-<images/paper1/IC5063_n0_diag.pdf, id=1479, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n0_diag.pdf, id=1517, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n0_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n0_diag.pdf>
@@ -2811,7 +2820,7 @@ Package pdftex.def Info: images/paper1/IC5063_n0_diag.pdf used on input line 36
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_s0_d
 iag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
-<images/paper1/NGC7212_s0_diag.pdf, id=1480, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s0_diag.pdf, id=1518, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s0_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s0_diag.pdf>
@@ -2823,7 +2832,7 @@ Package pdftex.def Info: images/paper1/NGC7212_s0_diag.pdf used on input line 3
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_diag.
 pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<images/paper1/IC5063_diag.pdf, id=1497, 578.16pt x 433.62pt>
+<images/paper1/IC5063_diag.pdf, id=1535, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_diag.pdf>
@@ -2834,7 +2843,7 @@ Package pdftex.def Info: images/paper1/IC5063_diag.pdf used on input line 374.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_diag
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/NGC7212_diag.pdf, id=1498, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_diag.pdf, id=1536, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_diag.pdf>
@@ -2845,14 +2854,14 @@ Package pdftex.def Info: images/paper1/NGC7212_diag.pdf used on input line 375.
 
 LaTeX Warning: Float too large for page by 8.6585pt on input line 378.
 
-[49] [50 <./images/paper1/IC5063_n0_diag.pdf> <./images/paper1/NGC7212_s0_diag.
-pdf>] [51 <./images/paper1/IC5063_diag.pdf> <./images/paper1/NGC7212_diag.pdf>]
+[45] [46 <./images/paper1/IC5063_n0_diag.pdf> <./images/paper1/NGC7212_s0_diag.
+pdf>] [47 <./images/paper1/IC5063_diag.pdf> <./images/paper1/NGC7212_diag.pdf>]
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_all_n
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_all_n.pdf, id=1616, 578.16pt x 433.62pt>
+<images/paper1/IC5063_all_n.pdf, id=1654, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_all_n.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_all_n.pdf>
@@ -2864,7 +2873,7 @@ Package pdftex.def Info: images/paper1/IC5063_all_n.pdf used on input line 429.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_all_s
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_all_s.pdf, id=1617, 578.16pt x 433.62pt>
+<images/paper1/IC5063_all_s.pdf, id=1655, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_all_s.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_all_s.pdf>
@@ -2876,7 +2885,7 @@ Package pdftex.def Info: images/paper1/IC5063_all_s.pdf used on input line 430.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_all_
 n.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_all_n.pdf, id=1618, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_all_n.pdf, id=1656, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_all_n.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_all_n.pdf>
@@ -2888,7 +2897,7 @@ Package pdftex.def Info: images/paper1/NGC7212_all_n.pdf used on input line 437
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_all_
 s.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_all_s.pdf, id=1619, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_all_s.pdf, id=1657, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_all_s.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_all_s.pdf>
@@ -2899,7 +2908,7 @@ Package pdftex.def Info: images/paper1/NGC7212_all_s.pdf used on input line 438
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_all.p
 df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/IC5063_all.pdf, id=1620, 578.16pt x 433.62pt>
+<images/paper1/IC5063_all.pdf, id=1658, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_all.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_all.pdf>
@@ -2910,7 +2919,7 @@ Package pdftex.def Info: images/paper1/IC5063_all.pdf used on input line 445.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_all.
 pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<images/paper1/NGC7212_all.pdf, id=1621, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_all.pdf, id=1659, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_all.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_all.pdf>
@@ -2922,9 +2931,9 @@ Underfull \hbox (badness 4673) in paragraph at lines 447--447
 -e-ter,
  []
 
-[52 <./images/paper1/IC5063_all_n.pdf> <./images/paper1/IC5063_all_s.pdf> <./im
-ages/paper1/NGC7212_all_n.pdf> <./images/paper1/NGC7212_all_s.pdf>] [53 <./imag
-es/paper1/IC5063_all.pdf> <./images/paper1/NGC7212_all.pdf>] [54]
+[48 <./images/paper1/IC5063_all_n.pdf> <./images/paper1/IC5063_all_s.pdf> <./im
+ages/paper1/NGC7212_all_n.pdf> <./images/paper1/NGC7212_all_s.pdf>] [49 <./imag
+es/paper1/IC5063_all.pdf> <./images/paper1/NGC7212_all.pdf>] [50]
 Overfull \hbox (44.52937pt too wide) in paragraph at lines 513--515
 []\T1/cmr/m/n/10.95 These re-sults are well in agree-ment with []Cracco et al.[
 ] ([]2011[]), who found $[]\OT1/cmr/m/n/10.95 ([\OML/cmm/m/it/10.95 O III\OT1/c
@@ -2932,7 +2941,7 @@ mr/m/n/10.95 ]\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 H\OML/cmm/m/it/10.95 ^^L\
 OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^X
  []
 
-[55] [56]
+[51] [52]
 Overfull \hbox (0.608pt too wide) in paragraph at lines 635--640
 \OT1/cmr/m/n/10.95 [\OML/cmm/m/it/10.95 O III\OT1/cmr/m/n/10.95 ]\OML/cmm/m/it/
 10.95 ^^U\OT1/cmr/m/n/10.95 5007$ \T1/cmr/m/n/10.95 is char-ac-ter-ized by the 
@@ -2943,11 +2952,11 @@ S II\OT1/cmr/m/n/10.95 ]\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 6716$
 
 Underfull \vbox (badness 2326) has occurred while \output is active []
 
- [57]
+ [53]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/icn.pdf): PD
 F inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/icn.pdf, id=1765, 505.89pt x 722.7pt>
+<images/paper1/icn.pdf, id=1803, 505.89pt x 722.7pt>
 File: images/paper1/icn.pdf Graphic file (type pdf)
 
 <use images/paper1/icn.pdf>
@@ -2957,7 +2966,7 @@ Package pdftex.def Info: images/paper1/icn.pdf used on input line 676.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/ics.pdf): PD
 F inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/ics.pdf, id=1766, 505.89pt x 722.7pt>
+<images/paper1/ics.pdf, id=1804, 505.89pt x 722.7pt>
 File: images/paper1/ics.pdf Graphic file (type pdf)
 
 <use images/paper1/ics.pdf>
@@ -2972,7 +2981,7 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 676--678
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/n72n.pdf): P
 DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/n72n.pdf, id=1767, 505.89pt x 722.7pt>
+<images/paper1/n72n.pdf, id=1805, 505.89pt x 722.7pt>
 File: images/paper1/n72n.pdf Graphic file (type pdf)
 
 <use images/paper1/n72n.pdf>
@@ -2982,7 +2991,7 @@ Package pdftex.def Info: images/paper1/n72n.pdf used on input line 683.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/n72s.pdf): P
 DF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/n72s.pdf, id=1768, 505.89pt x 722.7pt>
+<images/paper1/n72s.pdf, id=1806, 505.89pt x 722.7pt>
 File: images/paper1/n72s.pdf Graphic file (type pdf)
 
 <use images/paper1/n72s.pdf>
@@ -2993,17 +3002,17 @@ Overfull \hbox (2.42162pt too wide) in paragraph at lines 683--685
 [][] [] 
  []
 
-[58] [59 <./images/paper1/icn.pdf> <./images/paper1/ics.pdf>] [60 <./images/pap
-er1/n72n.pdf> <./images/paper1/n72s.pdf>] [61] [62] [63]
+[54] [55 <./images/paper1/icn.pdf> <./images/paper1/ics.pdf>] [56 <./images/pap
+er1/n72n.pdf> <./images/paper1/n72s.pdf>] [57] [58] [59]
 Overfull \hbox (21.33803pt too wide) in paragraph at lines 813--839
  [][] 
  []
 
-[64] [65]
+[60] [61]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/bin4l.pdf): 
 PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/bin4l.pdf, id=1877, 449.68pt x 338.26375pt>
+<images/paper1/bin4l.pdf, id=1915, 449.68pt x 338.26375pt>
 File: images/paper1/bin4l.pdf Graphic file (type pdf)
 
 <use images/paper1/bin4l.pdf>
@@ -3013,7 +3022,7 @@ Package pdftex.def Info: images/paper1/bin4l.pdf used on input line 885.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/bin4r.pdf): 
 PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/bin4r.pdf, id=1878, 449.68pt x 338.26375pt>
+<images/paper1/bin4r.pdf, id=1916, 449.68pt x 338.26375pt>
 File: images/paper1/bin4r.pdf Graphic file (type pdf)
 
 <use images/paper1/bin4r.pdf>
@@ -3023,7 +3032,7 @@ Package pdftex.def Info: images/paper1/bin4r.pdf used on input line 886.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/sedic50.pdf)
 : PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/sedic50.pdf, id=1879, 434.62375pt x 327.2225pt>
+<images/paper1/sedic50.pdf, id=1917, 434.62375pt x 327.2225pt>
 File: images/paper1/sedic50.pdf Graphic file (type pdf)
 
 <use images/paper1/sedic50.pdf>
@@ -3033,28 +3042,28 @@ Package pdftex.def Info: images/paper1/sedic50.pdf used on input line 903.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/sedn72.pdf):
  PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper1/sedn72.pdf, id=1880, 449.68pt x 338.26375pt>
+<images/paper1/sedn72.pdf, id=1918, 449.68pt x 338.26375pt>
 File: images/paper1/sedn72.pdf Graphic file (type pdf)
 
 <use images/paper1/sedn72.pdf>
 Package pdftex.def Info: images/paper1/sedn72.pdf used on input line 904.
 (pdftex.def)             Requested size: 237.60242pt x 178.73181pt.
- [66] [67 <./images/paper1/bin4l.pdf> <./images/paper1/bin4r.pdf>] [68 <./image
+ [62] [63 <./images/paper1/bin4l.pdf> <./images/paper1/bin4r.pdf>] [64 <./image
 s/paper1/sedic50.pdf> <./images/paper1/sedn72.pdf>]
 Overfull \hbox (5.74843pt too wide) in paragraph at lines 941--945
 \T1/cmr/m/n/10.95 I stud-ied the NL-R/ENLR gas of two nearby Seyfert 2 galax-ie
 s: IC5063 and NGC7212.
  []
 
-[69]) (./tex/chapter4.tex [70]
+[65]) (./tex/chapter4.tex [66]
 Chapter 4.
-[71
+[67
 
-] [72] [73]
+] [68] [69]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper2/Mrk783_MG.pd
 f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper2/Mrk783_MG.pdf, id=2132, 542.025pt x 505.89pt>
+<images/paper2/Mrk783_MG.pdf, id=2171, 542.025pt x 505.89pt>
 File: images/paper2/Mrk783_MG.pdf Graphic file (type pdf)
 
 <use images/paper2/Mrk783_MG.pdf>
@@ -3065,7 +3074,7 @@ Package pdftex.def Info: images/paper2/Mrk783_MG.pdf used on input line 97.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper2/Mrk783_tape.
 pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<images/paper2/Mrk783_tape.pdf, id=2133, 542.025pt x 505.89pt>
+<images/paper2/Mrk783_tape.pdf, id=2172, 542.025pt x 505.89pt>
 File: images/paper2/Mrk783_tape.pdf Graphic file (type pdf)
 
 <use images/paper2/Mrk783_tape.pdf>
@@ -3075,7 +3084,7 @@ Package pdftex.def Info: images/paper2/Mrk783_tape.pdf used on input line 98.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper2/SDSS_radio.p
 df): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/paper2/SDSS_radio.pdf, id=2134, 702.625pt x 702.625pt>
+<images/paper2/SDSS_radio.pdf, id=2173, 702.625pt x 702.625pt>
 File: images/paper2/SDSS_radio.pdf Graphic file (type pdf)
 
 <use images/paper2/SDSS_radio.pdf>
@@ -3086,14 +3095,14 @@ Package pdftex.def Info: images/paper2/SDSS_radio.pdf used on input line 99.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper2/SDSS_radio_t
 ape.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
-<images/paper2/SDSS_radio_tape.pdf, id=2135, 702.625pt x 702.625pt>
+<images/paper2/SDSS_radio_tape.pdf, id=2174, 702.625pt x 702.625pt>
 File: images/paper2/SDSS_radio_tape.pdf Graphic file (type pdf)
 
 <use images/paper2/SDSS_radio_tape.pdf>
 Package pdftex.def Info: images/paper2/SDSS_radio_tape.pdf used on input line 1
 00.
 (pdftex.def)             Requested size: 126.7229pt x 126.71362pt.
- [74 <./images/paper2/Mrk783_MG.pdf> <./images/paper2/Mrk783_tape.pdf
+ [70 <./images/paper2/Mrk783_MG.pdf> <./images/paper2/Mrk783_tape.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper2/Mrk783_tape.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -3106,23 +3115,23 @@ df): PDF inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper2/SDSS_radio_t
 ape.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
->] [75] [76] [77]) (./tex/chapter5.tex [78]
+>] [71] [72] [73]) (./tex/chapter5.tex [74]
 Chapter 5.
-[79
+[75
 
-] [80]
+] [76]
 Overfull \hbox (26.16353pt too wide) in paragraph at lines 80--97
  [] 
  []
 
-<images/paper3/finding.jpg, id=2421, 462.528pt x 346.896pt>
+<images/paper3/finding.jpg, id=2460, 462.528pt x 346.896pt>
 File: images/paper3/finding.jpg Graphic file (type jpg)
 
 <use images/paper3/finding.jpg>
 Package pdftex.def Info: images/paper3/finding.jpg used on input line 102.
 (pdftex.def)             Requested size: 316.80121pt x 237.61172pt.
- [81] [82 <./images/paper3/finding.jpg>]
-<images/paper3/spectra.jpg, id=2446, 867.24pt x 397.485pt>
+ [77] [78 <./images/paper3/finding.jpg>]
+<images/paper3/spectra.jpg, id=2484, 867.24pt x 397.485pt>
 File: images/paper3/spectra.jpg Graphic file (type jpg)
 
 <use images/paper3/spectra.jpg>
@@ -3136,9 +3145,9 @@ Overfull \hbox (39.60242pt too wide) in paragraph at lines 178--179
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
-[84 <./images/paper3/spectra.jpg>]
-<images/paper3/Radial_distr.pdf, id=2466, 462.52798pt x 346.89601pt>
+ [79]
+[80 <./images/paper3/spectra.jpg>]
+<images/paper3/Radial_distr.pdf, id=2504, 462.52798pt x 346.89601pt>
 File: images/paper3/Radial_distr.pdf Graphic file (type pdf)
 
 <use images/paper3/Radial_distr.pdf>
@@ -3146,54 +3155,54 @@ Package pdftex.def Info: images/paper3/Radial_distr.pdf used on input line 208.
 
 (pdftex.def)             Requested size: 316.80121pt x 237.61174pt.
 
-<images/paper3/new_rgb.pdf, id=2471, 744.09866pt x 624.3513pt>
+<images/paper3/new_rgb.pdf, id=2509, 744.09866pt x 624.3513pt>
 File: images/paper3/new_rgb.pdf Graphic file (type pdf)
 
 <use images/paper3/new_rgb.pdf>
 Package pdftex.def Info: images/paper3/new_rgb.pdf used on input line 220.
 (pdftex.def)             Requested size: 277.19879pt x 232.58781pt.
 
-<images/paper3/contours_g.jpg, id=2472, 462.528pt x 346.896pt>
+<images/paper3/contours_g.jpg, id=2510, 462.528pt x 346.896pt>
 File: images/paper3/contours_g.jpg Graphic file (type jpg)
 
 <use images/paper3/contours_g.jpg>
 Package pdftex.def Info: images/paper3/contours_g.jpg used on input line 228.
 (pdftex.def)             Requested size: 237.60242pt x 178.20085pt.
 
-<images/paper3/contours_r.jpg, id=2473, 462.528pt x 346.896pt>
+<images/paper3/contours_r.jpg, id=2511, 462.528pt x 346.896pt>
 File: images/paper3/contours_r.jpg Graphic file (type jpg)
 
 <use images/paper3/contours_r.jpg>
 Package pdftex.def Info: images/paper3/contours_r.jpg used on input line 229.
 (pdftex.def)             Requested size: 237.60242pt x 178.20085pt.
 
-<images/paper3/contours_i.jpg, id=2474, 462.528pt x 346.896pt>
+<images/paper3/contours_i.jpg, id=2512, 462.528pt x 346.896pt>
 File: images/paper3/contours_i.jpg Graphic file (type jpg)
 
 <use images/paper3/contours_i.jpg>
 Package pdftex.def Info: images/paper3/contours_i.jpg used on input line 230.
 (pdftex.def)             Requested size: 237.60242pt x 178.20085pt.
- [85] [86 <./images/paper3/Radial_distr.pdf> <./images/paper3/new_rgb.pdf
+ [81] [82 <./images/paper3/Radial_distr.pdf> <./images/paper3/new_rgb.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper3/new_rgb.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
->] [87 <./images/paper3/contours_g.jpg> <./images/paper3/contours_r.jpg> <./ima
+>] [83 <./images/paper3/contours_g.jpg> <./images/paper3/contours_r.jpg> <./ima
 ges/paper3/contours_i.jpg>]
-<images/paper3/devoc.jpg, id=2563, 462.528pt x 346.896pt>
+<images/paper3/devoc.jpg, id=2601, 462.528pt x 346.896pt>
 File: images/paper3/devoc.jpg Graphic file (type jpg)
 
 <use images/paper3/devoc.jpg>
 Package pdftex.def Info: images/paper3/devoc.jpg used on input line 258.
 (pdftex.def)             Requested size: 277.19879pt x 207.9063pt.
- [88 <./images/paper3/devoc.jpg>]
-<images/paper3/mrk783color.jpg, id=2579, 462.528pt x 346.896pt>
+ [84 <./images/paper3/devoc.jpg>]
+<images/paper3/mrk783color.jpg, id=2617, 462.528pt x 346.896pt>
 File: images/paper3/mrk783color.jpg Graphic file (type jpg)
 
 <use images/paper3/mrk783color.jpg>
 Package pdftex.def Info: images/paper3/mrk783color.jpg used on input line 274.
 (pdftex.def)             Requested size: 277.19879pt x 207.9063pt.
- [89 <./images/paper3/mrk783color.jpg>]
-<images/paper3/mrk783_senza_UVOT.pdf, id=2594, 597.23125pt x 845.1575pt>
+ [85 <./images/paper3/mrk783color.jpg>]
+<images/paper3/mrk783_senza_UVOT.pdf, id=2632, 597.23125pt x 845.1575pt>
 File: images/paper3/mrk783_senza_UVOT.pdf Graphic file (type pdf)
 
 <use images/paper3/mrk783_senza_UVOT.pdf>
@@ -3201,113 +3210,113 @@ Package pdftex.def Info: images/paper3/mrk783_senza_UVOT.pdf used on input line
  301.
 (pdftex.def)             Requested size: 277.19879pt x 392.272pt.
 
-<images/paper3/companions_spec.pdf, id=2608, 462.52798pt x 346.89601pt>
+<images/paper3/companions_spec.pdf, id=2646, 462.52798pt x 346.89601pt>
 File: images/paper3/companions_spec.pdf Graphic file (type pdf)
 
 <use images/paper3/companions_spec.pdf>
 Package pdftex.def Info: images/paper3/companions_spec.pdf used on input line 3
 38.
 (pdftex.def)             Requested size: 277.19879pt x 207.9063pt.
- [90] [91 <./images/paper3/mrk783_senza_UVOT.pdf>]
+ [86] [87 <./images/paper3/mrk783_senza_UVOT.pdf>]
 Underfull \vbox (badness 1072) has occurred while \output is active []
 
- [92 <./images/paper3/companions_spec.pdf>] [93]
-<images/paper3/deblending.pdf, id=2712, 462.52798pt x 346.89601pt>
+ [88 <./images/paper3/companions_spec.pdf>] [89]
+<images/paper3/deblending.pdf, id=2750, 462.52798pt x 346.89601pt>
 File: images/paper3/deblending.pdf Graphic file (type pdf)
 
 <use images/paper3/deblending.pdf>
 Package pdftex.def Info: images/paper3/deblending.pdf used on input line 412.
 (pdftex.def)             Requested size: 277.19879pt x 207.9063pt.
 
-<images/paper3/all_spectra.jpg, id=2713, 867.24pt x 433.62pt>
-File: images/paper3/all_spectra.jpg Graphic file (type jpg)
+<images/paper3/spectrum_nucleus.pdf, id=2751, 578.16pt x 433.62pt>
+File: images/paper3/spectrum_nucleus.pdf Graphic file (type pdf)
 
-<use images/paper3/all_spectra.jpg>
-Package pdftex.def Info: images/paper3/all_spectra.jpg used on input line 422.
-(pdftex.def)             Requested size: 396.0pt x 197.99875pt.
+<use images/paper3/spectrum_nucleus.pdf>
+Package pdftex.def Info: images/paper3/spectrum_nucleus.pdf used on input line 
+422.
+(pdftex.def)             Requested size: 396.0pt x 296.99483pt.
 
-Overfull \hbox (6.4586pt too wide) in paragraph at lines 434--438
+Overfull \hbox (6.4586pt too wide) in paragraph at lines 433--437
 \T1/cmr/m/n/10.95 ([]Os-ter-brock & Pogge[], []1985[]) and 3) Strong FeII mul-t
 i-plets or pres-ence of [FeVII]$\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 6087$
 
  []
 
 
-Overfull \hbox (10.72058pt too wide) in paragraph at lines 434--438
+Overfull \hbox (10.72058pt too wide) in paragraph at lines 433--437
 \T1/cmr/m/n/10.95 and [FeX]$\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 6375$ \T1
 /cmr/m/n/10.95 lines ([]Goodrich[], []1989[]). Mrk 783 shows a $\OML/cmm/m/it/1
 0.95 FWHM\OT1/cmr/m/n/10.95 (H\OML/cmm/m/it/10.95 ^^L\OT1/cmr/m/n/10.95 ) \OMS/
 cmsy/m/n/10.95 ^^X \OT1/cmr/m/n/10.95 1500 []$
  []
 
-[94 <./images/paper3/deblending.pdf>]
-<images/paper3/Fe_lines.pdf, id=2785, 578.16pt x 361.35pt>
+[90 <./images/paper3/deblending.pdf>] [91 <./images/paper3/spectrum_nucleus.pdf
+>] <images/paper3/Fe_lines.pdf, id=2873, 578.16pt x 361.35pt>
 File: images/paper3/Fe_lines.pdf Graphic file (type pdf)
 
 <use images/paper3/Fe_lines.pdf>
-Package pdftex.def Info: images/paper3/Fe_lines.pdf used on input line 441.
+Package pdftex.def Info: images/paper3/Fe_lines.pdf used on input line 440.
 (pdftex.def)             Requested size: 396.0pt x 247.49568pt.
 
-Underfull \hbox (badness 3439) in paragraph at lines 442--442
+Underfull \hbox (badness 3439) in paragraph at lines 441--441
 [][]|\T1/cmr/m/n/10.95 Febru-ary LDSS spec-trum be-tween $\OT1/cmr/m/n/10.95 56
 50$ \T1/cmr/m/n/10.95 and $\OT1/cmr/m/n/10.95 6425 []$\T1/cmr/m/n/10.95 . The
  []
 
-<images/paper3/PA131_2016_velocity.jpg, id=2786, 578.16pt x 433.62pt>
+<images/paper3/PA131_2016_velocity.jpg, id=2874, 578.16pt x 433.62pt>
 File: images/paper3/PA131_2016_velocity.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_2016_velocity.jpg>
 Package pdftex.def Info: images/paper3/PA131_2016_velocity.jpg used on input li
-ne 451.
+ne 450.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA131_velocity.jpg, id=2787, 578.16pt x 433.62pt>
+<images/paper3/PA131_velocity.jpg, id=2875, 578.16pt x 433.62pt>
 File: images/paper3/PA131_velocity.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_velocity.jpg>
 Package pdftex.def Info: images/paper3/PA131_velocity.jpg used on input line 45
-2.
+1.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA90_velocity.jpg, id=2788, 578.16pt x 433.62pt>
+<images/paper3/PA90_velocity.jpg, id=2876, 578.16pt x 433.62pt>
 File: images/paper3/PA90_velocity.jpg Graphic file (type jpg)
 
 <use images/paper3/PA90_velocity.jpg>
-Package pdftex.def Info: images/paper3/PA90_velocity.jpg used on input line 453
+Package pdftex.def Info: images/paper3/PA90_velocity.jpg used on input line 452
 .
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
 
-LaTeX Warning: Float too large for page by 1.06798pt on input line 457.
+LaTeX Warning: Float too large for page by 1.06798pt on input line 456.
 
-[95 <./images/paper3/all_spectra.jpg>] [96 <./images/paper3/Fe_lines.pdf>]
-[97 <./images/paper3/PA131_2016_velocity.jpg> <./images/paper3/PA131_velocity.j
-pg> <./images/paper3/PA90_velocity.jpg>]
-<images/paper3/PA131_2016_line_flux.jpg, id=2860, 578.16pt x 433.62pt>
+[92 <./images/paper3/Fe_lines.pdf>] [93 <./images/paper3/PA131_2016_velocity.jp
+g> <./images/paper3/PA131_velocity.jpg> <./images/paper3/PA90_velocity.jpg>]
+<images/paper3/PA131_2016_line_flux.jpg, id=2944, 578.16pt x 433.62pt>
 File: images/paper3/PA131_2016_line_flux.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_2016_line_flux.jpg>
 Package pdftex.def Info: images/paper3/PA131_2016_line_flux.jpg used on input l
-ine 497.
+ine 496.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA131_line_flux.jpg, id=2861, 578.16pt x 433.62pt>
+<images/paper3/PA131_line_flux.jpg, id=2945, 578.16pt x 433.62pt>
 File: images/paper3/PA131_line_flux.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_line_flux.jpg>
 Package pdftex.def Info: images/paper3/PA131_line_flux.jpg used on input line 4
-98.
+97.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA90_line_flux.jpg, id=2862, 578.16pt x 433.62pt>
+<images/paper3/PA90_line_flux.jpg, id=2946, 578.16pt x 433.62pt>
 File: images/paper3/PA90_line_flux.jpg Graphic file (type jpg)
 
 <use images/paper3/PA90_line_flux.jpg>
 Package pdftex.def Info: images/paper3/PA90_line_flux.jpg used on input line 49
-9.
+8.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-Overfull \hbox (1.57118pt too wide) in paragraph at lines 508--510
+Overfull \hbox (1.57118pt too wide) in paragraph at lines 507--509
 []\OT1/cmr/m/n/10.95 [N II]\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 6584\OML/c
 mm/m/it/10.95 =\OT1/cmr/m/n/10.95 H\OML/cmm/m/it/10.95 $\T1/cmr/m/n/10.95 , $[
 ]\OT1/cmr/m/n/10.95 [O III]\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 5007\OML/c
@@ -3318,38 +3327,38 @@ nd $[]\OT1/cmr/m/n/10.95 [O III]\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 5007\
 OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 H\OML/cmm/m/it/10.95 ^^L$
  []
 
-<images/paper3/PA131_2016_diagnostic.jpg, id=2869, 867.24pt x 289.08pt>
+<images/paper3/PA131_2016_diagnostic.jpg, id=2953, 867.24pt x 289.08pt>
 File: images/paper3/PA131_2016_diagnostic.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_2016_diagnostic.jpg>
 Package pdftex.def Info: images/paper3/PA131_2016_diagnostic.jpg used on input 
-line 519.
+line 518.
 (pdftex.def)             Requested size: 396.0pt x 131.99916pt.
 
-<images/paper3/PA131_diagnostic.jpg, id=2870, 867.24pt x 289.08pt>
+<images/paper3/PA131_diagnostic.jpg, id=2954, 867.24pt x 289.08pt>
 File: images/paper3/PA131_diagnostic.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_diagnostic.jpg>
 Package pdftex.def Info: images/paper3/PA131_diagnostic.jpg used on input line 
-520.
+519.
 (pdftex.def)             Requested size: 396.0pt x 131.99916pt.
 
-<images/paper3/PA90_diagnostic.jpg, id=2871, 867.24pt x 289.08pt>
+<images/paper3/PA90_diagnostic.jpg, id=2955, 867.24pt x 289.08pt>
 File: images/paper3/PA90_diagnostic.jpg Graphic file (type jpg)
 
 <use images/paper3/PA90_diagnostic.jpg>
 Package pdftex.def Info: images/paper3/PA90_diagnostic.jpg used on input line 5
-21.
+20.
 (pdftex.def)             Requested size: 396.0pt x 131.99916pt.
 
-Underfull \hbox (badness 4967) in paragraph at lines 525--525
+Underfull \hbox (badness 4967) in paragraph at lines 524--524
 \T1/cmr/m/n/10.95 vs $[]\OT1/cmr/m/n/10.95 [O I]\OML/cmm/m/it/10.95 ^^U\OT1/cmr
 /m/n/10.95 6300\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 H\OML/cmm/m/it/10.95 $ 
 \T1/cmr/m/n/10.95 di-a-gram while the right panel is the
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 525--525
+Underfull \hbox (badness 1810) in paragraph at lines 524--524
 []\OT1/cmr/m/n/10.95 [O III]\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 5007\OML/
 cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 H\OML/cmm/m/it/10.95 ^^L$ \T1/cmr/m/n/10.95 
 vs $[]\OT1/cmr/m/n/10.95 [S II]\OML/cmm/m/it/10.95 ^^U^^U\OT1/cmr/m/n/10.95 671
@@ -3357,48 +3366,48 @@ vs $[]\OT1/cmr/m/n/10.95 [S II]\OML/cmm/m/it/10.95 ^^U^^U\OT1/cmr/m/n/10.95 671
 /10.95 H\OML/cmm/m/it/10.95 $\T1/cmr/m/n/10.95 . The col-or-bar
  []
 
-[98] [99 <./images/paper3/PA131_2016_line_flux.jpg> <./images/paper3/PA131_line
-_flux.jpg> <./images/paper3/PA90_line_flux.jpg>] [100 <./images/paper3/PA131_20
-16_diagnostic.jpg> <./images/paper3/PA131_diagnostic.jpg> <./images/paper3/PA90
-_diagnostic.jpg>]
-<images/paper3/PA131_2016_o3_hb.jpg, id=2910, 578.16pt x 433.62pt>
+[94] [95 <./images/paper3/PA131_2016_line_flux.jpg> <./images/paper3/PA131_line
+_flux.jpg> <./images/paper3/PA90_line_flux.jpg>]
+<images/paper3/PA131_2016_o3_hb.jpg, id=2987, 578.16pt x 433.62pt>
 File: images/paper3/PA131_2016_o3_hb.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_2016_o3_hb.jpg>
 Package pdftex.def Info: images/paper3/PA131_2016_o3_hb.jpg used on input line 
-555.
+554.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA131_o3_hb.jpg, id=2911, 578.16pt x 433.62pt>
+<images/paper3/PA131_o3_hb.jpg, id=2988, 578.16pt x 433.62pt>
 File: images/paper3/PA131_o3_hb.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_o3_hb.jpg>
-Package pdftex.def Info: images/paper3/PA131_o3_hb.jpg used on input line 556.
+Package pdftex.def Info: images/paper3/PA131_o3_hb.jpg used on input line 555.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA90_n2_ha.jpg, id=2912, 578.16pt x 433.62pt>
+<images/paper3/PA90_n2_ha.jpg, id=2989, 578.16pt x 433.62pt>
 File: images/paper3/PA90_n2_ha.jpg Graphic file (type jpg)
 
 <use images/paper3/PA90_n2_ha.jpg>
-Package pdftex.def Info: images/paper3/PA90_n2_ha.jpg used on input line 557.
+Package pdftex.def Info: images/paper3/PA90_n2_ha.jpg used on input line 556.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
 
-LaTeX Warning: Float too large for page by 28.26799pt on input line 562.
+LaTeX Warning: Float too large for page by 28.26799pt on input line 561.
 
-[101] [102 <./images/paper3/PA131_2016_o3_hb.jpg> <./images/paper3/PA131_o3_hb.
-jpg> <./images/paper3/PA90_n2_ha.jpg>] [103]) (./tex/conclusions.tex [104]
+[96] [97 <./images/paper3/PA131_2016_diagnostic.jpg> <./images/paper3/PA131_dia
+gnostic.jpg> <./images/paper3/PA90_diagnostic.jpg>] [98 <./images/paper3/PA131_
+2016_o3_hb.jpg> <./images/paper3/PA131_o3_hb.jpg> <./images/paper3/PA90_n2_ha.j
+pg>] [99] [100]) (./tex/conclusions.tex [101] [102
+
+]
 Chapter 6.
-[105
-
-]) (./tex/appendix1.tex [106]
+[103]) (./tex/appendix1.tex [104]
 Appendix A.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_n2_l1
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_n2_l1.pdf, id=3009, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n2_l1.pdf, id=3101, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n2_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n2_l1.pdf>
@@ -3409,7 +3418,7 @@ Package pdftex.def Info: images/paper1/IC5063_n2_l1.pdf used on input line 11.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_n2_l2
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_n2_l2.pdf, id=3010, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n2_l2.pdf, id=3102, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n2_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n2_l2.pdf>
@@ -3420,7 +3429,7 @@ Package pdftex.def Info: images/paper1/IC5063_n2_l2.pdf used on input line 12.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_n1_l1
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_n1_l1.pdf, id=3011, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n1_l1.pdf, id=3103, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n1_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n1_l1.pdf>
@@ -3431,7 +3440,7 @@ Package pdftex.def Info: images/paper1/IC5063_n1_l1.pdf used on input line 19.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_n1_l2
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_n1_l2.pdf, id=3012, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n1_l2.pdf, id=3104, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n1_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n1_l2.pdf>
@@ -3442,7 +3451,7 @@ Package pdftex.def Info: images/paper1/IC5063_n1_l2.pdf used on input line 20.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_n0_l1
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_n0_l1.pdf, id=3013, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n0_l1.pdf, id=3105, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n0_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n0_l1.pdf>
@@ -3453,7 +3462,7 @@ Package pdftex.def Info: images/paper1/IC5063_n0_l1.pdf used on input line 28.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_n0_l2
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_n0_l2.pdf, id=3014, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n0_l2.pdf, id=3106, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n0_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n0_l2.pdf>
@@ -3464,7 +3473,7 @@ Package pdftex.def Info: images/paper1/IC5063_n0_l2.pdf used on input line 29.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_cn_l1
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_cn_l1.pdf, id=3015, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cn_l1.pdf, id=3107, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cn_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cn_l1.pdf>
@@ -3475,7 +3484,7 @@ Package pdftex.def Info: images/paper1/IC5063_cn_l1.pdf used on input line 36.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_cn_l2
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_cn_l2.pdf, id=3016, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cn_l2.pdf, id=3108, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cn_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cn_l2.pdf>
@@ -3486,7 +3495,7 @@ Package pdftex.def Info: images/paper1/IC5063_cn_l2.pdf used on input line 37.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_cs_l1
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_cs_l1.pdf, id=3017, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cs_l1.pdf, id=3109, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cs_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cs_l1.pdf>
@@ -3497,7 +3506,7 @@ Package pdftex.def Info: images/paper1/IC5063_cs_l1.pdf used on input line 44.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_cs_l2
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_cs_l2.pdf, id=3018, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cs_l2.pdf, id=3110, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cs_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cs_l2.pdf>
@@ -3508,7 +3517,7 @@ Package pdftex.def Info: images/paper1/IC5063_cs_l2.pdf used on input line 45.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_s0_l1
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_s0_l1.pdf, id=3019, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s0_l1.pdf, id=3111, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s0_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s0_l1.pdf>
@@ -3519,7 +3528,7 @@ Package pdftex.def Info: images/paper1/IC5063_s0_l1.pdf used on input line 52.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_s0_l2
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_s0_l2.pdf, id=3020, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s0_l2.pdf, id=3112, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s0_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s0_l2.pdf>
@@ -3530,7 +3539,7 @@ Package pdftex.def Info: images/paper1/IC5063_s0_l2.pdf used on input line 53.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_s1_l1
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_s1_l1.pdf, id=3021, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s1_l1.pdf, id=3113, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s1_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s1_l1.pdf>
@@ -3541,7 +3550,7 @@ Package pdftex.def Info: images/paper1/IC5063_s1_l1.pdf used on input line 60.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_s1_l2
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_s1_l2.pdf, id=3022, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s1_l2.pdf, id=3114, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s1_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s1_l2.pdf>
@@ -3552,7 +3561,7 @@ Package pdftex.def Info: images/paper1/IC5063_s1_l2.pdf used on input line 61.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_s2_l1
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_s2_l1.pdf, id=3023, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s2_l1.pdf, id=3115, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s2_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s2_l1.pdf>
@@ -3563,18 +3572,18 @@ Package pdftex.def Info: images/paper1/IC5063_s2_l1.pdf used on input line 68.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_s2_l2
 .pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowe
 d
-<images/paper1/IC5063_s2_l2.pdf, id=3024, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s2_l2.pdf, id=3116, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s2_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s2_l2.pdf>
 Package pdftex.def Info: images/paper1/IC5063_s2_l2.pdf used on input line 69.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
- [107
+ [105
 
- <./images/paper1/IC5063_n2_l1.pdf> <./images/paper1/IC5063_n2_l2.pdf>] [108 <.
+ <./images/paper1/IC5063_n2_l1.pdf> <./images/paper1/IC5063_n2_l2.pdf>] [106 <.
 /images/paper1/IC5063_n1_l1.pdf> <./images/paper1/IC5063_n1_l2.pdf> <./images/p
 aper1/IC5063_n0_l1.pdf> <./images/paper1/IC5063_n0_l2.pdf> <./images/paper1/IC5
-063_cn_l1.pdf> <./images/paper1/IC5063_cn_l2.pdf>] [109 <./images/paper1/IC5063
+063_cn_l1.pdf> <./images/paper1/IC5063_cn_l2.pdf>] [107 <./images/paper1/IC5063
 _cs_l1.pdf> <./images/paper1/IC5063_cs_l2.pdf> <./images/paper1/IC5063_s0_l1.pd
 f> <./images/paper1/IC5063_s0_l2.pdf> <./images/paper1/IC5063_s1_l1.pdf> <./ima
 ges/paper1/IC5063_s1_l2.pdf>]
@@ -3582,7 +3591,7 @@ ges/paper1/IC5063_s1_l2.pdf>]
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_n2_l
 1.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_n2_l1.pdf, id=3071, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n2_l1.pdf, id=3164, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n2_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n2_l1.pdf>
@@ -3594,7 +3603,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n2_l1.pdf used on input line 83.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_n2_l
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_n2_l2.pdf, id=3072, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n2_l2.pdf, id=3165, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n2_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n2_l2.pdf>
@@ -3606,7 +3615,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n2_l2.pdf used on input line 84.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_n1_l
 1.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_n1_l1.pdf, id=3073, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n1_l1.pdf, id=3166, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n1_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n1_l1.pdf>
@@ -3618,7 +3627,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n1_l1.pdf used on input line 93.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_n1_l
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_n1_l2.pdf, id=3074, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n1_l2.pdf, id=3167, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n1_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n1_l2.pdf>
@@ -3630,7 +3639,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n1_l2.pdf used on input line 94.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_n0_l
 1.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_n0_l1.pdf, id=3075, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n0_l1.pdf, id=3168, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n0_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n0_l1.pdf>
@@ -3642,7 +3651,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n0_l1.pdf used on input line 101
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_n0_l
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_n0_l2.pdf, id=3076, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n0_l2.pdf, id=3169, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n0_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n0_l2.pdf>
@@ -3654,7 +3663,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n0_l2.pdf used on input line 102
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_cn_l
 1.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_cn_l1.pdf, id=3077, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cn_l1.pdf, id=3170, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cn_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cn_l1.pdf>
@@ -3666,7 +3675,7 @@ Package pdftex.def Info: images/paper1/NGC7212_cn_l1.pdf used on input line 110
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_cn_l
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_cn_l2.pdf, id=3078, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cn_l2.pdf, id=3171, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cn_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cn_l2.pdf>
@@ -3678,7 +3687,7 @@ Package pdftex.def Info: images/paper1/NGC7212_cn_l2.pdf used on input line 111
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_cs_l
 1.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_cs_l1.pdf, id=3079, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cs_l1.pdf, id=3172, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cs_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cs_l1.pdf>
@@ -3690,7 +3699,7 @@ Package pdftex.def Info: images/paper1/NGC7212_cs_l1.pdf used on input line 118
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_cs_l
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_cs_l2.pdf, id=3080, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cs_l2.pdf, id=3173, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cs_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cs_l2.pdf>
@@ -3702,7 +3711,7 @@ Package pdftex.def Info: images/paper1/NGC7212_cs_l2.pdf used on input line 119
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_s0_l
 1.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_s0_l1.pdf, id=3081, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s0_l1.pdf, id=3174, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s0_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s0_l1.pdf>
@@ -3714,7 +3723,7 @@ Package pdftex.def Info: images/paper1/NGC7212_s0_l1.pdf used on input line 126
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_s0_l
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_s0_l2.pdf, id=3082, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s0_l2.pdf, id=3175, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s0_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s0_l2.pdf>
@@ -3726,7 +3735,7 @@ Package pdftex.def Info: images/paper1/NGC7212_s0_l2.pdf used on input line 127
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_s1_l
 1.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_s1_l1.pdf, id=3083, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s1_l1.pdf, id=3176, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s1_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s1_l1.pdf>
@@ -3738,7 +3747,7 @@ Package pdftex.def Info: images/paper1/NGC7212_s1_l1.pdf used on input line 134
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_s1_l
 2.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
 ed
-<images/paper1/NGC7212_s1_l2.pdf, id=3084, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s1_l2.pdf, id=3177, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s1_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s1_l2.pdf>
@@ -3750,7 +3759,7 @@ Package pdftex.def Info: images/paper1/NGC7212_s1_l2.pdf used on input line 135
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_n2_di
 ag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
-<images/paper1/IC5063_n2_diag.pdf, id=3085, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n2_diag.pdf, id=3178, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n2_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n2_diag.pdf>
@@ -3762,7 +3771,7 @@ Package pdftex.def Info: images/paper1/IC5063_n2_diag.pdf used on input line 14
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_n1_di
 ag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
-<images/paper1/IC5063_n1_diag.pdf, id=3086, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n1_diag.pdf, id=3179, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n1_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n1_diag.pdf>
@@ -3779,7 +3788,7 @@ Package pdftex.def Info: images/paper1/IC5063_n0_diag.pdf used on input line 14
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_cn_di
 ag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
-<images/paper1/IC5063_cn_diag.pdf, id=3087, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cn_diag.pdf, id=3180, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cn_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cn_diag.pdf>
@@ -3791,7 +3800,7 @@ Package pdftex.def Info: images/paper1/IC5063_cn_diag.pdf used on input line 14
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_cs_di
 ag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
-<images/paper1/IC5063_cs_diag.pdf, id=3088, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cs_diag.pdf, id=3181, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cs_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cs_diag.pdf>
@@ -3803,7 +3812,7 @@ Package pdftex.def Info: images/paper1/IC5063_cs_diag.pdf used on input line 14
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_s0_di
 ag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
-<images/paper1/IC5063_s0_diag.pdf, id=3089, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s0_diag.pdf, id=3182, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s0_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s0_diag.pdf>
@@ -3815,7 +3824,7 @@ Package pdftex.def Info: images/paper1/IC5063_s0_diag.pdf used on input line 15
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_s1_di
 ag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
-<images/paper1/IC5063_s1_diag.pdf, id=3106, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s1_diag.pdf, id=3199, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s1_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s1_diag.pdf>
@@ -3827,7 +3836,7 @@ Package pdftex.def Info: images/paper1/IC5063_s1_diag.pdf used on input line 15
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/IC5063_s2_di
 ag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allo
 wed
-<images/paper1/IC5063_s2_diag.pdf, id=3107, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s2_diag.pdf, id=3200, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s2_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s2_diag.pdf>
@@ -3839,7 +3848,7 @@ Package pdftex.def Info: images/paper1/IC5063_s2_diag.pdf used on input line 15
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_n2_d
 iag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
-<images/paper1/NGC7212_n2_diag.pdf, id=3108, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n2_diag.pdf, id=3201, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n2_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n2_diag.pdf>
@@ -3851,7 +3860,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n2_diag.pdf used on input line 1
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_n1_d
 iag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
-<images/paper1/NGC7212_n1_diag.pdf, id=3109, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n1_diag.pdf, id=3202, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n1_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n1_diag.pdf>
@@ -3863,7 +3872,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n1_diag.pdf used on input line 1
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_n0_d
 iag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
-<images/paper1/NGC7212_n0_diag.pdf, id=3110, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n0_diag.pdf, id=3203, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n0_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n0_diag.pdf>
@@ -3875,7 +3884,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n0_diag.pdf used on input line 1
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_cn_d
 iag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
-<images/paper1/NGC7212_cn_diag.pdf, id=3111, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cn_diag.pdf, id=3204, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cn_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cn_diag.pdf>
@@ -3887,7 +3896,7 @@ Package pdftex.def Info: images/paper1/NGC7212_cn_diag.pdf used on input line 1
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_cs_d
 iag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
-<images/paper1/NGC7212_cs_diag.pdf, id=3128, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cs_diag.pdf, id=3221, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cs_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cs_diag.pdf>
@@ -3905,27 +3914,27 @@ Package pdftex.def Info: images/paper1/NGC7212_s0_diag.pdf used on input line 1
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/paper1/NGC7212_s1_d
 iag.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
-<images/paper1/NGC7212_s1_diag.pdf, id=3129, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s1_diag.pdf, id=3222, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s1_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s1_diag.pdf>
 Package pdftex.def Info: images/paper1/NGC7212_s1_diag.pdf used on input line 1
 72.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
-) [110 <./images/paper1/IC5063_s2_l1.pdf> <./images/paper1/IC5063_s2_l2.pdf> <.
-/images/paper1/NGC7212_n2_l1.pdf> <./images/paper1/NGC7212_n2_l2.pdf>] [111 <./
+) [108 <./images/paper1/IC5063_s2_l1.pdf> <./images/paper1/IC5063_s2_l2.pdf> <.
+/images/paper1/NGC7212_n2_l1.pdf> <./images/paper1/NGC7212_n2_l2.pdf>] [109 <./
 images/paper1/NGC7212_n1_l1.pdf> <./images/paper1/NGC7212_n1_l2.pdf> <./images/
 paper1/NGC7212_n0_l1.pdf> <./images/paper1/NGC7212_n0_l2.pdf> <./images/paper1/
-NGC7212_cn_l1.pdf> <./images/paper1/NGC7212_cn_l2.pdf>] [112 <./images/paper1/N
+NGC7212_cn_l1.pdf> <./images/paper1/NGC7212_cn_l2.pdf>] [110 <./images/paper1/N
 GC7212_cs_l1.pdf> <./images/paper1/NGC7212_cs_l2.pdf> <./images/paper1/NGC7212_
 s0_l1.pdf> <./images/paper1/NGC7212_s0_l2.pdf> <./images/paper1/NGC7212_s1_l1.p
-df> <./images/paper1/NGC7212_s1_l2.pdf>] [113 <./images/paper1/IC5063_n2_diag.p
+df> <./images/paper1/NGC7212_s1_l2.pdf>] [111 <./images/paper1/IC5063_n2_diag.p
 df> <./images/paper1/IC5063_n1_diag.pdf> <./images/paper1/IC5063_cn_diag.pdf> <
-./images/paper1/IC5063_cs_diag.pdf> <./images/paper1/IC5063_s0_diag.pdf>] [114 
+./images/paper1/IC5063_cs_diag.pdf> <./images/paper1/IC5063_s0_diag.pdf>] [112 
 <./images/paper1/IC5063_s1_diag.pdf> <./images/paper1/IC5063_s2_diag.pdf> <./im
 ages/paper1/NGC7212_n2_diag.pdf> <./images/paper1/NGC7212_n1_diag.pdf> <./image
-s/paper1/NGC7212_n0_diag.pdf> <./images/paper1/NGC7212_cn_diag.pdf>] [115 <./im
-ages/paper1/NGC7212_cs_diag.pdf> <./images/paper1/NGC7212_s1_diag.pdf>] [116
+s/paper1/NGC7212_n0_diag.pdf> <./images/paper1/NGC7212_cn_diag.pdf>] [113 <./im
+ages/paper1/NGC7212_cs_diag.pdf> <./images/paper1/NGC7212_s1_diag.pdf>] [114
 
 ] (./main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
@@ -3936,30 +3945,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
 Package hyperref Warning: Suppressing empty link on input line 129.
 
-[117
+[115
 
-] [118] [119]
+] [116] [117]
 
 Package hyperref Warning: Suppressing empty link on input line 523.
 
-[120] [121]
+[118] [119]
 
 Package hyperref Warning: Suppressing empty link on input line 798.
 
-[122] [123] [124])
+[120] [121] [122])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
 \openout5 = `main.maf'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
- [125]
+ [123]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 59BA9EF082F30B76065C7062E1FA067F;4763.
+(rerunfilecheck)             Checksum: A07DF9700B52B4DC7327AC55F435988A;4857.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3970,10 +3979,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32835 strings out of 492995
- 550368 string characters out of 6132703
- 706525 words of memory out of 5000000
- 34965 multiletter control sequences out of 15000+600000
+ 32848 strings out of 492995
+ 550487 string characters out of 6132703
+ 706523 words of memory out of 5000000
+ 34967 multiletter control sequences out of 15000+600000
  38447 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,24n,61p,10396b,2829s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4017,9 +4026,9 @@ pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1095.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (129 pages, 11760985 bytes).
+Output written on main.pdf (133 pages, 11423802 bytes).
 PDF statistics:
- 4125 PDF objects out of 4296 (max. 8388607)
- 614 named destinations out of 1000 (max. 500000)
- 1121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4219 PDF objects out of 4296 (max. 8388607)
+ 619 named destinations out of 1000 (max. 500000)
+ 1137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

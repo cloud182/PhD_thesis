@@ -1,74 +1,76 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Active galactic nuclei}{5}{chapter.1}
-\contentsline {section}{\numberline {1.1}Brief history of AGN}{5}{section.1.1}
-\contentsline {section}{\numberline {1.2}Unified model of AGN}{6}{section.1.2}
-\contentsline {section}{\numberline {1.3}The extended narrow-line region}{8}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Spectral properties of the ENLR}{8}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Morphology}{10}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}The origin of the gas}{11}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Kiloparsec scale radio emission region}{12}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Principal properties}{12}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}KSR and ENLR}{13}{subsection.1.4.2}
-\contentsline {chapter}{\numberline {2}Emission processes in AGN}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Synchrotron emission}{17}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Synchrotron emission of a particle plasma}{19}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Thermal emission}{21}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Black body radiation}{22}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Free-free emission}{23}{section.2.3}
-\contentsline {section}{\numberline {2.4}Emission lines}{25}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Recombination lines}{27}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Forbidden lines}{29}{subsection.2.4.2}
-\contentsline {paragraph}{Tree-level atom}{31}{figure.caption.15}
-\contentsline {section}{\numberline {2.5}Shocks}{34}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Radiative structure of shocks}{35}{subsection.2.5.1}
-\contentsline {chapter}{\numberline {3}IC 5063 and NGC 7212}{37}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{37}{section.3.1}
-\contentsline {section}{\numberline {3.2}Sample and observations}{40}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}IC\tmspace +\thinmuskip {.1667em}5063}{40}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}NGC\tmspace +\thinmuskip {.1667em}7212}{41}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Data Reduction}{42}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Subtraction of the stellar continuum}{42}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Deblending}{43}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Data Analysis and Results}{47}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Diagnostic Diagrams}{49}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Ionization parameter and extinction}{52}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Temperature and densities}{55}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Line profiles}{56}{subsection.3.4.4}
-\contentsline {subsubsection}{\numberline {3.4.4.1}IC\tmspace +\thinmuskip {.1667em}5063}{57}{subsubsection.3.4.4.1}
-\contentsline {subsubsection}{\numberline {3.4.4.2}NGC\tmspace +\thinmuskip {.1667em}7212}{58}{subsubsection.3.4.4.2}
-\contentsline {subsection}{\numberline {3.4.5}Detailed modelling of the observed spectra}{58}{subsection.3.4.5}
-\contentsline {subsubsection}{\numberline {3.4.5.1}Input parameters}{58}{subsubsection.3.4.5.1}
-\contentsline {subsubsection}{\numberline {3.4.5.2}Calculation process}{62}{subsubsection.3.4.5.2}
-\contentsline {subsubsection}{\numberline {3.4.5.3}Grids of models}{63}{subsubsection.3.4.5.3}
-\contentsline {subsubsection}{\numberline {3.4.5.4}Choice of NGC\tmspace +\thinmuskip {.1667em}7212 and IC\tmspace +\thinmuskip {.1667em}5063 parameters}{64}{subsubsection.3.4.5.4}
-\contentsline {subsection}{\numberline {3.4.6}The spectral energy distribution of the continuum}{66}{subsection.3.4.6}
-\contentsline {section}{\numberline {3.5}Concluding remarks}{69}{section.3.5}
-\contentsline {chapter}{\numberline {4}Extended radio emission in Mrk 783}{71}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{71}{section.4.1}
-\contentsline {section}{\numberline {4.2}Mrk 783}{72}{section.4.2}
-\contentsline {section}{\numberline {4.3}Data reduction}{73}{section.4.3}
-\contentsline {section}{\numberline {4.4}Results}{74}{section.4.4}
-\contentsline {section}{\numberline {4.5}Discussion}{75}{section.4.5}
-\contentsline {section}{\numberline {4.6}Summary}{78}{section.4.6}
-\contentsline {chapter}{\numberline {5}Optical analysis of Mrk 783}{79}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{79}{section.5.1}
-\contentsline {section}{\numberline {5.2}Mrk 783}{81}{section.5.2}
-\contentsline {section}{\numberline {5.3}Observations}{81}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Spectroscopy}{81}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Imaging}{83}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Preliminary Analysis}{85}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Two dimensional spectra}{85}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Morphology and color}{85}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Environment}{90}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Spectral Analysis}{93}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Spectra Extraction and Line Fitting}{93}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}The nuclear spectra}{94}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Kinematics}{95}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Line ratios}{98}{subsection.5.5.4}
-\contentsline {section}{\numberline {5.6}Discussion}{101}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Summary}{104}{subsection.5.6.1}
-\contentsline {chapter}{\numberline {6}Conclusions}{105}{chapter.6}
-\contentsline {chapter}{\numberline {A}Lines profiles}{107}{appendix.A}
-\contentsline {section}{\numberline {A.1}IC 5063}{107}{section.A.1}
-\contentsline {section}{\numberline {A.2}NGC 7212}{110}{section.A.2}
-\contentsline {section}{\numberline {A.3}Diagnostic Diagrams}{110}{section.A.3}
+\contentsline {chapter}{Abstract}{iii}{chapter*.2}
+\contentsline {chapter}{Introduction}{vii}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Active galactic nuclei}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Brief history of AGN}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Unified model of AGN}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}The extended narrow-line region}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Spectral properties of the ENLR}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Morphology}{5}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}The origin of the gas}{7}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Kiloparsec scale radio emission region}{8}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Principal properties}{8}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}KSR and ENLR}{10}{subsection.1.4.2}
+\contentsline {chapter}{\numberline {2}Emission processes in AGN}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Synchrotron emission}{13}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Synchrotron emission of a particle plasma}{15}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Thermal emission}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Black body radiation}{18}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Free-free emission}{19}{section.2.3}
+\contentsline {section}{\numberline {2.4}Emission lines}{22}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Recombination lines}{23}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Forbidden lines}{26}{subsection.2.4.2}
+\contentsline {paragraph}{Tree-level atom}{27}{figure.caption.16}
+\contentsline {section}{\numberline {2.5}Shocks}{30}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Radiative structure of shocks}{31}{subsection.2.5.1}
+\contentsline {chapter}{\numberline {3}IC 5063 and NGC 7212}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{33}{section.3.1}
+\contentsline {section}{\numberline {3.2}Sample and observations}{36}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}IC\tmspace +\thinmuskip {.1667em}5063}{36}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}NGC\tmspace +\thinmuskip {.1667em}7212}{37}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Data Reduction}{38}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Subtraction of the stellar continuum}{38}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Deblending}{39}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Data Analysis and Results}{43}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Diagnostic Diagrams}{45}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Ionization parameter and extinction}{48}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Temperature and densities}{51}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Line profiles}{52}{subsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.4.1}IC\tmspace +\thinmuskip {.1667em}5063}{53}{subsubsection.3.4.4.1}
+\contentsline {subsubsection}{\numberline {3.4.4.2}NGC\tmspace +\thinmuskip {.1667em}7212}{54}{subsubsection.3.4.4.2}
+\contentsline {subsection}{\numberline {3.4.5}Detailed modelling of the observed spectra}{54}{subsection.3.4.5}
+\contentsline {subsubsection}{\numberline {3.4.5.1}Input parameters}{54}{subsubsection.3.4.5.1}
+\contentsline {subsubsection}{\numberline {3.4.5.2}Calculation process}{58}{subsubsection.3.4.5.2}
+\contentsline {subsubsection}{\numberline {3.4.5.3}Grids of models}{59}{subsubsection.3.4.5.3}
+\contentsline {subsubsection}{\numberline {3.4.5.4}Choice of NGC\tmspace +\thinmuskip {.1667em}7212 and IC\tmspace +\thinmuskip {.1667em}5063 parameters}{60}{subsubsection.3.4.5.4}
+\contentsline {subsection}{\numberline {3.4.6}The spectral energy distribution of the continuum}{62}{subsection.3.4.6}
+\contentsline {section}{\numberline {3.5}Concluding remarks}{65}{section.3.5}
+\contentsline {chapter}{\numberline {4}Extended radio emission in Mrk 783}{67}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{67}{section.4.1}
+\contentsline {section}{\numberline {4.2}Mrk 783}{68}{section.4.2}
+\contentsline {section}{\numberline {4.3}Data reduction}{69}{section.4.3}
+\contentsline {section}{\numberline {4.4}Results}{70}{section.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{71}{section.4.5}
+\contentsline {section}{\numberline {4.6}Summary}{74}{section.4.6}
+\contentsline {chapter}{\numberline {5}Optical analysis of Mrk 783}{75}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{75}{section.5.1}
+\contentsline {section}{\numberline {5.2}Mrk 783}{77}{section.5.2}
+\contentsline {section}{\numberline {5.3}Observations}{77}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Spectroscopy}{77}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Imaging}{79}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Preliminary Analysis}{81}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Two dimensional spectra}{81}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Morphology and color}{81}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Environment}{86}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Spectral Analysis}{89}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Spectra Extraction and Line Fitting}{89}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}The nuclear spectra}{90}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Kinematics}{92}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Line ratios}{94}{subsection.5.5.4}
+\contentsline {section}{\numberline {5.6}Discussion}{96}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Summary}{100}{subsection.5.6.1}
+\contentsline {chapter}{\numberline {6}Conclusions}{103}{chapter.6}
+\contentsline {chapter}{\numberline {A}Lines profiles}{105}{appendix.A}
+\contentsline {section}{\numberline {A.1}IC 5063}{105}{section.A.1}
+\contentsline {section}{\numberline {A.2}NGC 7212}{108}{section.A.2}
+\contentsline {section}{\numberline {A.3}Diagnostic Diagrams}{108}{section.A.3}
