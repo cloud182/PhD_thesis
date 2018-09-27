@@ -1,8 +1,19 @@
 \documentclass[../main.tex]{subfiles}
+\pagestyle{fancyplain}
+\setlength{\headheight}{14mm}%senno latex rognava
+\renewcommand{\chaptermark}[1]{\markboth{ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{ #1}}
+
+\lhead[\fancyplain{}{\sffamily\bfseries\thepage}]%
+      {\fancyplain{}{\sffamily\bfseries\rightmark}}
+\rhead[\fancyplain{}{\sffamily\bfseries\leftmark}]%
+      {\fancyplain{}{\sffamily\bfseries\thepage}}
+\cfoot{}
 \begin{document}
 
 \chapter{Conclusions}
 \label{cap:conclusions}
+
 
 During my PhD I investigated several aspects of the physics of the ENLR in nearby AGN.
 I used several techniques and observation at optical and radio wavelengths to have a better insight of the processes characterizing these regions.

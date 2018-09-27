@@ -35,6 +35,7 @@
 \DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
 \DeclarePairedDelimiter{\norma}{\lVert}{\rVert}
 
+\usepackage[nottoc,numbib]{tocbibind}
 \usepackage{chngcntr}
 \usepackage{hyperref} %Da sistemare, andra' in conflitto con la certificazione pdfa 
 %_____________________________________________________________
@@ -122,15 +123,15 @@
 %------------------------
 
 \begin{frontespizio}
-\Logo[3.0cm]{images/logo_unipd.jpg}
+\Logo[3.0cm]{images/logo_unipd.png}
 \Universita{Padova}
 \Dipartimento{Fisica e Astronomia Galileo Galilei}
-\Scuola{Scuola di dottorato di ricerca in Astronomia, ciclo XXXI}
-\Titoletto{Tesi di Dottorato}
+\Scuola{Sede Amministrativa: Universit\`a degli Studi di Padova}
+\Titoletto{Corso di dottorato di ricerca in Astronomia, ciclo XXXI}
 \Titolo{The physics of the extended narrow-line region in active galactic nuclei}
 \NCandidato{Dottorando}
 \Candidato{Enrico Congiu}
-\NRelatore{Direttore della scuola}{Relatori}
+\NRelatore{Coordinatore}{Relatori}
 \Relatore{Chiar.mo Prof. Giampaolo Piotto}
 \NCorrelatore{Supervisore}{Supervisori}
 \Correlatore{Dott. Stefano Ciroi}
@@ -165,18 +166,21 @@
 \subfile{tex/chapter3} %High-res. spectroscopy of ENLRs
 \subfile{tex/chapter4} %KSE in the NLS1 Mrk 783
 \subfile{tex/chapter5} %Optical analysis of Mrk 783
-\subfile{tex/conclusions}
 
-\appendix
-\subfile{tex/appendix1}  %figure paper 1    
 
 %-----------
 % Backmatter
 %-----------
 \backmatter
- 
-
+\subfile{tex/conclusions}
 \bibliographystyle{mnras}
 \bibliography{bibliografia_def}
+\appendix
+\subfile{tex/appendix1}  %figure paper 1    
+
+
+ 
+
+
 \end{document}
 % % % EOF % % %
