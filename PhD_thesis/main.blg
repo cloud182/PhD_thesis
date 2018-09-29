@@ -1,6 +1,16 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
+Case mismatch error between cite keys polletta07 and Polletta07
+---line 591 of file main.aux
+ : \citation{polletta07
+ :                     }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys polletta07 and Polletta07
+---line 593 of file main.aux
+ : \citation{polletta07
+ :                     }
+I'm skipping whatever remains of this command
 The style file: mnras.bst
 Reallocated field_info (elt_size=4) to 10940 items from 5000.
 Database file #1: bibliografia_def.bib
@@ -18,7 +28,7 @@ Warning--empty publisher in Rybicki86
 Warning--empty publisher in Deyoung02
 You've used 220 entries,
             2881 wiz_defined-function locations,
-            2572 strings with 72249 characters,
+            2573 strings with 72259 characters,
 and the built_in function-call counts, 105849 in all, are:
 = -- 8350
 > -- 8107
@@ -57,4 +67,4 @@ warning$ -- 9
 while$ -- 1659
 width$ -- 0
 write$ -- 2212
-(There were 9 warnings)
+(There were 2 error messages)
