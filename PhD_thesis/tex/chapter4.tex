@@ -20,7 +20,7 @@ However, despite the narrowness of $\Hb$, their ratio [\ion{O}{III}]$\lambda5007
 Radio-quiet\footnote{The radio loudness is defined by the parameter R, the ratio between the $5$ GHz flux and the optical B-band flux \citep{Kellermann89}. A source is considered to be radio-loud if $\rm R>10$ and radio-quiet if $\rm R <10$.} NLS1s (RQNLS1s) constitute $93\%$ of the total population up to redshift $0.8$ \citep{Komossa06} and $96.5\%$ at $\rm z<0.35$ \citep{Cracco16}.
 Radio-loud NLS1s (RLNLS1s) are relatively uncommon.
 They can be divided into two different classes according to their radio spectrum in the cm range.
-Flat-spectrum RLNLS1s (F-NLS1s) probably have a relativistic jet pointed toward Earth and can produce $\gamma$-rays \citep{Abdo09a, Abdo09b}, while steep-spectrum RLNLS1s (S-NLS1s) often show an extended radio morphology and are likely misaligned F-NLS1s. 
+Flat-spectrum RLNLS1s (F-NLS1s,$\nu<0.5$, $S_{\nu}\propto\nu^{-\alpha}$) probably have a relativistic jet pointed toward Earth and can produce $\gamma$-rays \citep{Abdo09a, Abdo09b}, while steep-spectrum RLNLS1s (S-NLS1s,$\nu>0.5$,) often show an extended radio morphology and are likely misaligned F-NLS1s. 
 
 One of the most interesting possibilities concerning the nature of NLS1s is that they are young and evolving objects \citep{Mathur00}.
 In particular, this appears to be true for RLNLS1s: F-NLS1s might be young flat-spectrum radio quasars (FSRQs) with a small black hole mass and S-NLS1s young radio galaxies \citep{Foschini15, Berton16c}.
@@ -37,24 +37,24 @@ The sample consists of 60 sources drawn from the papers by \citet{Foschini15} an
 In this paper I report the detection of extended emission in one S-NLS1s, Mrk 783. 
 This source is one of the few NLS1 showing such an extended emission at $\rm z<0.1$.  
 In Sect.\,\ref{sec:mrk783} I describe the source according to results published in the literature, in Sect.\,\ref{sec:datared_casa} I describe the data reduction I performed, in Sect.\,\ref{sec:results} I present our results, in Sect.\,\ref{sec:discussion} I discuss them and, finally, in Sect.\,\ref{sec:summary} I provide a brief summary. 
-Throughout this work, I adopt a standard $\rm \Lambda CDM$ cosmology, with a Hubble constant $H_0 = 70\,\kms Mpc^{-1}$, and $\Omega_\Lambda = 0.73$ \citep{Komatsu11}.
+Throughout this work, I adopt a standard $\rm \Lambda CDM$ cosmology, with a Hubble constant $H_0 = 70\,\si{\kms Mpc^{-1}}$, and $\Omega_\Lambda = 0.73$ \citep{Komatsu11}.
 Spectral indexes are specified with flux density $S_{\nu} \propto \nu^{-\alpha}$ at frequency $\nu$.
 
 
 \section{Mrk 783}
 \label{sec:mrk783}
 
-Mrk\,783 (R.A. = $13$h $02$m $58.8$s Dec=$+16$d $24$m $27$s) is a NLS1 galaxy first classified by \citet{Osterbrock85} at $z = 0.0672$ \citep{Hewitt91} with a bolometric luminosity of the AGN $L_{bol} = 3.3\times10^{44}\,\ergs$ \citep{Berton15a}.
+Mrk\,783 (R.A. = $13$h $02$m $58.8$s Dec=$+16$d $24$m $27$s) is a NLS1 galaxy first classified by \citet{Osterbrock85} at $z = 0.0672$ \citep{Hewitt91} with a bolometric luminosity of the AGN $L_{\rm bol} = 3.3\times10^{44}\,\si{erg.s^{-1}}$ \citep{Berton15a}.
 Its host galaxy was classified as a lenticular galaxy \citep{Petrosian07}, but the SDSS image clearly shows the presence of a tidal tail, or a spiral arm, extended in the east direction.
 
 The mass of the central black hole inferred from the $\Hb$ broad component line width is about $4.3\times10^7$ M$_{\odot}$ \citep{Berton15a}.
-$\Hb$ shows a prominent red wing in the broad component, indicating a receding outflow with a velocity of $\sim500\,\kms$. 
+$\Hb$ shows a prominent red wing in the broad component, indicating a receding outflow with a velocity of $\sim500\,\si{\kms}$. 
 This broad component is clearly visible in all the permitted lines of the optical spectrum. 
 Conversely, narrow lines, and particularly [\ion{O}{III}]$\lambda5007$, do not show any outflowing component and are well reproduced by a single Gaussian profile \citep{Berton16b}.
  
 Mrk\,783 is a strong X-ray emitter that has been detected by ROSAT \citep{Schwope00}, INTEGRAL \citep{Krivonos07}, and Swift/XRT \citep{Panessa11}.  
-\citet{Panessa11} reported a luminosity of $9.33\times10^{43}\,\ergs$ between $20$ and $100$ keV and a photon index of $1.7\pm0.2$ between $0.3$ and $100$ keV.
-This is consistent with non-saturated comptonization, which occurs in the accretion disk corona and not in relativistic jets.
+\citet{Panessa11} reported a luminosity of $9.33\times10^{43}\,\si{erg.s^{-1}}$ between $20$ and $100$ keV and a photon index of $1.7\pm0.2$ between $0.3$ and $100$ keV.
+This is consistent with non-saturated Comptonization, which occurs in the accretion disk corona and not in relativistic jets.
 
 In the last 30 years, the galaxy has been observed several times in several radio bands, for example, the WSRT at $1.4$ GHz \citep{Meurs81}, VLA at $5$ GHz \citep{Ulvestad84,Ulvestad95}, and Green Bank telescope at $1.4$ GHz \citep{Bicay95}.
 However, no extended emission was ever found.
@@ -65,7 +65,7 @@ Another hint of the extended emission can be found in the FIRST image of the gal
 The source is elongated along position angle (PA) $\ang{131}$ and shows a peak and a total flux density of $18.5$ mJy and $28.72$ mJy, respectively.
 At low frequencies, the TIFR Giant Metrewave Radio Telescope Sky Survey \citep[TGSS;][]{Intema17} at $147$ MHz reports a flux density of $89.2\pm10.9$ mJy.
 
-Mrk\,783 was classified as moderately radio-loud \citep{Berton15a} or radio-quietm \citep{Doi13}. 
+Mrk\,783 was classified as moderately radio-loud \citep{Berton15a} or radio-quiet \citep{Doi13}. 
 The R parameter is indeed close to $10$. 
 Therefore, a different estimate of the optical magnitude or optical variability in the source could have provided two different classifications. 
 This is not uncommon, as has been clearly shown by \citet{Ho01} and \citet{Kharb14}.
@@ -113,21 +113,21 @@ In the high resolution image the extended emission is observed only in the south
 In the tapered image, instead, it is observed on both sides of the nucleus up to a projected distance of $14$ kpc in the southeast and $12.5$ kpc in the northwest direction. 
 
 I fitted the central component in the high resolution image with a 2D Gaussian, using the fitting algorithm in the CASA viewer.
-I measured a peak flux density of $3.32\pm0.04$ mJy beam$^{-1}$, an integrated flux density $S_{\nu,c}=4.03\pm0.08$ mJy, and the size of deconvolved core axes $216\pm21$ ($\sim 280$) and $173\pm24$ ($\sim225$) mas (pc) for the major and minor axis, respectively.
+I measured a peak flux density of $3.32\pm0.04$ mJy beam$^{-1}$, an integrated flux density $S_{\nu,\rm c}=4.03\pm0.08$ mJy, and the size of deconvolved core axes $216\pm21$ ($\sim 280$) and $173\pm24$ ($\sim225$) mas (pc) for the major and minor axis, respectively.
 The beam size is $0.45"\times0.40"$. 
-With these values I calculated the core luminosity $L_{c}=2.3\times 10^{39}\,\ergs$ and I used the following equation to estimate the brightness temperature \citep{Doi13}: 
+With these values I calculated the core luminosity $L_{\rm c}=2.3\times 10^{39}\,\si{erg.s^{-1}}$ and I used the following equation to estimate the brightness temperature \citep{Doi13}: 
 \begin{equation}
 \label{eq:Tb}
-T_B=1.8\times 10^9 (1+z)\frac{S_{\nu,c}}{\nu^2\phi_{maj}\phi_{min}}\sim7600 {\rm\, K},
+T_B=1.8\times 10^9 (1+z)\frac{S_{\nu,\rm c}}{\nu^2\phi_{\rm maj}\phi_{\rm min}}\sim7600 {\rm\, K},
 \end{equation}
-where $z$ is the redshift, $\phi_{maj}$ is the core major axis, and $\phi_{min}$ is the minor axis.
+where $z$ is the redshift, $\phi_{\rm maj}$ is the core major axis, and $\phi_{\rm min}$ is the minor axis.
 This $T_B$ is only a lower limit to the peak value because our measurement includes some extended emission.
 The real core emission as detected with VLBI is smaller and \citet{Doi13} quote a peak value of $T_B>7.7\times 10^7$ K at $1.7$ GHz.
-From the tapered image I measured a total flux density $S_{\nu,t} = 18.85 \pm 0.03$ mJy ($L_{tot}=1.03\times10^{40}\,\ergs$) and I obtained the flux density of the extended emission ($S_{\nu,e} = 14.82\pm0.1$ mJy, $L_{ext}=8.5\times10^{39}\,\ergs$), after subtracting the JVLA core flux density.
+From the tapered image I measured a total flux density $S_{\nu,\rm t} = 18.85 \pm 0.03$ mJy ($L_{\rm tot}=1.03\times10^{40}\,\si{erg.s^{-1}}$) and I obtained the flux density of the extended emission ($S_{\nu,e} = 14.82\pm0.1$ mJy, $L_{\rm ext}=8.5\times10^{39}\,erg.s^{-1}$), after subtracting the JVLA core flux density.
 To evaluate the relative importance of the core emission with respect to the total emission I measured the core dominance parameter (CD) as follows:
 \begin{equation}
 \label{eq:cd}
-{\rm CD}=S_{\nu,c}/(S_{\nu,t}-S_{\nu,c})\sim0.27.
+{\rm CD}=S_{\nu,\rm c}/(S_{\nu,\rm t}-S_{\nu,\rm c})\sim0.27.
 \end{equation}
 The core flux is likely an upper limit, therefore the CD parameter is also an upper limit, meaning that the galaxy is not core dominated.
 
@@ -135,8 +135,8 @@ To better characterize the emission I measured the spectral indexes of the two c
 I measured these components by dividing the spectral windows into two bins: the first centered at $4.7$ GHz and the second at $5.7$ GHz.
 Images were made at the two frequencies, adjusting the weighting of the visibilities using the ROBUST parameter in the AIPS task IMAGR so as to obtain similar beams; they were finally convolved with identical circular beams of size $0.45$ arcsec. 
 The spectral index images were made using task COMB after blanking total intensity values below $1.5$ sigma. 
-I obtained the following spectral indexes for the core component and the southern lobe, respectively:  $\alpha_{c} \sim 0.67\pm0.13$,  $\alpha_{ext} \sim 2.02\pm0.74$. 
-The $\alpha_{ext}$ was estimated for the southeast lobe, avoiding the noisiest regions toward the north and east of the core.
+I obtained the following spectral indexes for the core component and the southern lobe, respectively:  $\alpha_{\rm c} \sim 0.67\pm0.13$,  $\alpha_{\rm ext} \sim 2.02\pm0.74$. 
+The $\alpha_{\rm ext}$ was estimated for the southeast lobe, avoiding the noisiest regions toward the north and east of the core.
 
 
 \begin{table}
@@ -168,7 +168,7 @@ $22{\,\rm \mu m}$& $65.9$ & total& 6\\
 \label{sec:discussion}
 
 The VLA data revealed emission in a compact core as well as an extended component, which can be observed on both sides of the nucleus in the tapered image.
-The luminosity at $5$ GHz is $L_{\nu}=2.1\times10^{30}\,{\rm \ergs Hz^{-1}}$, which is below the nominal $\sim 7\times10^{31}\,{\rm \ergs Hz^{-1}}$, the Fanaroff-Riley (FR) cutoff luminosity. 
+The luminosity at $5$ GHz is $L_{\nu}=2.1\times10^{30}\,{\rm erg.s^{-1} Hz^{-1}}$, which is below the nominal $\sim 7\times10^{31}\,{\rm erg.s^{-1} Hz^{-1}}$, the Fanaroff-Riley (FR) cutoff luminosity. 
 The CD ($\leq 0.27$) indicates that the emission is not core dominated and the steep spectral index of the core is different from those of highly beamed radio quasars and BL Lacs ($\alpha \sim 0$), but it is more similar to that of CSS sources ($\alpha \sim 0.5$).
 The extended component does not show any sign of an highly collimated jet, but it has a double-lobe shape that resembles the radio emission of some Seyfert galaxies, such as NGC\,6764 \citep{Hota06} and Mrk\,6 \citep{Kharb06}.
 
@@ -200,7 +200,7 @@ In their model, the activity phases last for $10^3-10^4$ yr and they are separat
 During the cycle, the previous activity period should manifest in the form of a relic extended emission that continues its expansion until the emitting cocoon cools down and recollapses.
 The maximum extension and cooling time of the cocoon depend on many factors, such as jet power and duration of the activity phase.
 In the case of NLS1, both quantities are considered relatively small, resulting in a very low detection rate of such emission in this class of AGN \citep{Czerny09,Foschini15}. 
-Such extended emission might appear only if the central black hole mass is in the higher part of the mass distribution \citep[which spans between $10^6$ to $10^8$ M$_{\odot}$, e.g.,][]{Cracco16}, more precisely if M$_{BH}>10^7$ M$_{\odot}$ the BH should produce the necessary jet power to make it escape from the central regions of the AGN \citep{Doi12}.
+Such extended emission might appear only if the central black hole mass is in the higher part of the mass distribution \citep[which spans between $10^6$ to $10^8$ M$_{\odot}$, e.g.,][]{Cracco16}, more precisely if M$_{\rm BH}>10^7$ M$_{\odot}$ the BH should produce the necessary jet power to make it escape from the central regions of the AGN \citep{Doi12}.
 The mass of Mrk 783 black hole is $4.3\times10^7$ M$_{\odot}$ \citep{Berton15a}, therefore it belongs to the objects that in principle could produce the extended emission.
 Some of the properties of the emission, such as its size and the absence of a collimated jet, might suggest that I are observing the galaxy in one of its quiescent phases not long after the switching off of the radio jet.
 
@@ -218,7 +218,7 @@ Mrk 783, which lies at the edge of the RQ/RL division.
 The same is true for another S-NLS1 with extended emission, Mrk 1239 \citep{Doi15}.
 This might indicate that more sources of this kind could be found among RQ objects. 
 Very few RQNLS1s show detectable jets or diffuse radio emission \citep{Berton16b}.
-This is partly because they are by definition faint in the radio regime, but some objects that fit the RQ definition show nonthermal core emission when observed with high sensitivity \citep{Giroletti09}.
+This is partly because they are by definition faint in the radio regime, but some objects that fit the RQ definition show non thermal core emission when observed with high sensitivity \citep{Giroletti09}.
 
 Another hypothesis regarding the parent population of F-NLS1s is based on a different assumption about NLS1s nature. 
 Some authors believe that the narrowness of permitted lines is not due to the low black hole mass, but instead to a flat BLR observed pole-on \citep[e.g.,][]{Decarli08}. 
@@ -230,7 +230,7 @@ In particular, it is fundamental to investigate the reason of such a difference 
 Also images with an intermediate spatial resolution between our data and the data from \citet{Doi13} (e.g., from e-MERLIN) could be useful to investigate the presence of an intermediate scale radio jet.
 
 
-\section{Summary}
+\section{Concluding remarks}
 \label{sec:summary}
 
 In this paper I present the first result of a survey of NLS1s carried out with the JVLA at $5$ GHz in A configuration.

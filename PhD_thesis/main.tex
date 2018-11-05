@@ -8,7 +8,7 @@
 
 \usepackage{LukeThesis}                             %Import Thesis base style
 %\usepackage{subcaption}
-\usepackage[a-1b]{pdfx}                 %pdfA-1b file
+%\usepackage[a-1b]{pdfx}                 %pdfA-1b file
 \usepackage{amsmath}
 \usepackage[nohints]{minitoc}
 \usepackage{algorithm}% a quanto pare serve per generare il prefrontmatter
@@ -26,6 +26,7 @@
 \usepackage{mathtools}
 \usepackage{epigraph} %sottotitoli sotto capitolo
 \usepackage{mfirstuc}
+\usepackage{pdflscape}
 \usepackage{siunitx} %unita' di misura
 \DeclareSIUnit\msun{M\ensuremath{_\odot}}
 \DeclareSIUnit\zmet{Z\ensuremath{_\odot}}
@@ -38,18 +39,6 @@
 \usepackage[nottoc,numbib]{tocbibind}
 \usepackage{chngcntr}
 \usepackage{hyperref} %Da sistemare, andra' in conflitto con la certificazione pdfa 
-%_____________________________________________________________
-%% THESIS PROPERTIES (Modify these fields with your details)
-%_____________________________________________________________
-%\def\thesisauthor{Enrico Congiu}                     %Author
-%\def\thesistitle{The physics of the extended narrow-line region in active galactic nuclei}               %Title
-%\def\thesishandin{05-June}                       %Submission date (Day-Month}
-%\def\thesisdegree{PhD}                              %Degree ('B.Eng', 'B.Sc.', 'M.Sc.' or 'PhD')
-%\def\thesisyear{2018}                               %Submission year
-%\def\thesisnumber{????}                           %  %DTU-IMM Serial number (do not include 
-%\def\thesisISSN{0000-0000}                        %  %ISSN number
-%\def\thesiskeywords{Photon Mapping, Photon Differentials, Density Estimation, Participating Medium, Participating Media, Transmittance, Isotropic Kernel, Anisotropic Kernel, Surface, Volume, Scattering} % %PDF keywords
-%%\derivethesisprops                                  %Derive dependent properties
 
 %__________________________________________________________________________________________________
 % %SECTION NUMBERING SETUP
@@ -176,7 +165,8 @@
 \bibliographystyle{mnras}
 \bibliography{bibliografia_def}
 \appendix
-\subfile{tex/appendix1}  %figure paper 1    
+\subfile{tex/appendix1}  %figure paper 1\\
+\subfile{tex/appendix2}  %tabelle paper 1
 \subfile{tex/aknowledgement}
 
  

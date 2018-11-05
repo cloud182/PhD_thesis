@@ -1,0 +1,133 @@
+The thesis "The physics of the extended narrow-line region in active galactic nuclei" 
+submitted by E. Congiu, represent a remarkable research work in the field of extended 
+structures in case of active galactic nuclei (AGN), seen both in the optical and radio 
+emission. The thesis reports new and important insights and results in this field, 
+together with some great new discoveries, i.e. the largest extended narrow line region 
+seen in a nearby type 1 AGN Mrk 783. The student has shown an excellent knowledge of the
+field, which can be seen from very detailed Introduction, and moreover has shown a 
+great level of expertise in the reduction and analysis of the optical data, both spectral 
+and photometric, as well as radio observation, which is a unique and remarkable quality. 
+In addition, the results are interpreted and discussed in a correct way, clearly connected 
+with previous research reported in the literature.  
+Therefore, I can recommend the thesis to be accepted by the thesis committee, and that 
+the candidate can be admitted to the final examination. 
+
+Below I suggest some very minor revisions, to be considered by the author, that can 
+hopefully help and improve even more the submitted thesis (in order as they appear in
+the text, not in the order of importance):
+
+1) There are several typos and grammar mistakes (e.g. incorrect usage of verbs), please 
+run again the spelling check, and try to read carefully the whole text.
+
+- checked 
+
+2) The formatting of writing ions is not uniform, e.g. [O III] and [N II] have to be always
+written in roman style (not italic), this applies for the text but formula as well
+(see e.g. page 49 or caption of Figs. 3.6 an 3.7, etc). 
+
+-Questo ho corretto le cose principali. Da vedere bene tutto il testo per vedere se sono sfuggite cose.
+
+3) The same applies for units, which is especially seen in Chapter 4 (e.g. luminosity units),
+as well as for abbreviations written in the subscript, e.g. page 68 L_{\rm bol}.
+
+- idem come sopra
+
+4) The concluding sections in all chapter should be called the same, I suggest "Concluding 
+remarks", as introduced in Chapter 3. 
+
+-done
+
+5) The Figures 3.1 and 3.2, especially their right panels showing the regions, are very 
+important, so I suggest to make them larger, at least the right panel should be plot 
+separately, with maybe scale of e.g. 1" shown as in left and middle panel.
+
+- done
+
+6) Table 3.3. is not clear, i.e. what the parameter Delta_E, described as "energy existence
+interval" significate? Also, this is not the same Delta_E as in Eq.3.2-3.5, right? If so, 
+other notation should be used in Table 3.3. 
+
+- done
+
+7) In Figure 3.7 the color bars show velocity, while in the caption it is written that it
+is the distance from the nucleus, please correct. 
+
+
+8) In addition, it is not described in both Figure 3.6 what what are triangles plotted in all panels?
+
+- done 
+
+9) The error-bars should be explained in both Figures 3.6 and 3.7. 
+
+- done
+
+10) Section 3.4.4.2 describes the kinematics from line profiles of NGC 7212. It seems that
+there are two distinct kinematic components, seen clearly at least in the CN and CS regions,
+but also as bumps and asymmetries in other regions, similar as in IC 5063. Please comment
+on this.
+
+
+
+11) Section 3.4.5.1 describes how the input parameters are being calculated, but it is not
+clear enough and confuses the reader, e.g.is the ionizing flux F calculated from the
+ionization parameter, which is obtained from the line ratios, and does it contain the primary
+ionization component or also the secondary? How the thickness D is calculated, or dust to gas
+ratio (is it constant?), or F(Hbeta)? etc. Please go through this section and revise it.
+
+12) The Figure 3.14 which shows the SED of IC 5063 and NGC 7212 is not clearly described in
+the text nor in the caption. It is very confusing what each line is showing. I suggest
+that all 4 components are separated and numbered: 1. AGN, 2a. galaxy stars and 2b. galaxy dust, 
+3a. gas clouds emitting bremstr. and 3b. dust clouds emitting as black body (3 cases with
+different physical properties), and finally 4. synchrotron. In addition, it would be useful
+to see the best total SED, i.e. showing the sum of all best-fitting components.
+
+13) On page 62, tables C1-C32 are reported to be listed in the Appendix, but these are not
+present in the thesis. Please add them.
+
+- fatto
+
+14) On page 68, define value of index alpha makes a source flat or steep radio source. 
+
+- done
+
+15) In Table 5.1 the column with slit size should be added
+
+-done 
+
+16) in Table 5.2 the date of (even though NLSy1 are not strongly variable, they may vary)
+
+- done
+
+17) and in Table 5.3 a column with z is reported but not shown.
+
+- done
+
+18)  Page 79, there is a typo in RA coordinate of Mrk 783, should be 02 not 03.
+
+- done
+
+19) Also, I to mark the position of the reported center of the galaxy with the plus sign +,
+in all images, but especially in Figures 5.5 and 5.6.
+
+
+20) Figure 5.1 is very important, I suggest to make it bigger with all 4 slit positions
+being plotted. If I understood well, the two PA=131 positions were slightly moved with
+respect to each other, as suggested by Figure 5.2 panel a and b.
+
+21) Figure 5.10 is important as it clearly shows that the contribution of the host galaxy
+is not so important (e.g. the absorption lines are not so clear, and the blue part
+is higher then the red). I suggest to move this Figure before 5.9 and comment it on
+page 90, when you comment on the starlight contribution.
+
+- done
+
+22) In addition, all three PA spectra should be shown.
+
+23) In sectin 5.6, I suggest to add one figure showing an optical image
+(e.g. Asiago observations) with the slit PA=131 position marked, and the radio-contours 
+superimposed. 
+
+24) Finally, the appendix figures are numbered starting from 16, which is not intuitive. I
+suggest you mark them either with A.16 or A.1 or simply 1.
+
+- done
