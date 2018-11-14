@@ -58,7 +58,9 @@ I are well aware that this is a relatively unexplored field due to the need of o
 Nevertheless, this first tests showed that with a resolution $R \sim  10000$ it is possible to highlight structures in the line profiles, such as multiple peaks and asymmetries, which are usually missed in low resolution spectra. 
 Moreover, the lines seem to be intrinsically broad, therefore a further increase of the resolution will probably not improve the separation between the gaseous components.
 
-In this work I improved the method developed by \citet{Ozaki09} who obtained and analyzed high resolution spectra of the NLR of NGC 1068, and I applied it to medium resolution echelle spectra of two nearby Seyfert 2 galaxies with ENLR: IC\,5063 and NGC\,7212.
+In \citet{Ozaki09} the author developed a method to investigate the emission line profile in high resolution spectra.
+He analyzed medium resolution data of the archetypal Seyfert 2 galaxy NGC 1068, dividing the emission lines in velocity bins and analyzing the properties of the gas in each bin in order to study their variation as a function of velocity.
+In this work I adapted and applied this method to medium resolution echelle spectra of two nearby Seyfert 2 galaxies with ENLR: IC\,5063 and NGC\,7212.
 Both of them show extended ionization cones and are observable from the southern hemisphere.
 I used the strongest optical lines to directly measure the physical properties of the gas such as density, extinction, ionization degree. 
 Then, I calculated the gas physical conditions and element abundances through detailed modeling of the line ratios. 
@@ -75,35 +77,37 @@ In this paper the following cosmological parameters have been assumed:  $H_0 = 7
 \section{Sample and observations}
 \label{sec:sample}
 
-In this work I studied two nearby Seyfert galaxies with known ENLR: IC\,5063 and NGC\,7212.
-They were observed with the MagE (Magellan Echellette) spectrograph mounted at the Nasmyth focus of the Clay telescope, one of the two 6.5m Magellan telescopes of the Las Campanas Observatory (Chile).
-MagE is able to cover simultaneously the complete visible spectrum ($3100$ -- $10000\,\si{\angstrom}$) with a maximum resolution $\rm R=8000$ \citep{Marshall08}.
+In this work I studied two nearby Seyfert galaxies with known ENLR: IC\,5063 and NGC\,7212 (Tab.\,\ref{tab:sample}).
+I analyzed archival spectra of these sources observed with the MagE (Magellan Echellette) spectrograph mounted at the Nasmyth focus of the Clay telescope, one of the two 6.5m Magellan telescopes of the Las Campanas Observatory (Chile).
+MagE is able to cover simultaneously the complete visible spectrum ($3100$ -- $10000\,\si{\angstrom}$) with a maximum resolution $\rm R=8000$ or $\sim 35\,\si{km.s^{-1}}$\citep{Marshall08}.
+The spatial scale of the instrument is $0.3\,\si{arcsec.px^{-1}}$.
 
-Both galaxies were observed with multiple exposures of $1200\,\si{s}$ each.
+Both galaxies were observed with multiple exposures of $1200\,\si{s}$ each with the $0.5''$ slit.
 Additional images were also acquired to perform data reduction (night-sky and calibration lamp spectra).
 The spectrophotometric standard HR5501 was observed each night to carry out the flux calibration.
-The details of our observations are reported in Table\,\ref{tab:obs}. 
+The details of the observations are reported in Table\,\ref{tab:obs}. 
+While IC 5063 spectrum has been analyzed for the first time in this work, the NGC 7212 data have been already published in \citet{Cracco2011}.
 
 
 \begin{table*}
-\caption[]{Principal properties of the observed galaxies, taken form NED, and characteristics of the observations.}
-\label{tab:obs}
+\caption[]{Principal properties of the observed galaxies, taken from the NED.}
+\label{tab:sample}
 \centering
 \footnotesize
 \begin{threeparttable}
-\begin{tabular}{lcccccccc}
+\begin{tabular}{lcccccc}
 \hline
-Name&RA&Dec& Exp. time & PA & z& B & A$(V)$& Morph.\\
-&(h:m:s)&(d:m:s)& (s)& (deg)& & (mag)&(mag)&\\
+Name&RA&Dec& z& B & A$(V)$& Morph.\\
+&(h:m:s)&(d:m:s)& & (mag)&(mag)&\\
 \hline
-IC\,5063& $20$:$52$:$02$&$-57$:$04$:$08$&$2400$&$123$&$0.01135$&$12.89$ &$0.165$&S0\\
-NGC\,7212&$22$:$07$:$01$&$10$:$13$:$52$&$6000$&$16$&$0.02663$& $14.78^1$& $0.195$&Sab\\
+IC\,5063& $20$:$52$:$02$&$-57$:$04$:$08$&$0.01135$&$12.89$ &$0.165$&S0\\
+NGC\,7212&$22$:$07$:$01$&$10$:$13$:$52$& $0.02663$&$14.78^1$& $0.195$&Sab\\
 \hline
 \end{tabular}
 \small
 \begin{tablenotes}
 \item $^1$\cite{Munoz07}
-\item From left to right: 1) name of the object, 2) right ascension and 3) declination, 4) total exposure time, 5) Position angle of the slit during the observations, 6) redshift of the source, 7) B-band magnitude, 8) galactic extinction from \citet{Schlafly11} reported by the NED, 9) morphological classification.
+\item From left to right: 1) name of the object, 2) right ascension and 3) declination, 4) redshift of the source, 5) B-band magnitude, 6) galactic extinction from \citet{Schlafly11} reported by the NED, 7) morphological classification.
 \end{tablenotes}
 \end{threeparttable}
 \normalsize
@@ -163,6 +167,30 @@ This suggested that the ionization mechanism of the gas is a combination of phot
 \section{Data Reduction}
 \label{sec:datared}
 
+\begin{table*}
+\caption[]{Principal characteristics of MagE observations.}
+\label{tab:obs}
+\centering
+\footnotesize
+\begin{threeparttable}
+\begin{tabular}{lcccccccc}
+\hline
+Name&Exp. time & PA & Slit & Dispersion &Seeing& Date \\
+& (s)& (deg)& & (arcsec)&(\AA px$^{-1}$)& (arcsec)&\\
+\hline
+IC\,5063& $2400$&$123$&$0.5$&0.29 &$1.1$&2010-05-31\\
+NGC\,7212&$6000$&$16$&$0.5$&0.28 &$1.1$&2010-05-31\\
+\hline
+\end{tabular}
+\small
+\begin{tablenotes}
+\item $^1$\cite{Munoz07}
+\item From left to right: 1) name of the object, 2) total exposure time, 3) Position angle of the slit during the observations, 4) slit width, 5) dispersion of the spectra, 8) seeing of the observations, as measured from the close standard star observed during the night , 9) date of observations
+\end{tablenotes}
+\end{threeparttable}
+\normalsize
+\end{table*}
+
 I performed the data reduction using IRAF 2.15\footnote{http://iraf.noao.edu} (Image Reduction and Analysis Facility).
 After subtracting the bias from all the images, I extracted the spectrum of each dispersion order using the \verb!strip! option of the \verb!apall! task and I processed each extracted spectrum (from now on also called apertures) following a standard long-slit reduction.
 I used a Th--Ar lamp for wavelength calibration and the standard star HR5501 for flux calibration and telluric correction.
@@ -176,19 +204,22 @@ After that, I divided the 2D spectra of the galaxies in regions, looking for the
 I used, as a reference, the $\Ha$ emission line (Fig.\,\ref{fig:sub_regions}).
 Then, I summed up the flux of each region to obtain a 1D spectrum for each one of them.
 The names and the positions of the extracted regions are shown in Table\,\ref{tab:reg}.
+The final SNR ratio on the continuum at the rest wavelength of $5500\,\si{\angstrom}$ varies from $\rm SNR \sim 25$ in the CN region of IC 5063 to $\rm SNR \sim 18$ in the N2 region.
+Even though the observing time of NGC 7212 is more than twice that of IC 5063, the spectra of this galaxy have a generally lower SNR.
+The highest SNR is found in the CN region ($\rm SNR \sim 20$) while the lowest is $\rm SNR \sim 4.5$ and it is measured in the N2 region.
+Also in this galaxy the measurements have been performed at a rest wavelength of $5500\,\si{\angstrom}$.
 
 \begin{figure*}
 \centering
 \includegraphics[width=0.45\textwidth]{images/paper1/IC5063_reg.jpg} 
 \quad\quad
 \includegraphics[width=0.45\textwidth]{images/paper1/NGC7212_reg.pdf}
-\caption[]{\textbf{Left:} two-dimensional spectrum of the $\Ha$ region of IC 5063 with contours. The figure show the division of the spectrum in regions.
-\textbf{Right:} two-dimensional spectrum of the $\Ha$ region of NGC 7212 with contours. The figure show the division of the spectrum in regions.}
+\caption[]{The figure show the division in regions of the MagE spectra of IC 5063 (left) and NGC 7212 (right). For both objects the $\Ha$ region of the spectrum is shown with contours to highlight the features of the emission lines.}
 \label{fig:sub_regions}
 \end{figure*}
 
 \begin{table}
-\caption[]{Projected distances in arcseconds and kiloparsec of the regions from the nucleus of the galaxy, recessional velocities measured from the spectra and velocity corrections from STARLIGHT.}
+\caption[]{Projected distances in arcseconds and parsecs of the regions from the nucleus of the galaxy, recessional velocities measured from the spectra and velocity corrections from STARLIGHT.}
 \label{tab:reg}
 \centering
 \small
@@ -237,9 +268,8 @@ This allows to fine tune the velocity correction, especially where emission line
 The fine-tuning is very important because I needed to remove every single velocity component due to galaxy rotation to study the kinematics of the gas.
 
 Once applied the listed corrections, I ran STARLIGHT using $150$ spectra of stellar populations with 25 different ages (from $10^6$ to $1.8\times10^8\,\si{yr}$) and 6 different metallicities (from $\rm Z=10^{-4}$ to $\rm Z=5\times 10^{-2}$) to obtain the spectrum of the stellar component and the velocity correction.
-In the regions where the SNR was too low to obtain a good fit of the continuum, I used the results of the software to correct the velocity measurements but I subtracted the stellar continuum fitting it with a simple function, using IRAF \verb!splot! task.
-
-
+In the regions where the SNR was too low to obtain a good fit of the continuum, I used the results of the software to correct the velocity measurements but I subtracted the stellar continuum fitting it with a polynomial function, using IRAF \verb!splot! task.
+This happened principally in the faintest NGC 7212 spectra, i.e. hose of the N2, N1 and S2 regions ($\rm SNR\sim 4$--$8$).
 
 
 
@@ -378,7 +408,8 @@ Finally, to have a more complete picture of the physical parameters and abundanc
 \centering
 \includegraphics[width=0.8\textwidth]{images/paper1/IC5063_diag.pdf}\\
 \includegraphics[width=0.8\textwidth]{images/paper1/NGC7212_diag.pdf}\\
-\caption[]{Diagnostic diagrams of IC\,5063 (top) and NGC\,7212 (bottom) calculated with the total flux of the lines.  In each plot I show, from the top left panel clockwise: (1) $\log([\rm\ion{O}{III}] \Hb)$ vs $\log([\rm\ion{N}{II}]/ \Ha)$, (2) $\log([\rm\ion{O}{III}]/ \Hb)$ vs $\log([\rm\ion{O}{I}]/ \Ha)$, (3) $\Delta E$ vs $\log([\rm\ion{O}{II}]/[\rm\ion{O}{III}])$, (4) $\log([\rm\ion{O}{III}]/ \Hb)$ vs $\log([\rm\ion{S}{II}]/ \Ha)$ \citep{Baldwin81, Veilleux87}. The color bar shows the distance from the nucleus of each region. The black curves in (1), (2), (4) divide power-law ionized regions (top) and H II regions (bottom). The red lines divide Seyfert-like regions (left) and LINER-like regions (right) \citep{Kewley06}. The black lines in (3) divide H II regions (bottom), power-law ionized region (left) and shock ionized regions (right) \citep{Baldwin81}.  }
+\caption[]{Diagnostic diagrams of IC\,5063 (top) and NGC\,7212 (bottom) calculated with the total flux of the lines.  In each plot I show, from the top left panel clockwise: (1) $\log([\rm\ion{O}{III}] \Hb)$ vs $\log([\rm\ion{N}{II}]/ \Ha)$, (2) $\log([\rm\ion{O}{III}]/ \Hb)$ vs $\log([\rm\ion{O}{I}]/ \Ha)$, (3) $\Delta E$ vs $\log([\rm\ion{O}{II}]/[\rm\ion{O}{III}])$, (4) $\log([\rm\ion{O}{III}]/ \Hb)$ vs $\log([\rm\ion{S}{II}]/ \Ha)$ \citep{Baldwin81, Veilleux87}. The color bar shows the distance from the nucleus of each region.
+The errorbar are smaller than the size of the points. The black curves in (1), (2), (4) divide power-law ionized regions (top) and H II regions (bottom). The red lines divide Seyfert-like regions (left) and LINER-like regions (right) \citep{Kewley06}. The black lines in (3) divide H II regions (bottom), power-law ionized region (left) and shock ionized regions (right) \citep{Baldwin81}.  }
 \label{fig:diag_estot}
 \end{figure*}
 
@@ -412,9 +443,9 @@ The fourth one is a less used diagram developed by \citet{Baldwin81} which invol
 In the first three diagrams, I used the functions defined by \citet{Kewley01} to discern between \ion{H}{II} regions and power-law ionized regions and the function from \citet{Kewley06} to divide the latter in Seyfert-like emission regions and LINER-like emission regions.
 I used the $\Delta E$ vs. [\ion{O}{II}]$\lambda\lambda3726,3729/$[\ion{O}{III}]$\lambda5007$ diagrams to investigate the influence of shock-waves in ionizing the NLR/ENLR gas.
 The errorbars were calculated using Eq.\,\ref{eq:errorbar} and applying error propagation for all the diagnostic ratios.
-Fig.\,\ref{fig:diag_es} shows an example of diagnostic diagrams for IC\,5063 and NGC\,7212.
-The diagrams of the other regions are shown in Appendix\,\ref{sec:Adiag}.
-Fig.\,\ref{fig:diag_estot} also shows the same diagrams calculated using the total flux of the lines for each region.
+Fig.\,\ref{fig:diag_es} shows an example of diagnostic diagrams for the N0 region of IC\,5063 and the S0 region of NGC\,7212.
+The diagrams of the other regions are shown in Appendix (Fig.\,\ref{fig:diag_css0}--\ref{fig:diag_s1N}).
+Fig.\,\ref{fig:diag_estot} also shows the same diagnostic diagrams calculated using the total flux of the lines for each region.
 From these plots it is possible to see that all the points lie in the AGN region.
 Moreover, the majority of the points in the $\log([\rm\ion{O}{III}]\lambda5007/\Hb)$ vs $\log([\rm\ion{O}{I}]\lambda6300/\Ha)$ and in the $\log([\rm\ion{O}{III}]\lambda5007/\Hb)$ vs $\log([\rm\ion{S}{II}]\lambda\lambda6716,6731/\Ha)$ diagrams are located to the left of the diagram, usually occupied by Seyfert galaxies \citep{Kewley06}.
 In the $\Delta E$ vs $\log([\rm\ion{O}{II}]\lambda\lambda3726,3729/[\rm\ion{O}{III}]\lambda5007)$ the points are located in the side of the diagram occupied by clouds ionized by a power-law continuum.
@@ -608,9 +639,27 @@ S1&-&-&-&$350\,^a$\\
 \subsection{Line profiles}
 \label{sec:lineprof}
 
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth]{images/paper1/IC5063_s0_l1.pdf} \quad
+\includegraphics[width=0.45\textwidth]{images/paper1/IC5063_s0_l2.pdf}\\
+\caption[]{Comparison of the emission lines of the S0 region of IC\,5063. The behaviour of the extinction coefficient as a function of velocity is shown under each plot.}
+\label{fig:profile_ex_IC}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth]{images/paper1/NGC7212_cs_l1.pdf} \quad
+\includegraphics[width=0.45\textwidth]{images/paper1/NGC7212_cs_l2.pdf}\\
+\caption[]{Comparison of the emission lines of the CS region of NGC\,7212. The behaviour of the extinction coefficient as a function of velocity is shown under each plot.}
+\label{fig:profile_ex_NGC}
+\end{figure}
+
 The analysis of the line profiles, on the basis of the emitting gas conditions estimated in previous sections, can provide detailed information on the kinematics and the distribution of the clouds.
 For each region I compared the profile of some of the brightest lines normalized to their peak emission, to study how they change.
-Fig.\,\ref{fig:n2l1_I}--\ref{fig:s2l1_I} and in Fig.\,\ref{fig:n2l1_N}--\ref{fig:s1l1_N} show, from left to right, the comparison between: $[\rm\ion{O}{III}]\lambda5007$ and $\Hb$; $[\rm\ion{O}{I}]\lambda6300$, $[\rm\ion{O}{II}]\lambda3726$ and $[\rm\ion{O}{III}]\lambda5007$; $[\rm\ion{O}{II}]\lambda3726$, $[\rm\ion{O}{II}]\lambda3729$ and $[\rm\ion{O}{III}]\lambda5007$; $[\rm\ion{S}{II}]\lambda6716$, $[\rm\ion{S}{II}]\lambda6731$ and $[\rm\ion{O}{III}]\lambda5007$, for IC\,5063 and NGC\,7212 respectively.
+Fig.\,\ref{fig:profile_ex_IC} and Fig.\,\ref{fig:profile_ex_NGC} show an example of the profile of the lines for the S0 region of IC 5063 and the CS region of NGC 7212 respectively. 
+These figures show, from left to right, the comparison between: $[\rm\ion{O}{III}]\lambda5007$ and $\Hb$; $[\rm\ion{O}{I}]\lambda6300$, $[\rm\ion{O}{II}]\lambda3726$ and $[\rm\ion{O}{III}]\lambda5007$; $[\rm\ion{O}{II}]\lambda3726$, $[\rm\ion{O}{II}]\lambda3729$ and $[\rm\ion{O}{III}]\lambda5007$; $[\rm\ion{S}{II}]\lambda6716$, $[\rm\ion{S}{II}]\lambda6731$ and $[\rm\ion{O}{III}]\lambda5007$.
+All the other regions are shown in Fig.\,\ref{fig:n2l1_I}--\ref{fig:s2l1_I} and Fig.\,\ref{fig:n2l1_N}--\ref{fig:s1l1_N} of the Appendix\,\ref{cap:appendix1}.
 The A(V) profile measured in each region is reported under the corresponding panel, to evaluate if possible differences between the line profiles could be caused by extinction.
 I also used these plots to check the results of the deblending process, comparing the lines of the deblended doublets to the $[\rm\ion{O}{III}]\lambda5007$ to highlight potential differences.
 
@@ -618,31 +667,46 @@ The line profile can significantly change from region to region.
 In the external regions they are quite narrow and relatively smooth, but they often show a prominent blue or red wing (Fig.\,\ref{fig:n2l1_I}, \ref{fig:s2l1_I}).
 NGC\,7212 shows broader and more disturbed profiles than IC\,5063 in the external regions: the FWHM of the N2 region of NGC\,7212 and IC\,5063 are $300\,\si{\kms}$ and $170\,\si{\kms}$ respectively.
 
-The spectra were all shifted to rest frame using stellar kinematics, but, outside the nucleus, the main peak of each line is often shifted toward longer or shorter wavelengths of $\sim100\,\si{\kms}$, probably caused by bulk motions of gas.
+The spectra were all shifted to rest frame using stellar kinematics, but, outside the nucleus, the main peak of each line is often shifted toward longer or shorter wavelengths of $\sim100\,\si{\kms}$, probably caused by bulk motions of gas that it is not visible in the stellar component of the galaxies.
 
 In general, the complexity of the line profiles might be related to the interaction of jets with ISM, as better explained at the end of Sec.\,\ref{sec:parameters}, considering the result of the composite modeling.
 
 
+The direction of rotation of the galaxies can be easily inferred by the spectra in Fig.\,\ref{fig:sub_regions} and by the velocities measured in Tab.\,\ref{tab:reg}.
+IC 5063 shows blushifted lines in the northern region of the spectrum and redshifted lines in the southern part. 
+Therefore the galaxy is rotating clockwise, with a maximum rotational velocity of $\sim70\,\si{\kms}$ (measured in the S2 region) with respect of the average velocity of the two CN and CS regions. 
+On the other hand NGC 7212 seems to rotate in the opposite direction, with the blueshifted lines observed in the southern regions of the spectrum and the redshifted ones on the northern.
+The largest rotational velocity is measured in the N2 region also for this object, and it consists of $\sim 130\,\si{\kms}$.
+
+
+
+
+
 \subsubsection{IC\,5063}
-IC\,5063 shows an emission outside the nucleus (regions S0 and S1, Fig.\,\ref{fig:IC5063}, bottom panel) characterized by two well resolved peaks at $\Delta V\sim 200\,\si{\kms}$ which can be observed in all the emission lines (Fig.\,\ref{fig:s0l1_I} and \ref{fig:s1l1_I}).
+IC\,5063 shows an emission outside the nucleus (regions S0 and S1, Fig.\,\ref{fig:IC5063}, bottom panel) characterized by two well resolved peaks, the first positioned at $V \sim -60\,\si{\kms}$ and the second at $V\sim 140\,\si{\kms}$, which can be observed in all the emission lines (Fig.\,\ref{fig:s0l1_I} and \ref{fig:s1l1_I}).
+Neither of the peaks is positioned at $V=0\si{\kms}$, meaning that the kinematics of the gas is different from the one of the stellar component, as stated in the introduction of Sec.\,\ref{sec:lineprof}.
 A further analysis of the emission lines of the southern regions (CS, S0, S1, S2) shows a connection between their profiles.
 In the CS region, which represents the southern part of the nucleus (Fig.\,\ref{fig:csl1_I}), the emission lines are quite narrow and smooth, but there is a small asymmetry at $V\sim 180\,\si{\kms}$.
-In the next region (S0, Fig.\,\ref{fig:s0l1_I}) there is a secondary peak at $V\sim 140\,\si{\kms}$, weaker than the main peak.  
-In the S1 region (Fig.\,\ref{fig:s1l1_I}) the red peak becomes the strongest one and the blue peak starts to weaken and it becomes a blue wing in the S2 region (Fig.\,\ref{fig:s2l1_I}).
+The maximum of the line is located at $V=0\,\si{\kms}$, even though the flat top of both [O III]$\lambda5007$ and $\Hb$ makes the extimate relatively unprecise. 
+In the next region (S0, Fig.\,\ref{fig:s0l1_I}) the main peak is the one located at negative velocity, while the secondary is the one at $V\sim 140\,\si{\kms}$.  
+The situation changes in the S1 region (Fig.\,\ref{fig:s1l1_I}), where the red peak becomes the strongest and the blue peak starts to weaken and it becomes a blue wing in the S2 region (Fig.\,\ref{fig:s2l1_I}).
+In this region the main peak is furthed shifted to the red, up to a velocity $V \sim 160\,\si{\kms}$.
+
 This evolution indicates the presence of two distinct kinematic components.
 The blue one could be associated with an outflow which is the dominant component of the nuclear emission and then it starts to become weaker at higher distances from the nucleus.
 These two peaks correspond to the two narrow components found by \citet{Morganti07} nearby the south-east hotspot.
 In each region the line profiles are very similar for all the considered lines except in S1.
-Here, all the lines show a secondary peak which is $10$ to $20$ per cent stronger with respect to the same feature visible in $[\ion{O}{III}]\lambda5007$  (Fig.\,\ref{fig:s1l1_I}), with the exception of $[\ion{O}{I}]\lambda6300$ which is very similar to the $[\ion{O}{III}]$ line.
+Here, all the lines show a secondary peak which is $10$ to $20$ per cent stronger with respect to the same feature visible in $[\rm\ion{O}{III}]\lambda5007$  (Fig.\,\ref{fig:s1l1_I}), with the exception of $[\rm\ion{O}{I}]\lambda6300$ which is very similar to the $[\rm\ion{O}{III}]$ line.
 
 
-On the other side of the galaxy the line profiles do not show any secondary peak, but in the CN and N0 regions I observe a very broad component (FWHM$\sim 900\,\si{\kms}$) which can be identified with the well known gas outflow of the galaxy west hotspot \citep[e.g.][]{Morganti07,Morganti15,Dasyra15}.
+On the other side of the galaxy the line profiles do not show any secondary peak, but in the CN and N0 regions I observe a very broad component centered at $V\sim-300\,\si{\kms}$ (FWHM$\sim 900\,\si{\kms}$) which can be identified with the well known gas outflow of the galaxy west hotspot \citep[e.g.][]{Morganti07,Morganti15,Dasyra15}.
+The stronger peak is positioned at $V\sim 100\,\si{\kms}$, therefore the shift between the broad and narrow component is $\Delta V \sim 130\,\si{\kms}$.
 
 In the CN region each line has a different shape (Fig.\,\ref{fig:cnl1_I}).
 All the lines show clearly a narrow component and the broad asymmetric component of the outflow.
 The relative peak intensity of the two changes as a function of the line.
-The $[\ion{O}{III}]\lambda5007$ is characterized by the weakest broad component, while the $[\ion{S}{II}]\lambda6716$ has the strongest one.
-Finally the N0 region (Fig.\,\ref{fig:n0l1_I}) shows very similar profiles of $\Hb$ and $[\ion{O}{III}]\lambda5007$, but broader profiles of the low ionization oxygen and sulfur lines.
+The $[\rm\ion{O}{III}]\lambda5007$ is characterized by the weakest broad component, while the $[\rm\ion{S}{II}]\lambda6716$ has the strongest one.
+Finally the N0 region (Fig.\,\ref{fig:n0l1_I}) shows very similar profiles of $\Hb$ and $[\rm\ion{O}{III}]\lambda5007$, but broader profiles of the low ionization oxygen and sulfur lines.
 
 
 \subsubsection{NGC\,7212}
@@ -650,17 +714,22 @@ NGC\,7212 is characterized by a more complex gas kinematics.
 The emission lines are more asymmetric and disturbed.
 In the northern regions there is a good agreement between the shape of all the studied lines, except for the N0 region (Fig.\,\ref{fig:n0l1_N}) where the [\ion{O}{I}]$\lambda6300$ is significantly narrower than the other oxygen lines.
 All the lines show a blue component which becomes weaker towards the external region of the galaxy.
-The southern regions deserve a more detailed analysis.
-The lines have a complex profile characterized by multiple kinematic components.
-The CS region (Fig.\,\ref{fig:csl1_N}) has a double peak, separated by $\Delta V\sim 150\,\si{\kms}$, which is visible in all lines except in the [\ion{O}{II}] doublet where it becomes an asymmetry.
+Both components are visible also in both the central regions (CN and CS, Fig.\,\ref{fig:cnl1_N}--\ref{fig:csl1_N}).
+It is interesting that the CS region is the first one clearly showing the presence of two peaks, separated by $\Delta V\sim 170\,\si{\kms}$.
+The stronger peak is located at $V\sim -90\,\si{\kms}$, while the fainter is located at $V\sim80\,\si{\kms}$. 
+The peak is visible in all lines except in the [\ion{O}{II}] doublet where it becomes an asymmetry.
 It is not clear whether this asymmetry is real or an effect of the deblending process which is not able to recover the secondary peak starting from the blended lines.
 Such a feature could be caused by a strong extinction of the weaker peak, but this is not confirmed by the A(V) profile.
+In the CS region the dominant component become the blue one, while the red one is the fainter one.
+These two components are probably due to the presence of consistent outflows starting in the nucleus and moving towards the north side of the galaxy. 
+
+On the other hand, the southern regions are more peculiar.
 In the S0 region (Fig.\,\ref{fig:s0l1_N}) the lines show very different profiles.
-$\Hb$ has a double peaked shape ($\Delta V\sim 120$) not visible in $[\ion{O}{III}]\lambda5007$ which shows only a wing.
+$\Hb$ has a double peaked shape, with the stronger peak located at $V\sim-80\,\si{\kms}$ and the fainter at $V\sim-200\,\si{kms}$ ($\Delta V\sim 120$), not visible in $[\rm\ion{O}{III}]\lambda5007$ which shows only a wing.
 The secondary peak is observed in the [\ion{S}{II}] doublet but not in the oxygen lines.
-They have the blue bump, but its relative intensity changes: the $[\ion{O}{II}]\lambda3726$ has the strongest bump ($\sim80\%$ of the peak intensity), followed by the $[\ion{O}{I}]\lambda6300$ ($\sim60\%$) and by the $[\ion{O}{III}]\lambda5007$ ($\sim40\%$).
-Finally, in the S1 region (Fig.\,\ref{fig:s1l1_N}) $\Hb$ and all the other low ionization lines (except $[\ion{O}{II}]\lambda3729$) show an asymmetric profile with a blue-shifted peak ($V\sim-150\,\si{\kms}$) and two bumps in the red part of the lines.
-On the other hand, $[\ion{O}{III}]\lambda5007$ shows a peak at $V\sim -50\,\si{\kms}$ and a relatively strong bump ($>80$ per cent of the peak intensity) in the velocity where the other lines have the peak.
+They have the blue bump, but its relative intensity changes: the $[\rm\ion{O}{II}]\lambda3726$ has the strongest bump ($\sim80\%$ of the peak intensity), followed by the $[\rm\ion{O}{I}]\lambda6300$ ($\sim60\%$) and by the $[\rm\ion{O}{III}]\lambda5007$ ($\sim40\%$).
+Finally, in the S1 region (Fig.\,\ref{fig:s1l1_N}) $\Hb$ and all the other low ionization lines (except $[\rm\ion{O}{II}]\lambda3729$) show an asymmetric profile with a blue-shifted peak ($V\sim-150\,\si{\kms}$) and two bumps in the red part of the lines.
+On the other hand, $[\rm\ion{O}{III}]\lambda5007$ shows a peak at $V\sim -50\,\si{\kms}$ and a relatively strong bump ($>80$ per cent of the peak intensity) in the velocity where the other lines have the peak.
 
 \subsection{Detailed modeling of the observed spectra}
 \label{sec:models}
@@ -677,40 +746,44 @@ The SUMA code \citep[][and references therein]{Contini15} simulates the physical
 The main physical properties of the emitting gas and the element abundances are accounted for.
 
 \subsubsection{Input parameters}
+\label{sec:input_param}
 
 \begin{figure*}
 \includegraphics[width=0.5\textwidth]{images/paper1/icn.pdf}
 \includegraphics[width=0.5\textwidth]{images/paper1/ics.pdf}
-\caption{The physical quantities in the IC\,5063 regions. From top to bottom: $n_0$ is in \cm3, $D$ is in $10^{18}\,\si{cm}$, $F$ is in $10^{10}\,\si{photons\,cm^{-2} s^{-1} eV^{-1}}$ at the Lyman limit, $\Hb$ is in \erg. Left : north; right: south. Red solid line: CN (CS), green dashed: N0 (S0), black dash-dotted: N1 (S1), blue dotted line: N2 (S2).}
+\caption{The final input quantities calculated by SUMA in the IC\,5063 regions. From top to bottom: the pre-shock density $n_0$ is in \cm3, the cloud geometrical thickness $D$ is in $10^{18}\,\si{cm}$, the power-law flux from the active center $F$ is in $10^{10}\,\si{photons\,cm^{-2} s^{-1} eV^{-1}}$ at the Lyman limit, $\Hb$ flux is in \erg. Left : north; right: south. Red solid line: CN (CS), green dashed: N0 (S0), black dash-dotted: N1 (S1), blue dotted line: N2 (S2).}
 \label{fig:IC_m}
 \end{figure*}
 
 \begin{figure*}
 \includegraphics[width=0.5\textwidth]{images/paper1/n72n.pdf}
 \includegraphics[width=0.5\textwidth]{images/paper1/n72s.pdf}
-\caption{The physical quantities in the NGC\,7212 regions. Left: north; right: south. Red solid line: CN (CS), green dashed: N0 (S0), black dash-dotted: N1 (S1), blue dotted line: N2.}
+\caption{The final input quantities calculated by SUMA in the NGC\,7212 regions. From top to bottom: the pre-shock density $n_0$ is in \cm3, the cloud geometrical thickness $D$ is in $10^{18}\,\si{cm}$, the power-law flux from the active center $F$ is in $10^{10}\,\si{photons\,cm^{-2} s^{-1} eV^{-1}}$ at the Lyman limit, $\Hb$ flux is in \erg. Left: north; right: south. Red solid line: CN (CS), green dashed: N0 (S0), black dash-dotted: N1 (S1), blue dotted line: N2.}
 \label{fig:NGC_m}
 \end{figure*}
 
 
-The parameters which characterize the shock are roughly suggested by the data, e.g. the  shock velocity $V_s$ by the velocity bin and the pre-shock density $n_0$ by the characteristic line ratios and by the pre-shock magnetic field $B_0$.
+The parameters characterizing the shock are roughly suggested by the data, e.g. the shock velocity $V_s$ by the velocity bin and the pre-shock density $n_0$ by the characteristic line ratios and by the pre-shock magnetic field $B_0$.
 I adopt $B_0  = 10^{-4}$ G, which is suitable to the NLR of AGN \citep{Beck12}.
-Changes in $B_0$  are compensated by opposite changes in $n_0$.
+Changes in $B_0$ are compensated by opposite changes in $n_0$.
+From these input parameters, the code produces a table of line fluxes with respect to $\Hb$ that must then be compared with the observations.
+A fine tuning of the input parameter is performed iteratively in order to improve the results of the simulations.
+At the end of the process, the final input parameters can be considered an actual result of the simulations. 
 
 The ionizing radiation from a source, external to the emitting cloud, is characterized by its spectrum and by the flux intensity. 
-The flux is calculated at $440$ energy bands ranging between a few eV to keV.
-If the photo-ionization source is an active nucleus, the input parameter that refers to the radiation field is the power-law flux  from the active center $F$ in number of photons $\si{cm^{-2} s^{-1} eV^{-1}}$ at the Lyman limit with spectral indexes  $\alpha_{UV}=-1.5$ and $\alpha_X=-0.7$.
+The flux is calculated in $440$ energy bands ranging between a few eV to keV.
+If the photo-ionization source is an active nucleus, the input parameter that refers to the radiation field is the power-law flux from the active center $F$ in number of photons $\si{cm^{-2} s^{-1} eV^{-1}}$ at the Lyman limit with spectral indexes  $\alpha_{UV}=-1.5$ and $\alpha_X=-0.7$.
 It was found by modeling the spectra of many different AGN that these indexes were the most suitable, in general \citep[see, e.g.][ and references therein]{Contini83,Aldrovandi84,Rodriguez05}.
 For UV line ratios of a sample of galaxies at $z> 1.7$, \citet{Villar97} found that $\alpha_{UV}=-1$ provided a very good fit.
 The power-law in the X-ray domain was found flatter by the observations of local galaxies \citep[$\alpha_X=-1$, e.g.][]{Crenshaw02,Turner01}.
 Nevertheless, for all the models presented in the following, I will adopt $\alpha_{UV}=-1.5$ and $\alpha_{X} = -0.7$, recalling that the shocked zone also contributes to the emission-line intensities.  
 Therefore our results are less dependent on the shape of the ionizing radiation.
-$F$ is combined with the ionization parameter $U$ by: 
+The relation between $F$ and the ionization parameter $U$ is the following: 
 \begin{equation}
 \label{eq:Umarc}
 U= \left(\frac{F}{n c (\alpha_{UV} -1)}\right) \left(E_H^{-\alpha_{UV} +1} - E_C^{-\alpha_{UV} +1}\right),
 \end{equation}
-where $E_H$ is H ionization potential  and $E_C$ is the high energy cutoff, $n$ the density, $\alpha_{UV}$ the spectral index, and $c$ the speed of light.
+where $E_H$ is H ionization potential  and $E_C$ is the high energy cutoff, $n_e$ the density, $\alpha_{UV}$ the spectral index, and $c$ the speed of light.
 
 In addition to the radiation from the primary source, the diffuse secondary radiation created by the hot gas is also calculated, using $240$ energy bands for the spectrum.
 The primary radiation source is independent but it affects the surrounding gas.
@@ -718,15 +791,15 @@ In contrast, the secondary diffuse radiation is emitted from the slabs of gas he
 Primary and secondary radiations are calculated by radiation transfer downstream.
 
 In our model the gas region surrounding the radiation source is not considered as a unique cloud, but as an ensemble of filaments. 
-The geometrical thickness of these filaments is an input parameter of the code ($D$) which is calculated consistently with the physical conditions and element abundances of the emitting gas.
+The geometrical thickness of these filaments is another input parameter of the code ($D$) and it is calculated consistently with the physical conditions already described and element abundances of the emitting gas.
 $D$ determines whether the model is radiation-bounded or matter-bounded.
 The abundances of He, C, N, O, Ne, Mg, Si, S, Ar, Fe, relative to H, are accounted for as input parameters. 
 Previous results lead to O/H close to solar for most AGNs and for most of the \ion{H}{II} regions \citep[e.g.][]{Contini17}.
-I will conventionally define ``solar''  relative abundances (O/H)$_{\odot }=6.6 - 6.7 \times10^{-4}$ and (N/H)$_{\odot }= 9.\times10^{-5}$ \citep{Allen76,Grevesse98} that were found suitable to local galaxy nebulae. 
+I will conventionally define ``solar'' relative abundances (O/H)$_{\odot }=6.6 - 6.7 \times10^{-4}$ and (N/H)$_{\odot }= 9.\times10^{-5}$ \citep{Allen76,Grevesse98} that were found suitable to local galaxy nebulae. 
 Moreover, these values are included between those of \citet{Anders89} ($8.5\times10^{-4}$ and $1.12\times10^{-4}$, respectively) and \citet{Asplund09} ($4.9\times10^{-4}$ and $6.76\times10^{-5}$, respectively ).
 
-The fractional abundances  of all the ions in all ionization levels are calculated  in each slab resolving the ionization equations.
-The dust-to-gas ratio ($d/g$)  is an input parameter. 
+The fractional abundances  of all the ions in all ionization levels are calculated in each slab resolving the ionization equations.
+The dust-to-gas ratio ($d/g$) is an input parameter. 
 Mutual heating and cooling between dust and gas affect the temperatures of gas in the emitting region of the cloud.
 Fig.\,\ref{fig:IC_m} and Fig.\,\ref{fig:NGC_m} show the input parameter as a function of $V$ used to model the observed spectra.
 
@@ -741,11 +814,11 @@ T\sim 1.5 \times 10^5 \left(\frac{V_s}{100\,\si{\kms}}\right)^2.
 \end{equation}
 $T$ decreases downstream by the cooling rate and the gas recombines. 
 The downstream region is cut into a maximum of 300 plane-parallel slabs with different geometrical widths calculated automatically, in order to account for the temperature gradient.
-In each slab, compression ($n/n_0$) is calculated by combining the Rankine--Hugoniot equations for conservation of mass, momentum and energy throughout the shock front \citep{Cox72}.
+In each slab, compression ($n_e/n_0$) is calculated by combining the Rankine--Hugoniot equations for conservation of mass, momentum and energy throughout the shock front \citep{Cox72}.
 Compression ranges between $4$ (the adiabatic jump) and $> 100$, depending on $V_s$ and $B_0$. 
 The stronger the magnetic field, the lower the compression downstream, while a higher shock velocity corresponds to a higher compression.
 
-In pure photo-ionization models, the density $n$ is constant throughout the nebula.
+In pure photo-ionization models, the density $n_e$ is constant throughout the nebula.
 In models accounting for the shocks, both the electron temperature  $T_{\rm e}$  and  density $n_e$ show a characteristic profile throughout each cloud (see for instance Fig.\,\ref{fig:sumamod} left and right panels). 
 After the shock, the temperature reaches its upper limit at a certain distance from the shock-front and remains nearly constant, while $n_e$ decreases following recombination.
 The cooling rate is calculated in each slab by free-free (bremsstrahlung), free-bound and line emission. 
@@ -779,20 +852,18 @@ radiation source, the calculations require some iterations, until the results co
 In this case  the cloud geometrical thickness plays an important role.  
 Actually, if the cloud is very thin, the cool gas region may disappear leading to low or negligible low ionization level lines. 
 
-Summarizing, the calculations start in the first slab downstream adopting the input parameters  given by the model.
+Summarizing, the calculations start in the first slab downstream adopting the input parameters given by the model.
 Then, it calculates the density, the fractional abundances of the ions from each level for each element, free-free,  free-bound  and line emission fluxes. 
-It calculates $T_e$ by thermal balancing or the enthalpy equation, and the optical depth of the slab  in order to obtain the primary and secondary fluxes by radiation transfer for the next slab. 
-Finally,  the parameters  calculated in slab i are adopted as initial conditions for slab i+1. 
+It calculates $T_e$ by thermal balancing or the enthalpy equation, and the optical depth of the slab in order to obtain the primary and secondary fluxes by radiation transfer for the next slab. 
+Finally, the parameters  calculated in slab i are adopted as initial conditions for slab i+1. 
 Integrating the line intensities from each slab, the absolute fluxes of the lines and of bremsstrahlung are obtained at the nebula. 
 The line ratios to a certain line (generally $\Hb$ for the optical-UV spectrum) are then calculated and compared with the observed data, in order to avoid problems of distances, absorption, etc.
-The number of the lines calculated by the code (over 300) does not depend on the number of
-the observed lines nor does it depend on the number of  input parameters,
-but rather on the elements composing the gas.
+The number of the lines calculated by the code (over 300) does not depend on the number of the observed lines nor does it depend on the number of  input parameters, but rather on the elements composing the gas.
 
 \subsubsection{Grids of models}
 
-The physical parameters are combined throughout the calculation of forbidden and permitted lines emitted from a shocked nebula.
-The ranges of the physical conditions in the gas are deduced, as a first guess, from the observed line ratios because they are more constraining than the continuum SED.
+The input physical parameters are combined throughout the calculation of forbidden and permitted lines emitted from a shocked nebula.
+The initial ranges of the physical conditions in the gas are deduced, as a first guess, from the observed line ratios because they are more constraining than the continuum SED.
 Grids of models are calculated for each spectrum, modifying the input parameters gradually, in order to reproduce as close as possible all the observed line ratios.
 At each stage of the modeling process, if a satisfactory fit is not found for all the lines, a new iteration is initiated with a different set of input parameters. 
 When one of the line ratios is not reproduced, I check how it depends on the physical parameters and decide accordingly how to change them, considering that each ratio has a different weight.
@@ -800,7 +871,7 @@ The input parameters are therefore refined by the detailed modeling of the spect
 The spectra of NGC\,7212 and IC\,5063 are rich in number of lines, therefore the calculated spectra are strongly constrained by the observed lines. 
 They are different in each of the observed spectra, revealing different physical conditions from region to region. 
 The models selected  by the fit of the line spectrum  are cross-checked by fitting the continuum SED.
-In the UV range the bremsstrahlung from the  nebula is blended with black body emission from the star population background. 
+In the UV range the bremsstrahlung from the nebula is blended with black body emission from the star population background. 
 The maximum frequency of the bremsstrahlung peak in the UV -- X-ray domain depends on the shock velocity. 
 In the IR range dust reprocessed radiation is generally seen.  
 In the radio range synchrotron radiation by the Fermi mechanism at the shock front is easily recognized by the slope of the SED.
@@ -810,12 +881,13 @@ I generally consider that the observed spectrum is satisfactorily fitted by a mo
 reproduced by the calculation within 20 per cent and the weak ones within 50 per cent.
 The final gap between observed and calculated line ratios is due to observational errors both random and systematic, as well as to the uncertainties of the atomic parameters  adopted by the code, such as recombination coefficients, collision strengths etc., which are continuously updated, and to the choice of the model itself.
 The set of the input parameters which leads to the best fit of the observed line ratios and continuum SED determines the physical and chemical properties of the emitting gas. 
-They are considered as the "results" of modeling (Table\,\ref{tab:sim_s0-}). 
+As already introduced in Sec.\,\ref{sec:input_param}, they are considered as the "results" of modeling (Table\,\ref{tab:sim_s0-}). 
 
 \begin{table*}
 \centering
 \caption{Simulation for $V < 0$ of the S0 region of IC\,5063. For each bin there are the observed quantities and the results of the models. The first nine rows show the comparison between the observed and the synthetic spectra, the remaining rows show the input parameters of each model.}
 \label{tab:sim_s0ex}
+\small
 \begin{tabular}{lcccccccc} 
 \hline
 \ &\multicolumn{2}{c}{bin 1}&\multicolumn{2}{c}{bin 2}&\multicolumn{2}{c}{bin 3}&\multicolumn{2}{c}{bin 4}\\
@@ -886,19 +958,19 @@ This might be explained by the interaction between jets and ISM.
 The interaction causes shocks and it creates turbulence at the shock-front producing fragmentation of matter.
 These clouds move in a turbulent regime which can cause the complex line profile described in Sec.\,\ref{sec:lineprof}. 
 
-\begin{figure*}
+\begin{figure}
 \centering
 \includegraphics[width=8.8cm]{images/paper1/bin4l.pdf}
 \includegraphics[width=8.8cm]{images/paper1/bin4r.pdf}
 \caption{The emitting cloud is divided into two halves represented by the left and right  diagrams.  
-The left diagram shows the region close to the shock front (left edge) and the distance from the shock front on the X-axis scale is logarithmic.
-The right diagram shows the conditions downstream far from the shock front, close to the (right) edge reached by the photo-ionization flux which is opposite to the shock front.  
+The top diagram shows the region close to the shock front (left edge) and the distance from the shock front on the X-axis scale is logarithmic.
+The bottom diagram shows the conditions downstream far from the shock front, close to the (right) edge reached by the photo-ionization flux which is opposite to the shock front.  
 The distance from the illuminated edge is given by a reverse logarithmic X-axis scale.
 Top panels: the electron temperature and  the electron density throughout the emitting cloud.
 Bottom panels: red lines: O$^{++}$/O (dot-dashed),  O$^+$/O (dashed) and O$^0$/O (dotted); black solid lines: H$^+$/H. 
 }
 \label{fig:sumamod}
-\end{figure*}
+\end{figure}
 
 
 
@@ -933,8 +1005,8 @@ It represents emission from a large amount of warm dust produced in the stellar 
 Dust is heated collisionally and radiatively in the clouds.
 The grains are destroyed by sputtering at high   $V_s$ ($> 200 \,\si{\kms}$) throughout the shock front.
 Dust is heated to a maximum $T=66\,\si{K}$ in the $V_s =300 \,\si{\kms}$ cloud and to a maximum of $90\,\si{K}$ in the $V_s=600 \,\si{\kms}$ cloud, so the reprocessed radiation peaks at lower $\nu$. 
-In the radio ranges, the data at $\nu\geq 10^{10}\,\si{Hz}$ are fitted by the bremsstrahlung and reradiation by dust, while the data at lower $\nu$ follow a power-law flux with spectral index $=0.75$. 
-It represents the synchrotron radiation flux created by the Fermi mechanism at the shock front.
+In the radio ranges, the data at $\nu\geq 10^{10}\,\si{Hz}$ are fitted by the bremsstrahlung and reradiation by dust, while the data at lower $\nu$ ($<follow a power-law flux with spectral index $=0.75$. 
+It represents the synchrotron radiation flux created by the first-order Fermi mechanism at the shock front.
 
 Interestingly, the same models are used to reproduce the continuum SED of  both galaxies.
 In the far radio range of NGC\,7212 self absorption of the flux is evident. 

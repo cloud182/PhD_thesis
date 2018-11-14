@@ -125,9 +125,8 @@ Astronomia. Testi e manuali, Zanichelli
 
 \bibitem[\protect\citeauthoryear{{Berton} et~al.,}{{Berton}
   et~al.}{2018}]{Berton18}
-{Berton} M.,  et~al., 2018, preprint, \href
-  {http://adsabs.harvard.edu/abs/2018arXiv180103519B} {} (\mn@eprint {arXiv}
-  {1801.03519})
+{Berton} M.,  et~al., 2018, \mn@doi [\aap] {10.1051/0004-6361/201832612}, \href
+  {http://adsabs.harvard.edu/abs/2018A%26A...614A..87B} {614, A87}
 
 \bibitem[\protect\citeauthoryear{{Bicay}, {Kojoian}, {Seal}, {Dickinson}  \&
   {Malkan}}{{Bicay} et~al.}{1995}]{Bicay95}

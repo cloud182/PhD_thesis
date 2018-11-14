@@ -52,6 +52,8 @@ other notation should be used in Table 3.3.
 7) In Figure 3.7 the color bars show velocity, while in the caption it is written that it
 is the distance from the nucleus, please correct. 
 
+- Fatto
+
 
 8) In addition, it is not described in both Figure 3.6 what what are triangles plotted in all panels?
 
@@ -66,7 +68,7 @@ there are two distinct kinematic components, seen clearly at least in the CN and
 but also as bumps and asymmetries in other regions, similar as in IC 5063. Please comment
 on this.
 
-
+- done
 
 11) Section 3.4.5.1 describes how the input parameters are being calculated, but it is not
 clear enough and confuses the reader, e.g.is the ionizing flux F calculated from the

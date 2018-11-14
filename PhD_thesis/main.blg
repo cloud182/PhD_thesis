@@ -2,9 +2,10 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: mnras.bst
-Reallocated field_info (elt_size=4) to 10940 items from 5000.
+Reallocated field_info (elt_size=4) to 10967 items from 5000.
 Database file #1: bibliografia_def.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "Cracco2011"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in Allen76
@@ -18,43 +19,43 @@ Warning--empty publisher in Rybicki86
 Warning--empty publisher in Deyoung02
 You've used 220 entries,
             2881 wiz_defined-function locations,
-            2573 strings with 72259 characters,
-and the built_in function-call counts, 105849 in all, are:
-= -- 8350
-> -- 8107
+            2578 strings with 72314 characters,
+and the built_in function-call counts, 105883 in all, are:
+= -- 8363
+> -- 8102
 < -- 531
-+ -- 3567
++ -- 3562
 - -- 1251
-* -- 13522
-:= -- 16871
+* -- 13525
+:= -- 16872
 add.period$ -- 0
 call.type$ -- 220
 change.case$ -- 440
 chr.to.int$ -- 213
 cite$ -- 229
 duplicate$ -- 4998
-empty$ -- 5021
+empty$ -- 5019
 format.name$ -- 1913
-if$ -- 17973
+if$ -- 17984
 int.to.chr$ -- 8
 int.to.str$ -- 0
 missing$ -- 227
 newline$ -- 674
 num.names$ -- 1532
-pop$ -- 1162
+pop$ -- 1160
 preamble$ -- 1
 purify$ -- 880
 quote$ -- 0
-skip$ -- 2888
+skip$ -- 2889
 stack$ -- 0
-substring$ -- 5735
+substring$ -- 5753
 swap$ -- 2817
 text.length$ -- 886
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1953
 warning$ -- 9
-while$ -- 1659
+while$ -- 1661
 width$ -- 0
-write$ -- 2212
-(There were 9 warnings)
+write$ -- 2211
+(There were 10 warnings)

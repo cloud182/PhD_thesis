@@ -31,49 +31,50 @@
 \contentsline {section}{\numberline {3.3}Data Reduction}{38}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Subtraction of the stellar continuum}{39}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Deblending}{40}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Data Analysis and Results}{43}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Diagnostic Diagrams}{45}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Ionization parameter and extinction}{50}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Temperature and densities}{51}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Line profiles}{52}{subsection.3.4.4}
-\contentsline {subsubsection}{\numberline {3.4.4.1}IC\tmspace +\thinmuskip {.1667em}5063}{54}{subsubsection.3.4.4.1}
-\contentsline {subsubsection}{\numberline {3.4.4.2}NGC\tmspace +\thinmuskip {.1667em}7212}{55}{subsubsection.3.4.4.2}
-\contentsline {subsection}{\numberline {3.4.5}Detailed modeling of the observed spectra}{55}{subsection.3.4.5}
-\contentsline {subsubsection}{\numberline {3.4.5.1}Input parameters}{55}{subsubsection.3.4.5.1}
-\contentsline {subsubsection}{\numberline {3.4.5.2}Calculation process}{59}{subsubsection.3.4.5.2}
-\contentsline {subsubsection}{\numberline {3.4.5.3}Grids of models}{60}{subsubsection.3.4.5.3}
-\contentsline {subsubsection}{\numberline {3.4.5.4}Choice of NGC\tmspace +\thinmuskip {.1667em}7212 and IC\tmspace +\thinmuskip {.1667em}5063 parameters}{61}{subsubsection.3.4.5.4}
-\contentsline {subsection}{\numberline {3.4.6}The spectral energy distribution of the continuum}{63}{subsection.3.4.6}
-\contentsline {section}{\numberline {3.5}Concluding remarks}{66}{section.3.5}
-\contentsline {chapter}{\numberline {4}Extended radio emission in Mrk 783}{69}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{69}{section.4.1}
-\contentsline {section}{\numberline {4.2}Mrk 783}{70}{section.4.2}
-\contentsline {section}{\numberline {4.3}Data reduction}{71}{section.4.3}
-\contentsline {section}{\numberline {4.4}Results}{73}{section.4.4}
-\contentsline {section}{\numberline {4.5}Discussion}{73}{section.4.5}
-\contentsline {section}{\numberline {4.6}Concluding remarks}{76}{section.4.6}
-\contentsline {chapter}{\numberline {5}Optical analysis of Mrk 783}{77}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{77}{section.5.1}
-\contentsline {section}{\numberline {5.2}Mrk 783}{79}{section.5.2}
-\contentsline {section}{\numberline {5.3}Observations}{79}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Spectroscopy}{79}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Imaging}{81}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Preliminary Analysis}{82}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Two dimensional spectra}{82}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Morphology and color}{83}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Environment}{87}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Spectral Analysis}{90}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Spectra Extraction and Line Fitting}{90}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}The nuclear spectrum}{92}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Kinematics}{92}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Line ratios}{95}{subsection.5.5.4}
-\contentsline {section}{\numberline {5.6}Discussion}{98}{section.5.6}
-\contentsline {section}{\numberline {5.7}Concluding remarks}{101}{section.5.7}
-\contentsline {chapter}{Conclusions}{103}{chapter*.66}
-\contentsline {chapter}{Bibliography}{105}{chapter*.67}
-\contentsline {chapter}{Appendix: lines profiles}{115}{appendix*.68}
-\contentsline {chapter}{Appendix: diagnostic diagrams}{121}{appendix*.86}
-\contentsline {chapter}{Appendix: results of SUMA simulations}{125}{appendix*.90}
-\contentsline {section}{\numberline {.1}IC\tmspace +\thinmuskip {.1667em}5063}{125}{section.Alph0.1}
-\contentsline {section}{\numberline {.2}NGC\tmspace +\thinmuskip {.1667em}7212}{142}{section.Alph0.2}
-\contentsline {chapter}{Acknowledgment}{159}{appendix*.123}
+\contentsline {section}{\numberline {3.4}Data Analysis and Results}{44}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Diagnostic Diagrams}{46}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Ionization parameter and extinction}{49}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Temperature and densities}{52}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Line profiles}{53}{subsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.4.1}IC\tmspace +\thinmuskip {.1667em}5063}{55}{subsubsection.3.4.4.1}
+\contentsline {subsubsection}{\numberline {3.4.4.2}NGC\tmspace +\thinmuskip {.1667em}7212}{56}{subsubsection.3.4.4.2}
+\contentsline {subsection}{\numberline {3.4.5}Detailed modeling of the observed spectra}{57}{subsection.3.4.5}
+\contentsline {subsubsection}{\numberline {3.4.5.1}Input parameters}{57}{subsubsection.3.4.5.1}
+\contentsline {subsubsection}{\numberline {3.4.5.2}Calculation process}{60}{subsubsection.3.4.5.2}
+\contentsline {subsubsection}{\numberline {3.4.5.3}Grids of models}{62}{subsubsection.3.4.5.3}
+\contentsline {subsubsection}{\numberline {3.4.5.4}Choice of NGC\tmspace +\thinmuskip {.1667em}7212 and IC\tmspace +\thinmuskip {.1667em}5063 parameters}{63}{subsubsection.3.4.5.4}
+\contentsline {subsection}{\numberline {3.4.6}The spectral energy distribution of the continuum}{64}{subsection.3.4.6}
+\contentsline {section}{\numberline {3.5}Concluding remarks}{67}{section.3.5}
+\contentsline {chapter}{\numberline {4}Extended radio emission in Mrk 783}{71}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{71}{section.4.1}
+\contentsline {section}{\numberline {4.2}Mrk 783}{72}{section.4.2}
+\contentsline {section}{\numberline {4.3}Data reduction}{73}{section.4.3}
+\contentsline {section}{\numberline {4.4}Results}{74}{section.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{76}{section.4.5}
+\contentsline {section}{\numberline {4.6}Concluding remarks}{78}{section.4.6}
+\contentsline {chapter}{\numberline {5}Optical analysis of Mrk 783}{81}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{81}{section.5.1}
+\contentsline {section}{\numberline {5.2}Mrk 783}{83}{section.5.2}
+\contentsline {section}{\numberline {5.3}Observations}{83}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Spectroscopy}{83}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Imaging}{85}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Preliminary Analysis}{86}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Two dimensional spectra}{86}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Morphology and color}{87}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Environment}{93}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Spectral Analysis}{95}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Spectra Extraction and Line Fitting}{95}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}The nuclear spectrum}{96}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Kinematics}{97}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Line ratios}{100}{subsection.5.5.4}
+\contentsline {section}{\numberline {5.6}Discussion}{103}{section.5.6}
+\contentsline {section}{\numberline {5.7}Concluding remarks}{106}{section.5.7}
+\contentsline {chapter}{Conclusions}{107}{chapter*.70}
+\contentsline {chapter}{Acknowledgment}{109}{chapter*.71}
+\contentsline {chapter}{Bibliography}{111}{chapter*.72}
+\contentsline {chapter}{\numberline {A}Appendix: lines profiles}{119}{appendix.A}
+\contentsline {chapter}{\numberline {B}Appendix: diagnostic diagrams}{125}{appendix.B}
+\contentsline {chapter}{\numberline {C}Appendix: results of SUMA simulations}{129}{appendix.C}
+\contentsline {section}{\numberline {C.1}IC\tmspace +\thinmuskip {.1667em}5063}{129}{section.C.1}
+\contentsline {section}{\numberline {C.2}NGC\tmspace +\thinmuskip {.1667em}7212}{146}{section.C.2}
+\contentsline {chapter}{Ringraziamenti}{163}{appendix*.125}

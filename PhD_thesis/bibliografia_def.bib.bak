@@ -703,14 +703,20 @@ archivePrefix = "arXiv",
 	{Richards}, J.~L. and {Ciroi}, S. and {Cracco}, V. and {Frezzato}, M. and 
 	{La Mura}, G. and {Rafanelli}, P.},
     title = "{Radio-emitting narrow-line Seyfert 1 galaxies in the JVLA perspective}",
-  journal = {ArXiv e-prints},
+  journal = {\aap},
 archivePrefix = "arXiv",
    eprint = {1801.03519},
- keywords = {Astrophysics - Astrophysics of Galaxies},
+ keywords = {galaxies: Seyfert, galaxies: jets, quasars: supermassive black holes, galaxies: active},
      year = 2018,
-    month = jan,
-   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180103519B},
+    month = jun,
+   volume = 614,
+      eid = {A87},
+    pages = {A87},
+      doi = {10.1051/0004-6361/201832612},
+   adsurl = {http://adsabs.harvard.edu/abs/2018A%26A...614A..87B},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 }
 
 @ARTICLE{Best05,
