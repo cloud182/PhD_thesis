@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.24)  14 NOV 2018 00:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.24)  18 NOV 2018 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1573,27 +1573,27 @@ Package pdftex.def Info: images/model_diskcone.png used on input line 136.
 Underfull \vbox (badness 1442) has occurred while \output is active []
 
  [6 <./images/model_diskcone.png>] [7]
-<images/3c175.png, id=748, 1279.78125pt x 839.135pt>
+<images/3c175.png, id=747, 1279.78125pt x 839.135pt>
 File: images/3c175.png Graphic file (type png)
  <use images/3c175.png>
 Package pdftex.def Info: images/3c175.png used on input line 205.
 (pdftex.def)             Requested size: 277.19879pt x 181.75494pt.
 
-<images/NGC2110.png, id=749, 324.21124pt x 308.15125pt>
+<images/NGC2110.png, id=748, 324.21124pt x 308.15125pt>
 File: images/NGC2110.png Graphic file (type png)
 
 <use images/NGC2110.png>
 Package pdftex.def Info: images/NGC2110.png used on input line 206.
 (pdftex.def)             Requested size: 277.19879pt x 263.48615pt.
  [8] [9 <./images/3c175.png> <./images/NGC2110.png>]
-<images/Mrk6_kharb.jpg, id=836, 437.635pt x 494.84875pt>
+<images/Mrk6_kharb.jpg, id=835, 437.635pt x 494.84875pt>
 File: images/Mrk6_kharb.jpg Graphic file (type jpg)
 
 <use images/Mrk6_kharb.jpg>
 Package pdftex.def Info: images/Mrk6_kharb.jpg used on input line 237.
 (pdftex.def)             Requested size: 277.19879pt x 313.44019pt.
  [10 <./images/Mrk6_kharb.jpg>]
-<images/Jet-ism.pdf, id=886, 421.575pt x 286.06876pt>
+<images/Jet-ism.pdf, id=885, 421.575pt x 286.06876pt>
 File: images/Jet-ism.pdf Graphic file (type pdf)
  <use images/Jet-ism.pdf>
 Package pdftex.def Info: images/Jet-ism.pdf used on input line 255.
@@ -1610,14 +1610,14 @@ Package hyperref Warning: Ignoring empty anchor on input line 14.
 
 [13
 
-] [14] <images/synchrotron.png, id=936, 1011.78pt x 713.66624pt>
+] [14] <images/synchrotron.png, id=935, 1011.78pt x 713.66624pt>
 File: images/synchrotron.png Graphic file (type png)
 
 <use images/synchrotron.png>
 Package pdftex.def Info: images/synchrotron.png used on input line 102.
 (pdftex.def)             Requested size: 316.80121pt x 223.45573pt.
 
-<images/sync_spectrum.png, id=943, 836.12375pt x 633.36626pt>
+<images/sync_spectrum.png, id=942, 836.12375pt x 633.36626pt>
 File: images/sync_spectrum.png Graphic file (type png)
 
 <use images/sync_spectrum.png>
@@ -1634,12 +1634,12 @@ Overfull \hbox (10.82613pt too wide) in paragraph at lines 159--161
 
 Package hyperref Warning: Ignoring empty anchor on input line 179.
 
-[17] <images/BB.jpg, id=985, 867.24pt x 433.62pt>
+[17] <images/BB.jpg, id=984, 867.24pt x 433.62pt>
 File: images/BB.jpg Graphic file (type jpg)
  <use images/BB.jpg>
 Package pdftex.def Info: images/BB.jpg used on input line 193.
 (pdftex.def)             Requested size: 316.80121pt x 158.399pt.
- [18 <./images/BB.jpg>] <images/free_free.pdf, id=999, 214.12482pt x 243.15706p
+ [18 <./images/BB.jpg>] <images/free_free.pdf, id=998, 214.12482pt x 243.15706p
 t>
 File: images/free_free.pdf Graphic file (type pdf)
 
@@ -1660,14 +1660,20 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
  [22
 
 ] [23] [24]
-[25] [26] <images/o3_scheme.png, id=1122, 619.31375pt x 382.42876pt>
+[25]
+Overfull \hbox (0.15369pt too wide) in paragraph at lines 487--489
+[]\T1/cmr/m/n/10.95 The ef-fi-ciency of the col-li-sional ex-ci-ta-tion de-pend
+s on the \T1/cmr/m/it/10.95 col-li-sional cross-section\T1/cmr/m/n/10.95 .
+ []
+
+[26] <images/o3_scheme.png, id=1121, 619.31375pt x 382.42876pt>
 File: images/o3_scheme.png Graphic file (type png)
 
 <use images/o3_scheme.png>
 Package pdftex.def Info: images/o3_scheme.png used on input line 546.
 (pdftex.def)             Requested size: 316.80121pt x 195.63129pt.
  [27] [28 <./images/o3_scheme.png>]
-<images/s2_scheme.png, id=1150, 620.3175pt x 384.43625pt>
+<images/s2_scheme.png, id=1149, 620.3175pt x 384.43625pt>
 File: images/s2_scheme.png Graphic file (type png)
 
 <use images/s2_scheme.png>
@@ -1683,18 +1689,18 @@ l.626 ...tet{Dopita03} and \citet{OsterbrockAGN}.}
 Chapter 3.
 [33
 
-] <images/paper1/ic5063slit.jpg, id=1283, 570.2103pt x 570.2103pt>
+] <images/paper1/ic5063slit.jpg, id=1282, 570.2103pt x 570.2103pt>
 File: images/paper1/ic5063slit.jpg Graphic file (type jpg)
 
 <use images/paper1/ic5063slit.jpg>
-Package pdftex.def Info: images/paper1/ic5063slit.jpg used on input line 43.
+Package pdftex.def Info: images/paper1/ic5063slit.jpg used on input line 44.
 (pdftex.def)             Requested size: 178.19879pt x 178.19897pt.
 
-<images/paper1/IC5063_o32.jpg, id=1284, 602.0091pt x 602.0091pt>
+<images/paper1/IC5063_o32.jpg, id=1283, 602.0091pt x 602.0091pt>
 File: images/paper1/IC5063_o32.jpg Graphic file (type jpg)
 
 <use images/paper1/IC5063_o32.jpg>
-Package pdftex.def Info: images/paper1/IC5063_o32.jpg used on input line 45.
+Package pdftex.def Info: images/paper1/IC5063_o32.jpg used on input line 46.
 (pdftex.def)             Requested size: 178.19879pt x 178.1974pt.
  [34]
 Underfull \vbox (badness 3872) has occurred while \output is active []
@@ -1702,183 +1708,183 @@ Underfull \vbox (badness 3872) has occurred while \output is active []
  [35 <./images/paper1/ic5063slit.jpg> <./images/paper1/IC5063_o32.jpg>]
 
 Package natbib Warning: Citation `Cracco2011' on page 36 undefined on input lin
-e 89.
+e 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.81503pt
-(hyperref)                removed on input line 117.
+(hyperref)                removed on input line 118.
 
 [36]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.81503pt
-(hyperref)                removed on input line 139.
+(hyperref)                removed on input line 140.
 
-<images/paper1/ngc7212slit.jpg, id=1385, 570.2103pt x 570.2103pt>
+<images/paper1/ngc7212slit.jpg, id=1376, 570.2103pt x 570.2103pt>
 File: images/paper1/ngc7212slit.jpg Graphic file (type jpg)
 
 <use images/paper1/ngc7212slit.jpg>
-Package pdftex.def Info: images/paper1/ngc7212slit.jpg used on input line 144.
+Package pdftex.def Info: images/paper1/ngc7212slit.jpg used on input line 145.
 (pdftex.def)             Requested size: 178.19879pt x 178.19897pt.
 
-<images/paper1/NGC7212_o3_2.pdf, id=1386, 752.8125pt x 752.8125pt>
+<images/paper1/NGC7212_o3_2.pdf, id=1377, 752.8125pt x 752.8125pt>
 File: images/paper1/NGC7212_o3_2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_o3_2.pdf>
-Package pdftex.def Info: images/paper1/NGC7212_o3_2.pdf used on input line 146.
+Package pdftex.def Info: images/paper1/NGC7212_o3_2.pdf used on input line 147.
 
 (pdftex.def)             Requested size: 178.19879pt x 178.1975pt.
  [37 <./images/paper1/ngc7212slit.jpg> <./images/paper1/NGC7212_o3_2.pdf>] [38]
 
-<images/paper1/IC5063_reg.jpg, id=1428, 488.5452pt x 421.3341pt>
+<images/paper1/IC5063_reg.jpg, id=1424, 488.5452pt x 421.3341pt>
 File: images/paper1/IC5063_reg.jpg Graphic file (type jpg)
 
 <use images/paper1/IC5063_reg.jpg>
-Package pdftex.def Info: images/paper1/IC5063_reg.jpg used on input line 214.
+Package pdftex.def Info: images/paper1/IC5063_reg.jpg used on input line 216.
 (pdftex.def)             Requested size: 178.19879pt x 153.68602pt.
 
-<images/paper1/NGC7212_reg.pdf, id=1429, 840.50009pt x 727.03621pt>
+<images/paper1/NGC7212_reg.pdf, id=1425, 840.50009pt x 727.03621pt>
 File: images/paper1/NGC7212_reg.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_reg.pdf>
-Package pdftex.def Info: images/paper1/NGC7212_reg.pdf used on input line 216.
+Package pdftex.def Info: images/paper1/NGC7212_reg.pdf used on input line 218.
 (pdftex.def)             Requested size: 178.19879pt x 154.13538pt.
 
-Overfull \hbox (7.66779pt too wide) in paragraph at lines 226--243
+Overfull \hbox (7.66779pt too wide) in paragraph at lines 228--245
  [][] 
  []
 
 [39 <./images/paper1/IC5063_reg.jpg> <./images/paper1/NGC7212_reg.pdf>]
-<images/paper1/ha2.pdf, id=1469, 723.70375pt x 1446.40375pt>
+<images/paper1/ha2.pdf, id=1467, 723.70375pt x 1446.40375pt>
 File: images/paper1/ha2.pdf Graphic file (type pdf)
 
 <use images/paper1/ha2.pdf>
-Package pdftex.def Info: images/paper1/ha2.pdf used on input line 281.
+Package pdftex.def Info: images/paper1/ha2.pdf used on input line 283.
 (pdftex.def)             Requested size: 237.60242pt x 474.86491pt.
 
-<images/paper1/s2.pdf, id=1470, 578.16pt x 433.62pt>
+<images/paper1/s2.pdf, id=1468, 578.16pt x 433.62pt>
 File: images/paper1/s2.pdf Graphic file (type pdf)
 
 <use images/paper1/s2.pdf>
-Package pdftex.def Info: images/paper1/s2.pdf used on input line 288.
+Package pdftex.def Info: images/paper1/s2.pdf used on input line 290.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper1/o2.pdf, id=1471, 578.16pt x 433.62pt>
+<images/paper1/o2.pdf, id=1469, 578.16pt x 433.62pt>
 File: images/paper1/o2.pdf Graphic file (type pdf)
 
 <use images/paper1/o2.pdf>
-Package pdftex.def Info: images/paper1/o2.pdf used on input line 290.
+Package pdftex.def Info: images/paper1/o2.pdf used on input line 292.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
  [40] [41 <./images/paper1/ha2.pdf>] [42 <./images/paper1/s2.pdf> <./images/pap
 er1/o2.pdf>]
-<images/paper1/IC5063_bins.pdf, id=1512, 578.16pt x 433.62pt>
+<images/paper1/IC5063_bins.pdf, id=1510, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_bins.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_bins.pdf>
-Package pdftex.def Info: images/paper1/IC5063_bins.pdf used on input line 335.
+Package pdftex.def Info: images/paper1/IC5063_bins.pdf used on input line 337.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper1/errors.pdf, id=1513, 578.16pt x 433.62pt>
+<images/paper1/errors.pdf, id=1511, 578.16pt x 433.62pt>
 File: images/paper1/errors.pdf Graphic file (type pdf)
 
 <use images/paper1/errors.pdf>
-Package pdftex.def Info: images/paper1/errors.pdf used on input line 336.
+Package pdftex.def Info: images/paper1/errors.pdf used on input line 338.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
 [44 <./images/paper1/IC5063_bins.pdf> <./images/paper1/errors.pdf>]
-<images/paper1/IC5063_n0_diag.pdf, id=1563, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n0_diag.pdf, id=1561, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n0_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n0_diag.pdf>
 Package pdftex.def Info: images/paper1/IC5063_n0_diag.pdf used on input line 40
-1.
+3.
 (pdftex.def)             Requested size: 316.80121pt x 237.59851pt.
 
-<images/paper1/NGC7212_s0_diag.pdf, id=1564, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s0_diag.pdf, id=1562, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s0_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s0_diag.pdf>
 Package pdftex.def Info: images/paper1/NGC7212_s0_diag.pdf used on input line 4
-02.
+04.
 (pdftex.def)             Requested size: 316.80121pt x 237.59851pt.
 
 
-LaTeX Warning: Float too large for page by 8.6585pt on input line 405.
+LaTeX Warning: Float too large for page by 8.6585pt on input line 407.
 
-[45] <images/paper1/IC5063_diag.pdf, id=1590, 462.52798pt x 346.89601pt>
+[45] <images/paper1/IC5063_diag.pdf, id=1588, 462.52798pt x 346.89601pt>
 File: images/paper1/IC5063_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_diag.pdf>
-Package pdftex.def Info: images/paper1/IC5063_diag.pdf used on input line 409.
+Package pdftex.def Info: images/paper1/IC5063_diag.pdf used on input line 411.
 (pdftex.def)             Requested size: 316.80121pt x 237.61174pt.
 
-<images/paper1/NGC7212_diag.pdf, id=1591, 462.52798pt x 346.89601pt>
+<images/paper1/NGC7212_diag.pdf, id=1589, 462.52798pt x 346.89601pt>
 File: images/paper1/NGC7212_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_diag.pdf>
-Package pdftex.def Info: images/paper1/NGC7212_diag.pdf used on input line 410.
+Package pdftex.def Info: images/paper1/NGC7212_diag.pdf used on input line 412.
 
 (pdftex.def)             Requested size: 316.80121pt x 237.61174pt.
 
 
-LaTeX Warning: Float too large for page by 8.68495pt on input line 414.
+LaTeX Warning: Float too large for page by 8.68495pt on input line 416.
 
 [46] [47 <./images/paper1/IC5063_n0_diag.pdf> <./images/paper1/NGC7212_s0_diag.
 pdf>] [48 <./images/paper1/IC5063_diag.pdf> <./images/paper1/NGC7212_diag.pdf
 
 pdfTeX warning: pdflatex (file ./images/paper1/NGC7212_diag.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->] <images/paper1/IC5063_all_n.pdf, id=1759, 578.16pt x 433.62pt>
+>] <images/paper1/IC5063_all_n.pdf, id=1758, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_all_n.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_all_n.pdf>
-Package pdftex.def Info: images/paper1/IC5063_all_n.pdf used on input line 466.
+Package pdftex.def Info: images/paper1/IC5063_all_n.pdf used on input line 468.
 
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/IC5063_all_s.pdf, id=1760, 578.16pt x 433.62pt>
+<images/paper1/IC5063_all_s.pdf, id=1759, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_all_s.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_all_s.pdf>
-Package pdftex.def Info: images/paper1/IC5063_all_s.pdf used on input line 467.
+Package pdftex.def Info: images/paper1/IC5063_all_s.pdf used on input line 469.
 
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/NGC7212_all_n.pdf, id=1761, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_all_n.pdf, id=1760, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_all_n.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_all_n.pdf>
-Package pdftex.def Info: images/paper1/NGC7212_all_n.pdf used on input line 474
+Package pdftex.def Info: images/paper1/NGC7212_all_n.pdf used on input line 476
 .
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/NGC7212_all_s.pdf, id=1762, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_all_s.pdf, id=1761, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_all_s.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_all_s.pdf>
-Package pdftex.def Info: images/paper1/NGC7212_all_s.pdf used on input line 475
+Package pdftex.def Info: images/paper1/NGC7212_all_s.pdf used on input line 477
 .
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/IC5063_all.pdf, id=1763, 578.16pt x 433.62pt>
+<images/paper1/IC5063_all.pdf, id=1762, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_all.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_all.pdf>
-Package pdftex.def Info: images/paper1/IC5063_all.pdf used on input line 482.
+Package pdftex.def Info: images/paper1/IC5063_all.pdf used on input line 484.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/NGC7212_all.pdf, id=1764, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_all.pdf, id=1763, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_all.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_all.pdf>
-Package pdftex.def Info: images/paper1/NGC7212_all.pdf used on input line 483.
+Package pdftex.def Info: images/paper1/NGC7212_all.pdf used on input line 485.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-Underfull \hbox (badness 4673) in paragraph at lines 484--484
+Underfull \hbox (badness 4673) in paragraph at lines 486--486
 [][]|\T1/cmr/m/n/10.95 From the top left panel, clock-wise: ion-iza-tion pa-ram
 -e-ter,
  []
@@ -1889,150 +1895,151 @@ Underfull \vbox (badness 1314) has occurred while \output is active []
  [49 <./images/paper1/IC5063_all_n.pdf> <./images/paper1/IC5063_all_s.pdf> <./i
 mages/paper1/NGC7212_all_n.pdf> <./images/paper1/NGC7212_all_s.pdf>] [50 <./ima
 ges/paper1/IC5063_all.pdf> <./images/paper1/NGC7212_all.pdf>] [51]
-Overfull \hbox (39.84224pt too wide) in paragraph at lines 550--552
+Overfull \hbox (39.84224pt too wide) in paragraph at lines 552--554
 []\T1/cmr/m/n/10.95 These re-sults are well in agree-ment with []Cracco et al.[
 ] ([]2011[]), who found $[]\OT1/cmr/m/n/10.95 ([O III]\OML/cmm/m/it/10.95 =\OT1
 /cmr/m/n/10.95 H\OML/cmm/m/it/10.95 ^^L\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95
  ^^X
  []
 
-[52] <images/paper1/IC5063_s0_l1.pdf, id=1856, 578.16pt x 433.62pt>
+[52] <images/paper1/IC5063_s0_l1.pdf, id=1855, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s0_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s0_l1.pdf>
-Package pdftex.def Info: images/paper1/IC5063_s0_l1.pdf used on input line 644.
+Package pdftex.def Info: images/paper1/IC5063_s0_l1.pdf used on input line 646.
 
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_s0_l2.pdf, id=1857, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s0_l2.pdf, id=1856, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s0_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s0_l2.pdf>
-Package pdftex.def Info: images/paper1/IC5063_s0_l2.pdf used on input line 645.
+Package pdftex.def Info: images/paper1/IC5063_s0_l2.pdf used on input line 647.
 
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_cs_l1.pdf, id=1858, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cs_l1.pdf, id=1857, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cs_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cs_l1.pdf>
-Package pdftex.def Info: images/paper1/NGC7212_cs_l1.pdf used on input line 652
+Package pdftex.def Info: images/paper1/NGC7212_cs_l1.pdf used on input line 654
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_cs_l2.pdf, id=1859, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cs_l2.pdf, id=1858, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cs_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cs_l2.pdf>
-Package pdftex.def Info: images/paper1/NGC7212_cs_l2.pdf used on input line 653
+Package pdftex.def Info: images/paper1/NGC7212_cs_l2.pdf used on input line 655
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
  [53] [54 <./images/paper1/IC5063_s0_l1.pdf> <./images/paper1/IC5063_s0_l2.pdf>
  <./images/paper1/NGC7212_cs_l1.pdf> <./images/paper1/NGC7212_cs_l2.pdf>] [55] 
 [56]
-<images/paper1/icn.pdf, id=1942, 505.89pt x 722.7pt>
+<images/paper1/icn.pdf, id=1941, 505.89pt x 722.7pt>
 File: images/paper1/icn.pdf Graphic file (type pdf)
 
 <use images/paper1/icn.pdf>
-Package pdftex.def Info: images/paper1/icn.pdf used on input line 752.
+Package pdftex.def Info: images/paper1/icn.pdf used on input line 754.
 (pdftex.def)             Requested size: 198.0pt x 282.85536pt.
 
-<images/paper1/ics.pdf, id=1943, 505.89pt x 722.7pt>
+<images/paper1/ics.pdf, id=1942, 505.89pt x 722.7pt>
 File: images/paper1/ics.pdf Graphic file (type pdf)
 
 <use images/paper1/ics.pdf>
-Package pdftex.def Info: images/paper1/ics.pdf used on input line 753.
+Package pdftex.def Info: images/paper1/ics.pdf used on input line 755.
 (pdftex.def)             Requested size: 198.0pt x 282.85536pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 752--754
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 754--756
 [][] [] 
  []
 
-<images/paper1/n72n.pdf, id=1944, 505.89pt x 722.7pt>
+<images/paper1/n72n.pdf, id=1943, 505.89pt x 722.7pt>
 File: images/paper1/n72n.pdf Graphic file (type pdf)
 
 <use images/paper1/n72n.pdf>
-Package pdftex.def Info: images/paper1/n72n.pdf used on input line 759.
+Package pdftex.def Info: images/paper1/n72n.pdf used on input line 761.
 (pdftex.def)             Requested size: 198.0pt x 282.85536pt.
 
-<images/paper1/n72s.pdf, id=1945, 505.89pt x 722.7pt>
+<images/paper1/n72s.pdf, id=1944, 505.89pt x 722.7pt>
 File: images/paper1/n72s.pdf Graphic file (type pdf)
 
 <use images/paper1/n72s.pdf>
-Package pdftex.def Info: images/paper1/n72s.pdf used on input line 760.
+Package pdftex.def Info: images/paper1/n72s.pdf used on input line 762.
 (pdftex.def)             Requested size: 198.0pt x 282.85536pt.
 
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 759--761
+Overfull \hbox (2.42162pt too wide) in paragraph at lines 761--763
 [][] [] 
  []
 
 [57] [58 <./images/paper1/icn.pdf> <./images/paper1/ics.pdf>] [59 <./images/pap
 er1/n72n.pdf> <./images/paper1/n72s.pdf>] [60] [61] [62] [63]
-<images/paper1/bin4l.pdf, id=2052, 449.68pt x 338.26375pt>
+<images/paper1/bin4l.pdf, id=2059, 449.68pt x 338.26375pt>
 File: images/paper1/bin4l.pdf Graphic file (type pdf)
 
 <use images/paper1/bin4l.pdf>
-Package pdftex.def Info: images/paper1/bin4l.pdf used on input line 963.
+Package pdftex.def Info: images/paper1/bin4l.pdf used on input line 965.
 (pdftex.def)             Requested size: 250.38434pt x 188.34764pt.
 
-<images/paper1/bin4r.pdf, id=2053, 449.68pt x 338.26375pt>
+<images/paper1/bin4r.pdf, id=2060, 449.68pt x 338.26375pt>
 File: images/paper1/bin4r.pdf Graphic file (type pdf)
 
 <use images/paper1/bin4r.pdf>
-Package pdftex.def Info: images/paper1/bin4r.pdf used on input line 964.
+Package pdftex.def Info: images/paper1/bin4r.pdf used on input line 966.
 (pdftex.def)             Requested size: 250.38434pt x 188.34764pt.
-
-<images/paper1/sedic50.pdf, id=2054, 434.62375pt x 327.2225pt>
+ [64]
+<images/paper1/sedic50.pdf, id=2068, 434.62375pt x 327.2225pt>
 File: images/paper1/sedic50.pdf Graphic file (type pdf)
 
 <use images/paper1/sedic50.pdf>
-Package pdftex.def Info: images/paper1/sedic50.pdf used on input line 982.
+Package pdftex.def Info: images/paper1/sedic50.pdf used on input line 984.
 (pdftex.def)             Requested size: 237.60242pt x 178.88943pt.
 
-<images/paper1/sedn72.pdf, id=2055, 449.68pt x 338.26375pt>
+<images/paper1/sedn72.pdf, id=2069, 449.68pt x 338.26375pt>
 File: images/paper1/sedn72.pdf Graphic file (type pdf)
 
 <use images/paper1/sedn72.pdf>
-Package pdftex.def Info: images/paper1/sedn72.pdf used on input line 983.
+Package pdftex.def Info: images/paper1/sedn72.pdf used on input line 985.
 (pdftex.def)             Requested size: 237.60242pt x 178.73181pt.
- [64] [65 <./images/paper1/bin4l.pdf> <./images/paper1/bin4r.pdf>] [66 <./image
-s/paper1/sedic50.pdf> <./images/paper1/sedn72.pdf>]
-Overfull \hbox (5.74843pt too wide) in paragraph at lines 1020--1024
+
+Overfull \hbox (5.74843pt too wide) in paragraph at lines 1022--1026
 \T1/cmr/m/n/10.95 I stud-ied the NL-R/ENLR gas of two nearby Seyfert 2 galax-ie
 s: IC5063 and NGC7212.
  []
 
-[67] [68]) (./tex/chapter4.tex [69] [70
+[65] [66 <./images/paper1/bin4l.pdf> <./images/paper1/bin4r.pdf>] [67 <./images
+/paper1/sedic50.pdf> <./images/paper1/sedn72.pdf>] [68]) (./tex/chapter4.tex
+[69] [70
 
 ]
 Chapter 4.
-[71] [72] [73] <images/paper2/Mrk783_MG.pdf, id=2322, 542.025pt x 505.89pt>
+[71] [72] [73] <images/paper2/Mrk783_MG.pdf, id=2333, 542.025pt x 505.89pt>
 File: images/paper2/Mrk783_MG.pdf Graphic file (type pdf)
 
 <use images/paper2/Mrk783_MG.pdf>
-Package pdftex.def Info: images/paper2/Mrk783_MG.pdf used on input line 100.
+Package pdftex.def Info: images/paper2/Mrk783_MG.pdf used on input line 102.
 (pdftex.def)             Requested size: 178.19879pt x 166.31894pt.
 
-<images/paper2/Mrk783_tape.pdf, id=2323, 542.025pt x 505.89pt>
+<images/paper2/Mrk783_tape.pdf, id=2334, 542.025pt x 505.89pt>
 File: images/paper2/Mrk783_tape.pdf Graphic file (type pdf)
 
 <use images/paper2/Mrk783_tape.pdf>
-Package pdftex.def Info: images/paper2/Mrk783_tape.pdf used on input line 101.
+Package pdftex.def Info: images/paper2/Mrk783_tape.pdf used on input line 103.
 (pdftex.def)             Requested size: 178.19879pt x 166.31894pt.
 
-<images/paper2/SDSS_radio.pdf, id=2324, 702.625pt x 702.625pt>
+<images/paper2/SDSS_radio.pdf, id=2335, 702.625pt x 702.625pt>
 File: images/paper2/SDSS_radio.pdf Graphic file (type pdf)
 
 <use images/paper2/SDSS_radio.pdf>
-Package pdftex.def Info: images/paper2/SDSS_radio.pdf used on input line 102.
+Package pdftex.def Info: images/paper2/SDSS_radio.pdf used on input line 104.
 (pdftex.def)             Requested size: 126.7229pt x 126.71362pt.
 
-<images/paper2/SDSS_radio_tape.pdf, id=2325, 702.625pt x 702.625pt>
+<images/paper2/SDSS_radio_tape.pdf, id=2336, 702.625pt x 702.625pt>
 File: images/paper2/SDSS_radio_tape.pdf Graphic file (type pdf)
 
 <use images/paper2/SDSS_radio_tape.pdf>
 Package pdftex.def Info: images/paper2/SDSS_radio_tape.pdf used on input line 1
-03.
+05.
 (pdftex.def)             Requested size: 126.7229pt x 126.71362pt.
  [74] [75 <./images/paper2/Mrk783_MG.pdf> <./images/paper2/Mrk783_tape.pdf
 
@@ -2050,7 +2057,7 @@ ion: multiple pdfs with page group included in a single page
 
 ]
 Chapter 5.
-[81] [82] <images/paper3/finding.jpg, id=2621, 462.528pt x 346.896pt>
+[81] [82] <images/paper3/finding.jpg, id=2632, 462.528pt x 346.896pt>
 File: images/paper3/finding.jpg Graphic file (type jpg)
 
 <use images/paper3/finding.jpg>
@@ -2062,7 +2069,7 @@ Overfull \hbox (79.19879pt too wide) in paragraph at lines 106--109
  []
 
 [83] [84 <./images/paper3/finding.jpg>] [85] [86]
-<images/paper3/spectra.jpg, id=2664, 867.24pt x 397.485pt>
+<images/paper3/spectra.jpg, id=2676, 867.24pt x 397.485pt>
 File: images/paper3/spectra.jpg Graphic file (type jpg)
 
 <use images/paper3/spectra.jpg>
@@ -2073,7 +2080,7 @@ Overfull \hbox (39.60242pt too wide) in paragraph at lines 210--211
  [][] 
  []
 
-<images/paper3/Radial_distr.pdf, id=2665, 462.52798pt x 346.89601pt>
+<images/paper3/Radial_distr.pdf, id=2677, 462.52798pt x 346.89601pt>
 File: images/paper3/Radial_distr.pdf Graphic file (type pdf)
 
 <use images/paper3/Radial_distr.pdf>
@@ -2081,39 +2088,39 @@ Package pdftex.def Info: images/paper3/Radial_distr.pdf used on input line 218.
 
 (pdftex.def)             Requested size: 316.80121pt x 237.61174pt.
 
-<images/paper3/new_rgb.pdf, id=2668, 744.09866pt x 624.3513pt>
+<images/paper3/new_rgb.pdf, id=2680, 744.09866pt x 624.3513pt>
 File: images/paper3/new_rgb.pdf Graphic file (type pdf)
 
 <use images/paper3/new_rgb.pdf>
 Package pdftex.def Info: images/paper3/new_rgb.pdf used on input line 230.
 (pdftex.def)             Requested size: 277.19879pt x 232.58781pt.
 
-<images/paper3/contours_g.jpg, id=2669, 462.528pt x 346.896pt>
+<images/paper3/contours_g.jpg, id=2681, 462.528pt x 346.896pt>
 File: images/paper3/contours_g.jpg Graphic file (type jpg)
 
 <use images/paper3/contours_g.jpg>
 Package pdftex.def Info: images/paper3/contours_g.jpg used on input line 238.
 (pdftex.def)             Requested size: 237.60242pt x 178.20085pt.
 
-<images/paper3/contours_r.jpg, id=2670, 462.528pt x 346.896pt>
+<images/paper3/contours_r.jpg, id=2682, 462.528pt x 346.896pt>
 File: images/paper3/contours_r.jpg Graphic file (type jpg)
 
 <use images/paper3/contours_r.jpg>
 Package pdftex.def Info: images/paper3/contours_r.jpg used on input line 239.
 (pdftex.def)             Requested size: 237.60242pt x 178.20085pt.
 
-<images/paper3/contours_i.jpg, id=2671, 462.528pt x 346.896pt>
+<images/paper3/contours_i.jpg, id=2683, 462.528pt x 346.896pt>
 File: images/paper3/contours_i.jpg Graphic file (type jpg)
 
 <use images/paper3/contours_i.jpg>
 Package pdftex.def Info: images/paper3/contours_i.jpg used on input line 240.
 (pdftex.def)             Requested size: 237.60242pt x 178.20085pt.
 
-<images/paper3/mrk783color.jpg, id=2684, 462.528pt x 346.896pt>
-File: images/paper3/mrk783color.jpg Graphic file (type jpg)
+<images/paper3/mrk783color.pdf, id=2696, 462.52798pt x 346.89601pt>
+File: images/paper3/mrk783color.pdf Graphic file (type pdf)
 
-<use images/paper3/mrk783color.jpg>
-Package pdftex.def Info: images/paper3/mrk783color.jpg used on input line 284.
+<use images/paper3/mrk783color.pdf>
+Package pdftex.def Info: images/paper3/mrk783color.pdf used on input line 284.
 (pdftex.def)             Requested size: 277.19879pt x 207.9063pt.
  [87] [88 <./images/paper3/spectra.jpg>]
 [89 <./images/paper3/Radial_distr.pdf> <./images/paper3/new_rgb.pdf
@@ -2122,16 +2129,19 @@ pdfTeX warning: pdflatex (file ./images/paper3/new_rgb.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 >] [90 <./images/paper3/contours_g.jpg> <./images/paper3/contours_r.jpg> <./ima
 ges/paper3/contours_i.jpg>]
-<images/paper3/mrk783_senza_UVOT.pdf, id=2787, 597.23125pt x 845.1575pt>
+<images/paper3/mrk783_senza_UVOT.pdf, id=2798, 597.23125pt x 845.1575pt>
 File: images/paper3/mrk783_senza_UVOT.pdf Graphic file (type pdf)
 
 <use images/paper3/mrk783_senza_UVOT.pdf>
 Package pdftex.def Info: images/paper3/mrk783_senza_UVOT.pdf used on input line
  310.
 (pdftex.def)             Requested size: 277.19879pt x 392.272pt.
- [91 <./images/paper3/mrk783color.jpg>] [92 <./images/paper3/mrk783_senza_UVOT.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91 <./images/paper3/mrk783color.pdf>] [92 <./images/paper3/mrk783_senza_UVOT.
 pdf>]
-<images/paper3/companions_spec.pdf, id=2832, 462.52798pt x 346.89601pt>
+<images/paper3/companions_spec.pdf, id=2874, 462.52798pt x 346.89601pt>
 File: images/paper3/companions_spec.pdf Graphic file (type pdf)
 
 <use images/paper3/companions_spec.pdf>
@@ -2139,7 +2149,7 @@ Package pdftex.def Info: images/paper3/companions_spec.pdf used on input line 3
 47.
 (pdftex.def)             Requested size: 277.19879pt x 207.9063pt.
  [93] [94 <./images/paper3/companions_spec.pdf>] [95]
-<images/paper3/spectrum_nucleus.pdf, id=2918, 578.16pt x 433.62pt>
+<images/paper3/spectrum_nucleus.pdf, id=2961, 578.16pt x 433.62pt>
 File: images/paper3/spectrum_nucleus.pdf Graphic file (type pdf)
 
 <use images/paper3/spectrum_nucleus.pdf>
@@ -2147,96 +2157,99 @@ Package pdftex.def Info: images/paper3/spectrum_nucleus.pdf used on input line
 421.
 (pdftex.def)             Requested size: 396.0pt x 296.99483pt.
 
-<images/paper3/deblending.pdf, id=2919, 462.52798pt x 346.89601pt>
+<images/paper3/deblending.pdf, id=2962, 462.52798pt x 346.89601pt>
 File: images/paper3/deblending.pdf Graphic file (type pdf)
 
 <use images/paper3/deblending.pdf>
 Package pdftex.def Info: images/paper3/deblending.pdf used on input line 428.
 (pdftex.def)             Requested size: 277.19879pt x 207.9063pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [96 <./images/paper3/spectrum_nucleus.pdf>]
-Overfull \hbox (6.4586pt too wide) in paragraph at lines 442--446
+Overfull \hbox (6.4586pt too wide) in paragraph at lines 444--448
 \T1/cmr/m/n/10.95 ([]Os-ter-brock & Pogge[], []1985[]) and 3) Strong FeII mul-t
 i-plets or pres-ence of [FeVII]$\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 6087$
 
  []
 
 
-Overfull \hbox (10.72058pt too wide) in paragraph at lines 442--446
+Overfull \hbox (10.72058pt too wide) in paragraph at lines 444--448
 \T1/cmr/m/n/10.95 and [FeX]$\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 6375$ \T1
 /cmr/m/n/10.95 lines ([]Goodrich[], []1989[]). Mrk 783 shows a $\OML/cmm/m/it/1
 0.95 FWHM\OT1/cmr/m/n/10.95 (H\OML/cmm/m/it/10.95 ^^L\OT1/cmr/m/n/10.95 ) \OMS/
 cmsy/m/n/10.95 ^^X \OT1/cmr/m/n/10.95 1500 []$
  []
 
-<images/paper3/Fe_lines.pdf, id=2980, 578.16pt x 361.35pt>
+<images/paper3/Fe_lines.pdf, id=3029, 578.16pt x 361.35pt>
 File: images/paper3/Fe_lines.pdf Graphic file (type pdf)
 
 <use images/paper3/Fe_lines.pdf>
-Package pdftex.def Info: images/paper3/Fe_lines.pdf used on input line 449.
+Package pdftex.def Info: images/paper3/Fe_lines.pdf used on input line 451.
 (pdftex.def)             Requested size: 396.0pt x 247.49568pt.
 
-Underfull \hbox (badness 3439) in paragraph at lines 450--450
+Underfull \hbox (badness 3439) in paragraph at lines 452--452
 [][]|\T1/cmr/m/n/10.95 Febru-ary LDSS spec-trum be-tween $\OT1/cmr/m/n/10.95 56
 50$ \T1/cmr/m/n/10.95 and $\OT1/cmr/m/n/10.95 6425 []$\T1/cmr/m/n/10.95 . The
  []
 
-<images/paper3/PA131_2016_velocity.jpg, id=2981, 578.16pt x 433.62pt>
+<images/paper3/PA131_2016_velocity.jpg, id=3030, 578.16pt x 433.62pt>
 File: images/paper3/PA131_2016_velocity.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_2016_velocity.jpg>
 Package pdftex.def Info: images/paper3/PA131_2016_velocity.jpg used on input li
-ne 459.
+ne 461.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA131_velocity.jpg, id=2982, 578.16pt x 433.62pt>
+<images/paper3/PA131_velocity.jpg, id=3031, 578.16pt x 433.62pt>
 File: images/paper3/PA131_velocity.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_velocity.jpg>
 Package pdftex.def Info: images/paper3/PA131_velocity.jpg used on input line 46
-0.
+2.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA90_velocity.jpg, id=2983, 578.16pt x 433.62pt>
+<images/paper3/PA90_velocity.jpg, id=3032, 578.16pt x 433.62pt>
 File: images/paper3/PA90_velocity.jpg Graphic file (type jpg)
 
 <use images/paper3/PA90_velocity.jpg>
-Package pdftex.def Info: images/paper3/PA90_velocity.jpg used on input line 461
+Package pdftex.def Info: images/paper3/PA90_velocity.jpg used on input line 463
 .
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
 
-LaTeX Warning: Float too large for page by 1.06798pt on input line 465.
+LaTeX Warning: Float too large for page by 1.06798pt on input line 467.
 
 [97 <./images/paper3/deblending.pdf>]
 Underfull \vbox (badness 1466) has occurred while \output is active []
 
  [98 <./images/paper3/Fe_lines.pdf>] [99 <./images/paper3/PA131_2016_velocity.j
 pg> <./images/paper3/PA131_velocity.jpg> <./images/paper3/PA90_velocity.jpg>]
-<images/paper3/PA131_2016_line_flux.jpg, id=3112, 578.16pt x 433.62pt>
+<images/paper3/PA131_2016_line_flux.jpg, id=3161, 578.16pt x 433.62pt>
 File: images/paper3/PA131_2016_line_flux.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_2016_line_flux.jpg>
 Package pdftex.def Info: images/paper3/PA131_2016_line_flux.jpg used on input l
-ine 505.
+ine 507.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA131_line_flux.jpg, id=3113, 578.16pt x 433.62pt>
+<images/paper3/PA131_line_flux.jpg, id=3162, 578.16pt x 433.62pt>
 File: images/paper3/PA131_line_flux.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_line_flux.jpg>
 Package pdftex.def Info: images/paper3/PA131_line_flux.jpg used on input line 5
-06.
+08.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA90_line_flux.jpg, id=3114, 578.16pt x 433.62pt>
+<images/paper3/PA90_line_flux.jpg, id=3163, 578.16pt x 433.62pt>
 File: images/paper3/PA90_line_flux.jpg Graphic file (type jpg)
 
 <use images/paper3/PA90_line_flux.jpg>
 Package pdftex.def Info: images/paper3/PA90_line_flux.jpg used on input line 50
-7.
+9.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-Overfull \hbox (1.57118pt too wide) in paragraph at lines 516--518
+Overfull \hbox (1.57118pt too wide) in paragraph at lines 518--520
 []\OT1/cmr/m/n/10.95 [N II]\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 6584\OML/c
 mm/m/it/10.95 =\OT1/cmr/m/n/10.95 H\OML/cmm/m/it/10.95 $\T1/cmr/m/n/10.95 , $[
 ]\OT1/cmr/m/n/10.95 [O III]\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 5007\OML/c
@@ -2247,31 +2260,31 @@ nd $[]\OT1/cmr/m/n/10.95 [O III]\OML/cmm/m/it/10.95 ^^U\OT1/cmr/m/n/10.95 5007\
 OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 H\OML/cmm/m/it/10.95 ^^L$
  []
 
-<images/paper3/PA131_2016_diagnostic.jpg, id=3121, 867.24pt x 289.08pt>
+<images/paper3/PA131_2016_diagnostic.jpg, id=3170, 867.24pt x 289.08pt>
 File: images/paper3/PA131_2016_diagnostic.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_2016_diagnostic.jpg>
 Package pdftex.def Info: images/paper3/PA131_2016_diagnostic.jpg used on input 
-line 527.
+line 529.
 (pdftex.def)             Requested size: 396.0pt x 131.99916pt.
 
-<images/paper3/PA131_diagnostic.jpg, id=3122, 867.24pt x 289.08pt>
+<images/paper3/PA131_diagnostic.jpg, id=3171, 867.24pt x 289.08pt>
 File: images/paper3/PA131_diagnostic.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_diagnostic.jpg>
 Package pdftex.def Info: images/paper3/PA131_diagnostic.jpg used on input line 
-528.
+530.
 (pdftex.def)             Requested size: 396.0pt x 131.99916pt.
 
-<images/paper3/PA90_diagnostic.jpg, id=3123, 867.24pt x 289.08pt>
+<images/paper3/PA90_diagnostic.jpg, id=3172, 867.24pt x 289.08pt>
 File: images/paper3/PA90_diagnostic.jpg Graphic file (type jpg)
 
 <use images/paper3/PA90_diagnostic.jpg>
 Package pdftex.def Info: images/paper3/PA90_diagnostic.jpg used on input line 5
-29.
+31.
 (pdftex.def)             Requested size: 396.0pt x 131.99916pt.
 
-Underfull \hbox (badness 4967) in paragraph at lines 533--533
+Underfull \hbox (badness 4967) in paragraph at lines 535--535
 \T1/cmr/m/n/10.95 vs $[]\OT1/cmr/m/n/10.95 [O I]\OML/cmm/m/it/10.95 ^^U\OT1/cmr
 /m/n/10.95 6300\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 H\OML/cmm/m/it/10.95 $ 
 \T1/cmr/m/n/10.95 di-a-gram while the right panel is the
@@ -2281,39 +2294,46 @@ Underfull \hbox (badness 4967) in paragraph at lines 533--533
 ne_flux.jpg> <./images/paper3/PA90_line_flux.jpg>] [102 <./images/paper3/PA131_
 2016_diagnostic.jpg> <./images/paper3/PA131_diagnostic.jpg> <./images/paper3/PA
 90_diagnostic.jpg>]
-<images/paper3/PA131_2016_o3_hb.jpg, id=3162, 578.16pt x 433.62pt>
+<images/paper3/PA131_2016_o3_hb.jpg, id=3211, 578.16pt x 433.62pt>
 File: images/paper3/PA131_2016_o3_hb.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_2016_o3_hb.jpg>
 Package pdftex.def Info: images/paper3/PA131_2016_o3_hb.jpg used on input line 
-563.
+565.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA131_o3_hb.jpg, id=3163, 578.16pt x 433.62pt>
+<images/paper3/PA131_o3_hb.jpg, id=3212, 578.16pt x 433.62pt>
 File: images/paper3/PA131_o3_hb.jpg Graphic file (type jpg)
 
 <use images/paper3/PA131_o3_hb.jpg>
-Package pdftex.def Info: images/paper3/PA131_o3_hb.jpg used on input line 564.
+Package pdftex.def Info: images/paper3/PA131_o3_hb.jpg used on input line 566.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
-<images/paper3/PA90_n2_ha.jpg, id=3164, 578.16pt x 433.62pt>
+<images/paper3/PA90_n2_ha.jpg, id=3213, 578.16pt x 433.62pt>
 File: images/paper3/PA90_n2_ha.jpg Graphic file (type jpg)
 
 <use images/paper3/PA90_n2_ha.jpg>
-Package pdftex.def Info: images/paper3/PA90_n2_ha.jpg used on input line 565.
+Package pdftex.def Info: images/paper3/PA90_n2_ha.jpg used on input line 567.
 (pdftex.def)             Requested size: 237.60242pt x 178.20218pt.
 
 
-LaTeX Warning: Float too large for page by 28.26799pt on input line 570.
+LaTeX Warning: Float too large for page by 28.26799pt on input line 572.
 
-[103] [104 <./images/paper3/PA131_2016_o3_hb.jpg> <./images/paper3/PA131_o3_hb.
-jpg> <./images/paper3/PA90_n2_ha.jpg>] [105]) [106] (./tex/conclusions.tex
-[107
+<images/paper3/mrk783_OR.jpg, id=3214, 502.0356pt x 448.074pt>
+File: images/paper3/mrk783_OR.jpg Graphic file (type jpg)
 
+<use images/paper3/mrk783_OR.jpg>
+Package pdftex.def Info: images/paper3/mrk783_OR.jpg used on input line 580.
+(pdftex.def)             Requested size: 237.60242pt x 212.06476pt.
+ [103] [104 <./images/paper3/PA131_2016_o3_hb.jpg> <./images/paper3/PA131_o3_hb
+.jpg> <./images/paper3/PA90_n2_ha.jpg>]
+[105 <./images/paper3/mrk783_OR.jpg>] [106]) [107] [108
 
-]) (./tex/aknowledgement.tex [108]) (./main.bbl [109
+] (./tex/conclusions.tex [109
 
-] [110
+]) (./tex/aknowledgement.tex [110]) (./main.bbl [111
+
+] [112
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
@@ -2321,82 +2341,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
  p. 012051
  []
 
-[111] [112] [113]
+[113] [114] [115]
 
 Package hyperref Warning: Suppressing empty link on input line 522.
 
-[114] [115]
+[116] [117]
 
 Package hyperref Warning: Suppressing empty link on input line 797.
 
-[116] [117] [118]) [119] [120
+[118] [119] [120]) [121] [122
 
 ] (./tex/appendix1.tex
 Appendix A.
-<images/paper1/IC5063_n2_l1.pdf, id=3717, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n2_l1.pdf, id=3781, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n2_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n2_l1.pdf>
 Package pdftex.def Info: images/paper1/IC5063_n2_l1.pdf used on input line 23.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_n2_l2.pdf, id=3718, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n2_l2.pdf, id=3782, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n2_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n2_l2.pdf>
 Package pdftex.def Info: images/paper1/IC5063_n2_l2.pdf used on input line 24.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_n1_l1.pdf, id=3719, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n1_l1.pdf, id=3783, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n1_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n1_l1.pdf>
 Package pdftex.def Info: images/paper1/IC5063_n1_l1.pdf used on input line 31.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_n1_l2.pdf, id=3720, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n1_l2.pdf, id=3784, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n1_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n1_l2.pdf>
 Package pdftex.def Info: images/paper1/IC5063_n1_l2.pdf used on input line 32.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_n0_l1.pdf, id=3721, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n0_l1.pdf, id=3785, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n0_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n0_l1.pdf>
 Package pdftex.def Info: images/paper1/IC5063_n0_l1.pdf used on input line 40.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_n0_l2.pdf, id=3722, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n0_l2.pdf, id=3786, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n0_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n0_l2.pdf>
 Package pdftex.def Info: images/paper1/IC5063_n0_l2.pdf used on input line 41.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_cn_l1.pdf, id=3723, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cn_l1.pdf, id=3787, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cn_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cn_l1.pdf>
 Package pdftex.def Info: images/paper1/IC5063_cn_l1.pdf used on input line 48.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_cn_l2.pdf, id=3724, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cn_l2.pdf, id=3788, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cn_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cn_l2.pdf>
 Package pdftex.def Info: images/paper1/IC5063_cn_l2.pdf used on input line 49.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_cs_l1.pdf, id=3725, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cs_l1.pdf, id=3789, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cs_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cs_l1.pdf>
 Package pdftex.def Info: images/paper1/IC5063_cs_l1.pdf used on input line 56.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_cs_l2.pdf, id=3726, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cs_l2.pdf, id=3790, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cs_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cs_l2.pdf>
@@ -2412,28 +2432,28 @@ File: images/paper1/IC5063_s0_l2.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/paper1/IC5063_s0_l2.pdf used on input line 65.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_s1_l1.pdf, id=3727, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s1_l1.pdf, id=3791, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s1_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s1_l1.pdf>
 Package pdftex.def Info: images/paper1/IC5063_s1_l1.pdf used on input line 72.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_s1_l2.pdf, id=3728, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s1_l2.pdf, id=3792, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s1_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s1_l2.pdf>
 Package pdftex.def Info: images/paper1/IC5063_s1_l2.pdf used on input line 73.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_s2_l1.pdf, id=3729, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s2_l1.pdf, id=3793, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s2_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s2_l1.pdf>
 Package pdftex.def Info: images/paper1/IC5063_s2_l1.pdf used on input line 80.
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/IC5063_s2_l2.pdf, id=3730, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s2_l2.pdf, id=3794, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s2_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s2_l2.pdf>
@@ -2454,10 +2474,15 @@ lready used, duplicate ignored
 l.90 \newpage
               [120 <./images/paper1/IC5063_n1_l1.pdf> <./images/paper1/IC5063_n
 1_l2.pdf> <./images/paper1/IC5063_n0_l1.pdf> <./images/paper1/IC5063_n0_l2.pdf>
- <./images/paper1/IC5063_cn_l1.pdf> <./images/paper1/IC5063_cn_l2.pdf>]
-[121 <./images/paper1/IC5063_cs_l1.pdf> <./images/paper1/IC5063_cs_l2.pdf> <./i
-mages/paper1/IC5063_s1_l1.pdf> <./images/paper1/IC5063_s1_l2.pdf>]
-<images/paper1/NGC7212_n2_l1.pdf, id=3774, 578.16pt x 433.62pt>
+ <./images/paper1/IC5063_cn_l1.pdf> <./images/paper1/IC5063_cn_l2.pdf>]pdfTeX w
+arning (ext4): destination with the same identifier (name{page.121}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \newpage
+              [121 <./images/paper1/IC5063_cs_l1.pdf> <./images/paper1/IC5063_c
+s_l2.pdf> <./images/paper1/IC5063_s1_l1.pdf> <./images/paper1/IC5063_s1_l2.pdf>
+] <images/paper1/NGC7212_n2_l1.pdf, id=3837, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n2_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n2_l1.pdf>
@@ -2465,7 +2490,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n2_l1.pdf used on input line 95.
 
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_n2_l2.pdf, id=3775, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n2_l2.pdf, id=3838, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n2_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n2_l2.pdf>
@@ -2473,7 +2498,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n2_l2.pdf used on input line 96.
 
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_n1_l1.pdf, id=3776, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n1_l1.pdf, id=3839, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n1_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n1_l1.pdf>
@@ -2481,7 +2506,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n1_l1.pdf used on input line 105
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_n1_l2.pdf, id=3777, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n1_l2.pdf, id=3840, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n1_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n1_l2.pdf>
@@ -2489,7 +2514,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n1_l2.pdf used on input line 106
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_n0_l1.pdf, id=3778, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n0_l1.pdf, id=3841, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n0_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n0_l1.pdf>
@@ -2497,7 +2522,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n0_l1.pdf used on input line 113
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_n0_l2.pdf, id=3779, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n0_l2.pdf, id=3842, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n0_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n0_l2.pdf>
@@ -2505,7 +2530,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n0_l2.pdf used on input line 114
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_cn_l1.pdf, id=3780, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cn_l1.pdf, id=3843, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cn_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cn_l1.pdf>
@@ -2513,7 +2538,7 @@ Package pdftex.def Info: images/paper1/NGC7212_cn_l1.pdf used on input line 122
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_cn_l2.pdf, id=3781, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cn_l2.pdf, id=3844, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cn_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cn_l2.pdf>
@@ -2532,7 +2557,7 @@ Package pdftex.def Info: images/paper1/NGC7212_cs_l2.pdf used on input line 131
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_s0_l1.pdf, id=3782, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s0_l1.pdf, id=3845, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s0_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s0_l1.pdf>
@@ -2540,7 +2565,7 @@ Package pdftex.def Info: images/paper1/NGC7212_s0_l1.pdf used on input line 138
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_s0_l2.pdf, id=3783, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s0_l2.pdf, id=3846, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s0_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s0_l2.pdf>
@@ -2548,7 +2573,7 @@ Package pdftex.def Info: images/paper1/NGC7212_s0_l2.pdf used on input line 139
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_s1_l1.pdf, id=3784, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s1_l1.pdf, id=3847, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s1_l1.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s1_l1.pdf>
@@ -2556,22 +2581,28 @@ Package pdftex.def Info: images/paper1/NGC7212_s1_l1.pdf used on input line 146
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
 
-<images/paper1/NGC7212_s1_l2.pdf, id=3785, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s1_l2.pdf, id=3848, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s1_l2.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s1_l2.pdf>
 Package pdftex.def Info: images/paper1/NGC7212_s1_l2.pdf used on input line 147
 .
 (pdftex.def)             Requested size: 178.19879pt x 133.64668pt.
- [122 <./images/paper1/IC5063_s2_l1.pdf> <./images/paper1/IC5063_s2_l2.pdf> <./
-images/paper1/NGC7212_n2_l1.pdf> <./images/paper1/NGC7212_n2_l2.pdf>] [123 <./i
-mages/paper1/NGC7212_n1_l1.pdf> <./images/paper1/NGC7212_n1_l2.pdf> <./images/p
-aper1/NGC7212_n0_l1.pdf> <./images/paper1/NGC7212_n0_l2.pdf> <./images/paper1/N
-GC7212_cn_l1.pdf> <./images/paper1/NGC7212_cn_l2.pdf>] [124 <./images/paper1/NG
-C7212_s0_l1.pdf> <./images/paper1/NGC7212_s0_l2.pdf> <./images/paper1/NGC7212_s
-1_l1.pdf> <./images/paper1/NGC7212_s1_l2.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.122}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.152 \chapter
+              {Appendix: diagnostic diagrams} [122 <./images/paper1/IC5063_s2_l
+1.pdf> <./images/paper1/IC5063_s2_l2.pdf> <./images/paper1/NGC7212_n2_l1.pdf> <
+./images/paper1/NGC7212_n2_l2.pdf>] [123 <./images/paper1/NGC7212_n1_l1.pdf> <.
+/images/paper1/NGC7212_n1_l2.pdf> <./images/paper1/NGC7212_n0_l1.pdf> <./images
+/paper1/NGC7212_n0_l2.pdf> <./images/paper1/NGC7212_cn_l1.pdf> <./images/paper1
+/NGC7212_cn_l2.pdf>] [124 <./images/paper1/NGC7212_s0_l1.pdf> <./images/paper1/
+NGC7212_s0_l2.pdf> <./images/paper1/NGC7212_s1_l1.pdf> <./images/paper1/NGC7212
+_s1_l2.pdf>]
 Appendix B.
-<images/paper1/IC5063_n2_diag.pdf, id=3833, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n2_diag.pdf, id=3895, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n2_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n2_diag.pdf>
@@ -2579,7 +2610,7 @@ Package pdftex.def Info: images/paper1/IC5063_n2_diag.pdf used on input line 15
 7.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/IC5063_n1_diag.pdf, id=3834, 578.16pt x 433.62pt>
+<images/paper1/IC5063_n1_diag.pdf, id=3896, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_n1_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_n1_diag.pdf>
@@ -2592,7 +2623,7 @@ Package pdftex.def Info: images/paper1/IC5063_n0_diag.pdf used on input line 15
 9.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/IC5063_cn_diag.pdf, id=3835, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cn_diag.pdf, id=3897, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cn_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cn_diag.pdf>
@@ -2600,7 +2631,7 @@ Package pdftex.def Info: images/paper1/IC5063_cn_diag.pdf used on input line 16
 0.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/IC5063_cs_diag.pdf, id=3836, 578.16pt x 433.62pt>
+<images/paper1/IC5063_cs_diag.pdf, id=3898, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_cs_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_cs_diag.pdf>
@@ -2608,7 +2639,7 @@ Package pdftex.def Info: images/paper1/IC5063_cs_diag.pdf used on input line 16
 1.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/IC5063_s0_diag.pdf, id=3837, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s0_diag.pdf, id=3899, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s0_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s0_diag.pdf>
@@ -2616,7 +2647,7 @@ Package pdftex.def Info: images/paper1/IC5063_s0_diag.pdf used on input line 16
 2.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/IC5063_s1_diag.pdf, id=3854, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s1_diag.pdf, id=3916, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s1_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s1_diag.pdf>
@@ -2624,7 +2655,7 @@ Package pdftex.def Info: images/paper1/IC5063_s1_diag.pdf used on input line 16
 9.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/IC5063_s2_diag.pdf, id=3855, 578.16pt x 433.62pt>
+<images/paper1/IC5063_s2_diag.pdf, id=3917, 578.16pt x 433.62pt>
 File: images/paper1/IC5063_s2_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/IC5063_s2_diag.pdf>
@@ -2632,7 +2663,7 @@ Package pdftex.def Info: images/paper1/IC5063_s2_diag.pdf used on input line 17
 0.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/NGC7212_n2_diag.pdf, id=3856, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n2_diag.pdf, id=3918, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n2_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n2_diag.pdf>
@@ -2640,7 +2671,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n2_diag.pdf used on input line 1
 71.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/NGC7212_n1_diag.pdf, id=3857, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n1_diag.pdf, id=3919, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n1_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n1_diag.pdf>
@@ -2648,7 +2679,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n1_diag.pdf used on input line 1
 72.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/NGC7212_n0_diag.pdf, id=3858, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_n0_diag.pdf, id=3920, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_n0_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_n0_diag.pdf>
@@ -2656,7 +2687,7 @@ Package pdftex.def Info: images/paper1/NGC7212_n0_diag.pdf used on input line 1
 73.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/NGC7212_cn_diag.pdf, id=3859, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cn_diag.pdf, id=3921, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cn_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cn_diag.pdf>
@@ -2664,7 +2695,7 @@ Package pdftex.def Info: images/paper1/NGC7212_cn_diag.pdf used on input line 1
 74.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/NGC7212_cs_diag.pdf, id=3876, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_cs_diag.pdf, id=3938, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_cs_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_cs_diag.pdf>
@@ -2678,7 +2709,7 @@ Package pdftex.def Info: images/paper1/NGC7212_s0_diag.pdf used on input line 1
 83.
 (pdftex.def)             Requested size: 170.2771pt x 127.70506pt.
 
-<images/paper1/NGC7212_s1_diag.pdf, id=3877, 578.16pt x 433.62pt>
+<images/paper1/NGC7212_s1_diag.pdf, id=3939, 578.16pt x 433.62pt>
 File: images/paper1/NGC7212_s1_diag.pdf Graphic file (type pdf)
 
 <use images/paper1/NGC7212_s1_diag.pdf>
@@ -2698,12 +2729,12 @@ Appendix C.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.81503pt
-(hyperref)                removed on input line 22.
+(hyperref)                removed on input line 23.
 
 [129
 
 ] [130] [131] [132] [133]
-Overfull \hbox (18.11551pt too wide) in paragraph at lines 188--215
+Overfull \hbox (18.11551pt too wide) in paragraph at lines 189--216
  [][] 
  []
 
@@ -2711,7 +2742,7 @@ Overfull \hbox (18.11551pt too wide) in paragraph at lines 188--215
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.81503pt
-(hyperref)                removed on input line 690.
+(hyperref)                removed on input line 691.
 
 [146
 
@@ -2748,7 +2779,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ] [147] [148] [149] [150]
-Overfull \hbox (14.02347pt too wide) in paragraph at lines 848--873
+Overfull \hbox (14.02347pt too wide) in paragraph at lines 849--874
  [][] 
  []
 
@@ -2805,7 +2836,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1F9C72B0A80D5AAA9DBA6BCCCAB3A98F;4790.
+(rerunfilecheck)             Checksum: 83FB8CD3A502D8916743305AD6030482;4794.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2816,10 +2847,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 26605 strings out of 493029
- 465539 string characters out of 6136233
- 672372 words of memory out of 5000000
- 28668 multiletter control sequences out of 15000+600000
+ 26613 strings out of 493029
+ 465724 string characters out of 6136233
+ 673643 words of memory out of 5000000
+ 28674 multiletter control sequences out of 15000+600000
  38447 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,24n,50p,10396b,1269s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2858,10 +2889,10 @@ pe1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (175 pages, 10602956 bytes).
+Output written on main.pdf (177 pages, 10976244 bytes).
 PDF statistics:
- 4553 PDF objects out of 5155 (max. 8388607)
- 3812 compressed objects within 39 object streams
- 699 named destinations out of 1000 (max. 500000)
- 1152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4614 PDF objects out of 5155 (max. 8388607)
+ 3839 compressed objects within 39 object streams
+ 700 named destinations out of 1000 (max. 500000)
+ 1157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

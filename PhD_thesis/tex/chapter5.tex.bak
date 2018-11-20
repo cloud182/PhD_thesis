@@ -281,8 +281,8 @@ The images has not been corrected for Milky Way extinction, but according to the
 
 \begin{figure}
 \centering
-\includegraphics[width=0.7\textwidth]{images/paper3/mrk783color.jpg} 
-\caption[]{$g-r$ image of Mrk 783. It is possible to see how the galaxy is sharply divided in two regions. On the left, the AGN has a negative color while the second point like structure has a positive color. The difference in color between the two sides is $\sim 2\,\si{mag}$.} 
+\includegraphics[width=0.7\textwidth]{images/paper3/mrk783color.pdf} 
+\caption[]{$g-r$ image of Mrk 783. The black cross marks the NED coordinates of the object. It is possible to see how the galaxy is sharply divided in two regions. On the left, the AGN has a negative color while the second point like structure has a positive color. The difference in color between the two sides is $\sim 2\,\si{mag}$.} 
 \label{fig:mrk_gr}
 \end{figure} 
 
@@ -419,7 +419,7 @@ Fig.\,\ref{fig:pap3_deblending} shows an example of the deblending process in th
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{images/paper3/spectrum_nucleus.pdf} 
-\caption[]{One-dimensional spectrum of the nucleus of Mrk 783 extracted from February LDSS-3 spectrum at PA $=\ang{131}$. } 
+\caption[]{One-dimensional spectrum of the nucleus of Mrk 783 extracted from all the three LDSS-3 spectra.} 
 \label{fig:all_spectra}
 \end{figure} 
 
@@ -436,8 +436,10 @@ Fig.\,\ref{fig:pap3_deblending} shows an example of the deblending process in th
 All the three spectra of Mrk 783 acquired with the LDSS-3 spectrograph have been centered on the AGN.
 There are some small differences between the three spectra, probably because of the different conditions of the sky during the observations. 
 For these reasons the spectra has not been combined to produce a single spectrum of the nucleus but they will be examined separately in the following sections.
-Fig.\,\ref{fig:all_spectra} shows the AGN spectrum extracted from February observation at PA $=\ang{131}$.
-In this section I will consider this spectrum to check the classification of this object as a NLS1.
+Fig.\,\ref{fig:all_spectra} shows the AGN spectrum extracted from each one of the LDSS-3 spectra.
+There are some small differences between the three spectra, probably due by the different sky condition or by small error in positioning the AGN inside the slit.
+However, to check the classification of the AGN as a NLS1 I will only consider one of the spectra.
+Since the spectra are very smilar and there is nt any advantage in choosing one over the others, in this section I will always refer to the February spectrum at PA $=\ang{131}$.
 
 As stated in Sec.\,\ref{sec:pap3_intro}, the spectrum of an AGN must satisfy three requirements to be classified as a NLS1: 1) $FWHM(\Hb)<2000\,\si{\kms}$, 2) [\ion{O}{III}]$\lambda5007/\Hb<3$ \citep{Osterbrock85} and 3) Strong \ion{Fe}{II} multiplets or presence of [\ion{Fe}{VII}]$\lambda6087$ and [\ion{Fe}{X}]$\lambda6375$ lines \citep{Goodrich89}.
 Mrk 783 shows a $FWHM(\Hb)\sim1500\,\si{\kms}$ and a flux [\ion{O}{III}]$\lambda5007/\Hb\sim 1.5$, that are well below \citet{Osterbrock85} limits.
@@ -573,6 +575,13 @@ However, it is clear form the diagnostic diagrams in Fig.\,\ref{fig:pap3_diagnos
 \section{Discussion}
 \label{sec:pap3_discussion}
 
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{images/paper3/mrk783_OR.jpg}\\  
+\caption[]{VLA 5 GHz contours from the natural weighted image of \citet{Congiu17} superimposed to the Asiago \emph{g} band image of Mrk 783. The position of the slit during LDSS-3 observations at PA $=\ang{131}$ is shown. }
+\label{fig:OR_map}
+\end{figure}
+
 The data analyzed in this work have been acquired as a follow up of the source after the discovery of a peculiar kiloparsec-scale radio emission region (KSR).
 The main question is, therefore, if there is a connection between the KSR and the ENLR of Mrk 783.
 An important clue of a connection is that the most extended part of the ENLR has been found perfectly aligned with the most extended lobe of the radio emission.
@@ -580,8 +589,8 @@ According to \citet{Wilson94} it seems that the relativistic jet launched by the
 This might be what happened in Mrk 783.
 Even though the radio emission is a relic, as suggested in \citep{Congiu17}, the original radio jet might have been able to clear the path for the radiation, allowing it to reach larger distances with respect to what happens in other ENLR.
 However, the size of the KSR is less than half the extension of the ENLR at the same position angle.
-Fig\,\ref{fig:map} shows how the bulk of the radio emission is located inside the nucleus of the galaxy, even though the jet might have been able to dig in the most dense part of the ISM.
-Fig\,\ref{fig:map} also shows how the emission on the north-west side of the nucleus is only visible applying a taper to the image, in agreement with the fact that the optical emission in that region is less extended.
+Fig\,\ref{fig:OR_map} shows how the bulk of the radio emission is located inside the nucleus of the galaxy, even though the jet might have been able to dig in the most dense part of the ISM.
+Fig\,\ref{fig:OR_map} also shows how the emission on the north-west side of the nucleus is not visible in the natural weighted image, in agreement with the fact that the optical emission in that region is less extended.
 On the other hand, no particularly extended radio emission is observed at PA $=\ang{90}$, while the ENLR there reaches a size of $17.5\,\si{arcsec}$.
 Since the morphology of the ENLR is not known, it is not possible to definitively confirm that the axis of the two extended regions are aligned.
 Narrow-band images or integral field spectra would be necessary to investigate this topic.
