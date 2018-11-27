@@ -2,10 +2,9 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: mnras.bst
-Reallocated field_info (elt_size=4) to 10967 items from 5000.
+Reallocated field_info (elt_size=4) to 10940 items from 5000.
 Database file #1: bibliografia_def.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Warning--I didn't find a database entry for "Cracco2011"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in Allen76
@@ -19,7 +18,7 @@ Warning--empty publisher in Rybicki86
 Warning--empty publisher in Deyoung02
 You've used 220 entries,
             2881 wiz_defined-function locations,
-            2578 strings with 72314 characters,
+            2576 strings with 72294 characters,
 and the built_in function-call counts, 105883 in all, are:
 = -- 8363
 > -- 8102
@@ -58,4 +57,4 @@ warning$ -- 9
 while$ -- 1661
 width$ -- 0
 write$ -- 2211
-(There were 10 warnings)
+(There were 9 warnings)
